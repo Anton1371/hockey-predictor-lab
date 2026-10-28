@@ -59,7 +59,7 @@ jobs:
             if (!ids.length) return;
             const title = '🏒 Hockey Predictor Lab: рассчитаны новые прогнозы';
             const body = [
-              'Автоматическое уведомление о новых завершённых прогнозах.',
+              '@Anton1371 Автоматическое уведомление о новых завершённых прогнозах.',
               '',
               process.env.SETTLED_SUMMARY,
               '',
