@@ -525,7 +525,9 @@ def main() -> int:
     print(f"Fetched NHL games={len(nhl_games)}, KHL events={len(khl_events)}; added forecasts={new_count}; changed fields={len(set(changed))}.")
     if not changed:
         with open(os.environ.get("GITHUB_OUTPUT", os.devnull), "a", encoding="utf-8") as output:
-            output.write("changed=false\n")
+            output.write("changed=false\\n")
+            output.write("settled_ids=\\n")
+            output.write("settled_summary<<HOCKEY_SUMMARY\\n\\nHOCKEY_SUMMARY\\n")
         return 0
 
     data["lastCheckedAt"] = NOW.isoformat()
@@ -549,8 +551,17 @@ def main() -> int:
     data["events"] = data["events"][-150:]
     refresh_accounting(data)
     JOURNAL.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    settled_ids = [m.get("id") for m in data["matches"] if m.get("id") in newly_settled]
+    summary_lines = []
+    for m in data["matches"]:
+        if m.get("id") in newly_settled:
+            score = f'{m.get("homeScore")}:{m.get("awayScore")}'
+            summary_lines.append(f'- {m.get("league")} — {m.get("home")} — {m.get("away")}: {score}; прогноз: {m.get("selection")}; результат: {m.get("result")}; ставка: {m.get("stake")} ₽; кф: {m.get("odds")}.')
+    summary = "\\n".join(summary_lines)
     with open(os.environ.get("GITHUB_OUTPUT", os.devnull), "a", encoding="utf-8") as output:
-        output.write("changed=true\n")
+        output.write("changed=true\\n")
+        output.write("settled_ids=" + ",".join(settled_ids) + "\\n")
+        output.write("settled_summary<<HOCKEY_SUMMARY\\n" + summary + "\\nHOCKEY_SUMMARY\\n")
     return 0
 
 
