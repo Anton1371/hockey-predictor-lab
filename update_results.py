@@ -332,7 +332,7 @@ def khl_game_info(event: dict) -> dict | None:
     }
 
 
-def update_existing_match(match: dict, game: dict, changed: list[str]) -> None:
+def update_existing_match(match: dict, game: dict, changed: list[str], newly_settled: list[str]) -> None:
     league = str(match.get("league", "")).upper()
     expected_home = team_key(league, match.get("home"))
     expected_away = team_key(league, match.get("away"))
@@ -367,6 +367,7 @@ def update_existing_match(match: dict, game: dict, changed: list[str]) -> None:
             match["result"] = result
             match["settledAt"] = NOW.isoformat()
             changed.append(str(match.get("id")) + " result")
+            newly_settled.append(str(match.get("id")))
 
 
 def build_form(games: list[dict], league: str) -> dict[str, list[dict]]:
@@ -466,6 +467,7 @@ def main() -> int:
     data.setdefault("matches", [])
     data.setdefault("events", [])
     changed: list[str] = []
+    newly_settled: list[str] = []
     errors: list[str] = []
 
     try:
@@ -500,7 +502,7 @@ def main() -> int:
             continue
         for game in normalized:
             if game["league"] == league and same_fixture(match, league, game["homeKey"], game["awayKey"], game["startLocal"]):
-                update_existing_match(match, game, changed)
+                update_existing_match(match, game, changed, newly_settled)
                 break
 
     # Discover and forecast every new fixture beginning in the next 36 hours.
