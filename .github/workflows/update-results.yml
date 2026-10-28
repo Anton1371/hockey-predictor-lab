@@ -14,6 +14,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write
 
 concurrency:
   group: hockey-results-update
@@ -24,6 +25,8 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       changed: ${{ steps.update.outputs.changed }}
+      settled_ids: ${{ steps.update.outputs.settled_ids }}
+      settled_summary: ${{ steps.update.outputs.settled_summary }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -44,7 +47,41 @@ jobs:
           git add journal.json
           git commit -m "Update verified hockey results and forecasts"
           git push
-
+      - name: Notify about newly settled picks
+        if: steps.update.outputs.settled_ids != ''
+        uses: actions/github-script@v7
+        env:
+          SETTLED_IDS: ${{ steps.update.outputs.settled_ids }}
+          SETTLED_SUMMARY: ${{ steps.update.outputs.settled_summary }}
+        with:
+          script: |
+            const ids = process.env.SETTLED_IDS.split(',').filter(Boolean);
+            if (!ids.length) return;
+            const title = '🏒 Hockey Predictor Lab: рассчитаны новые прогнозы';
+            const body = [
+              'Автоматическое уведомление о новых завершённых прогнозах.',
+              '',
+              process.env.SETTLED_SUMMARY,
+              '',
+              'Идентификаторы записей: ' + ids.join(', '),
+              '',
+              'Панель: https://anton1371.github.io/hockey-predictor-lab/',
+              '',
+              'Это виртуальная статистика; реальные ставки не совершались.'
+            ].join('\\n');
+            const marker = '<!-- hockey-settled:' + ids.slice().sort().join(',') + ' -->';
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo, state: 'all', per_page: 100
+            });
+            if (issues.some(issue => issue.body && issue.body.includes(marker))) {
+              core.info('Notification already exists for these settled records.');
+              return;
+            }
+            await github.rest.issues.create({
+              owner: context.repo.owner, repo: context.repo.repo,
+              title, body: body + '\\n\\n' + marker,
+              labels: ['automated-notification']
+            });
   deploy:
     needs: update
     if: needs.update.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
