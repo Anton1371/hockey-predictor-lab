@@ -79,8 +79,7 @@ jobs:
             }
             await github.rest.issues.create({
               owner: context.repo.owner, repo: context.repo.repo,
-              title, body: body + '\\n\\n' + marker,
-              labels: ['automated-notification']
+              title, body: body + '\\n\\n' + marker
             });
   deploy:
     needs: update
