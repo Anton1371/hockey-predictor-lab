@@ -3,6 +3,11 @@ name: Update hockey scores and publish
 on:
   schedule:
     - cron: '*/15 * * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'update_results.py'
+      - '.github/workflows/update-results.yml'
   workflow_dispatch:
 
 permissions:
@@ -28,7 +33,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Update verified NHL scores
+      - name: Update verified NHL and KHL scores
         id: update
         run: python update_results.py
       - name: Commit journal changes
@@ -37,7 +42,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add journal.json
-          git commit -m "Update verified hockey results"
+          git commit -m "Update verified hockey results and forecasts"
           git push
 
   deploy:
@@ -51,7 +56,7 @@ jobs:
       - name: Checkout latest journal and site
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.ref_name }}
+          ref: main
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload site artifact
