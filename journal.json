@@ -2,8 +2,8 @@
   "bank": 998.8,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T23:02:40.000Z",
-  "note": "Проверка 30.10.2026 04:04 по Омску: Фонбет — единственный источник коэффициентов, порог p>=60% и строго положительное EV. Все 11 зафиксированных NHL-игр ещё предстоящие, KHL 29.10 уже финализирована. Новых виртуальных ставок нет; ранее открытая Каролина @1.68, 20 ₽ сохранена. Банк 998.80 ₽, резерв 20 ₽, свободно 978.80 ₽. По live футболу/теннису данные источников не синхронны; NO BET.",
+  "lastCheckedAt": "2026-10-29T23:59:37.000Z",
+  "note": "Проверка 30.10.2026 05:59 Asia/Omsk: 3 прежних settlements сохраняются без повторных расчётов, одна ранее открытая виртуальная ставка на Каролину @1.68 20 ₽; новых ставок NO BET из-за несинхронных live-данных/отсутствия доказанного EV. Банк 998,80 ₽, резерв 20 ₽, свободно 978,80 ₽.",
   "matches": [
     {
       "id": "khl-20261028-akbars-avangard",
@@ -1121,7 +1121,7 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-30T05:02:40+06:00",
+  "currentRun": "2026-10-30T05:59:37+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -4048,6 +4048,195 @@
         "https://www.sportsmediawatch.com/tv-schedules/tennis/"
       ],
       "note": "Проведена архивная фиксация результатов проверки. Предыдущие ставки, коэффициенты, прогнозы и settlement ID не изменены. Локальный HTML не изменяется автоматически."
+    },
+    {
+      "id": "hourly-all-sports-fonbet-20261030T055937-omsk",
+      "type": "hourly_all_sports_review",
+      "at": "2026-10-29T23:59:37.000Z",
+      "checkedAtOmsk": "2026-10-30T05:59:37+06:00",
+      "timezone": "Asia/Omsk",
+      "leagueScope": [
+        "NHL",
+        "KHL",
+        "NBA",
+        "EuroLeague",
+        "football",
+        "ATP",
+        "WTA",
+        "NFL"
+      ],
+      "summary": "Проверен актуальный журнал GitHub: 11 ожидающих матчей НХЛ на 30.10 по Омску, все 5 зафиксированных прогнозов КХЛ 29.10 уже закрыты без сумм, 3 уникальных денежных settlement с совокупной чистой прибылью -1.20 ₽. Каролина—Коламбус (П1 за основное время @1.68, 20 ₽) остаётся единственной ранее зафиксированной открытой виртуальной ставкой. В ранних NHL-играх появились live-снимки, но игровые часы в независимых источниках несинхронны. Фонбет /live/hockey и страница события всё ещё показывают котировки с предматчевым форматом и без синхронного подтверждения текущего счёта/часов. Поэтому текущую страницу нельзя использовать как проверенную in-play линию. Новые live-ставки NO BET. По прематчам NHL, KHL, NBA, тенниса, NFL нет доказанной консервативной вероятности >=60% при p>1/k с подтверждённой свежей ценой Фонбет. Банк 998.80 ₽, открытая экспозиция 20 ₽, свободный остаток 978.80 ₽.",
+      "newConfirmedFinals": [],
+      "newSettledWagers": 0,
+      "newVirtualStakes": 0,
+      "oldSettlementsVerifiedNotRepeated": [
+        "settlement-nhl-20261029-flyers-caps-20261029T0829",
+        "settlement-nhl-20261029-flames-oilers-20261029T0944",
+        "settlement-nhl-20261029-devils-avalanche-20261029T1810"
+      ],
+      "pendingNhlMatchesReviewed": 11,
+      "currentLiveObservations": [
+        {
+          "matchId": "nhl-20261030-jackets-hurricanes",
+          "sourceSnapshots": [
+            {
+              "source": "https://www.cbssports.com/nhl/scoreboard/20261029/",
+              "score": "Columbus 0:1 Carolina",
+              "period": "1-й",
+              "clock": "02:44",
+              "observational": true
+            },
+            {
+              "source": "https://bleacherreport.com/game/columbus-blue-jackets-vs-carolina-hurricanes-2026-10-29-17-00",
+              "score": "Columbus 0:1 Carolina",
+              "period": "1-й",
+              "clock": "00:50",
+              "observational": true
+            }
+          ],
+          "independentCurrentClockVerified": false,
+          "confirmedLiveFonbetOdds": false,
+          "decision": "NO_BET",
+          "reason": "Счёт совпадает в двух источниках, но таймеры расходятся; открытая линия Фонбет не подтверждена как текущая in-play линия. Повторная ставка на этот матч запрещена дополнительно существующим wagerId."
+        },
+        {
+          "matchId": "nhl-20261030-jets-lightning",
+          "sourceSnapshots": [
+            {
+              "source": "https://www.cbssports.com/nhl/scoreboard/20261029/",
+              "score": "Winnipeg 0:1 Tampa Bay",
+              "period": "1-й",
+              "clock": "04:53",
+              "observational": true
+            },
+            {
+              "source": "https://bleacherreport.com/game/winnipeg-jets-vs-tampa-bay-lightning-2026-10-29-17-00",
+              "score": "Winnipeg 1:1 Tampa Bay",
+              "period": "1-й перерыв",
+              "clock": "00:00",
+              "observational": true
+            }
+          ],
+          "independentCurrentClockVerified": false,
+          "confirmedLiveFonbetOdds": false,
+          "decision": "NO_BET",
+          "reason": "Снимки из разных моментов, счёт и время расходятся; актуальная in-play линия Фонбет не подтверждена."
+        },
+        {
+          "matchId": "nhl-20261030-mammoth-penguins",
+          "source": "https://www.cbssports.com/nhl/scoreboard/20261029/",
+          "observedSnapshot": "Юта 2:0 Питтсбург, 1-й период, 04:37 на CBS",
+          "independentCurrentClockVerified": false,
+          "confirmedLiveFonbetOdds": false,
+          "decision": "NO_BET",
+          "reason": "Нет второго свежего согласованного независимого источника времени, нет проверенной действующей in-play линии Фонбет."
+        },
+        {
+          "sport": "football",
+          "match": "Атлетико Минейро — Крузейро",
+          "source": "https://fon.bet/live/football",
+          "observedSnapshot": "0:1, 34:29 — не подтверждено независимо",
+          "independentCurrentClockVerified": false,
+          "confirmedLiveFonbetOdds": false,
+          "decision": "NO_BET",
+          "reason": "Нет двух независимых текущих подтверждений игрового времени; одна страница букмекера не подтверждает исполнимую на текущий момент live-линию."
+        },
+        {
+          "sport": "basketball",
+          "league": "EuroLeague",
+          "match": "Реал Мадрид — Фенербахче",
+          "source": "https://fon.bet/live/basketball",
+          "observedSnapshot": "61:50, 27:35 в опубликованном снимке",
+          "independentCurrentClockVerified": false,
+          "confirmedLiveFonbetOdds": false,
+          "decision": "NO_BET",
+          "reason": "Таймер и счёт независимо и синхронно не подтверждены."
+        }
+      ],
+      "prematchReviewed": [
+        {
+          "sport": "ice_hockey",
+          "league": "KHL",
+          "matches": [
+            "Лада — Авангард",
+            "Северсталь — Спартак",
+            "Ак Барс — Амур",
+            "Динамо Минск — Трактор",
+            "Шанхай Дрэгонс — Барыс"
+          ],
+          "oddsSource": "https://fon.bet/sports/hockey/country/russia",
+          "decision": "NO_BET",
+          "reason": "Ни одна выбранная котировка не имеет одновременно доказанного p>=60% и p>1/k с обоснованной консервативной моделью."
+        },
+        {
+          "sport": "basketball",
+          "league": "NBA",
+          "matches": [
+            "Кливленд — Атланта",
+            "Сакраменто — Нью-Орлеан",
+            "Мемфис — Портленд"
+          ],
+          "oddsSource": "https://fon.bet/sports/basketball",
+          "decision": "NO_BET",
+          "reason": "Составы и оценки вероятности недостаточны для обоснованного положительного EV."
+        },
+        {
+          "sport": "tennis",
+          "league": "ATP Vienna / WTA Tokyo / WTA Guangzhou",
+          "matches": [
+            "Маннарино — Медведев",
+            "Пол — Алькарас",
+            "Рахимова — Джойнт",
+            "Бадоса — Дарт"
+          ],
+          "oddsSource": "https://fon.bet/sports/tennis",
+          "decision": "NO_BET",
+          "reason": "В доступных актуальных данных нельзя обосновать p>=60% и p>1/k для конкретной подтверждённой цены."
+        },
+        {
+          "sport": "american_football",
+          "league": "NFL",
+          "matches": [
+            "Каролина Пэнтерс — Грин-Бэй Пэкерс"
+          ],
+          "oddsSource": "https://fon.bet/sports/am-football",
+          "decision": "NO_BET",
+          "reason": "При коэффициенте Фонбет 1.48 на Грин-Бэй безубыточный порог 67.57%; консервативная оценка выше него независимо не доказана."
+        },
+        {
+          "sport": "football",
+          "matches": [
+            "Атлетико Минейро — Крузейро",
+            "Васко да Гама — Фламенго"
+          ],
+          "oddsSource": "https://fon.bet/live/football",
+          "decision": "NO_BET",
+          "reason": "Live-статус текущего момента и синхронные часы не подтверждены двумя независимыми источниками."
+        }
+      ],
+      "decision": "NO_BET_NEW_WAGERS",
+      "decisionReason": "Отсутствуют синхронные два независимых свежих подтверждения времени/счёта и проверенная действующая in-play линия Фонбет для live-кандидатов; прематчевые рынки без доказанного p>=60% и положительного EV.",
+      "bankEquity": 998.8,
+      "pendingStakeSum": 20,
+      "freeBank": 978.8,
+      "sources": [
+        "https://www.cbssports.com/nhl/scoreboard/20261029/",
+        "https://bleacherreport.com/game/columbus-blue-jackets-vs-carolina-hurricanes-2026-10-29-17-00",
+        "https://bleacherreport.com/game/winnipeg-jets-vs-tampa-bay-lightning-2026-10-29-17-00",
+        "https://www.nhl.com/gamecenter/cbj-vs-car/2026/10/29/2026020206",
+        "https://fon.bet/live/hockey",
+        "https://fon.bet/live/football",
+        "https://fon.bet/live/basketball",
+        "https://fon.bet/sports/hockey/country/russia",
+        "https://fon.bet/sports/basketball",
+        "https://fon.bet/sports/tennis",
+        "https://fon.bet/sports/am-football",
+        "https://www.nfl.com/schedules/2026/prime-time/thursday-night-football",
+        "https://www.erstebank-open.com/en/scores/schedule",
+        "https://www.wtaschedule.com/"
+      ],
+      "notification": "hourly_report",
+      "note": "Прогнозы, цены, время фиксации и settlement IDs не менялись. Новая запись только для проверки. Локальный HTML не обновлялся."
     }
   ],
   "storage": {
@@ -4056,7 +4245,7 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-30T05:02:40+06:00",
+  "updatedAt": "2026-10-30T05:59:37+06:00",
   "automationNote": "Ежечасный обзор всех доступных крупных видов спорта на дату Asia/Omsk. Коэффициенты — только Фонбет; виртуальная ставка допускается при консервативной вероятности >=60% и p>1/k. Обновлять GitHub journal.json append-only, проверять уникальные settlement IDs и повторно читать после записи. Локальный HTML не синхронизируется автоматически.",
   "virtualWagers": [
     {
