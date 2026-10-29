@@ -2,8 +2,8 @@
   "bank": 998.8,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T12:10:00.000Z",
-  "note": "Проверка 29.10.2026 18:10 по Омску: Колорадо — Нью-Джерси завершился 5:2, ставка 20 ₽ @1.52 выиграла (+10,40 ₽); Сиэтл — Торонто завершился 5:4, прогноз на Торонто проиграл при ставке 0 ₽. Вашингтон и Эдмонтон уже рассчитаны ранее и не пересчитывались. Подтверждённых текущих live-матчей нет: Сибирь — Металлург запланирован на 18:30 Омск; матчи НХЛ начнутся позже. Банк 998,80 ₽, открытых ставок 0 ₽, свободно 998,80 ₽. Локальный HTML автоматически не меняется.",
+  "lastCheckedAt": "2026-10-29T13:15:00.000Z",
+  "note": "Проверка 29.10.2026 19:15 Омск: по Сибирь — Металлург поисковые сниппеты двух источников показывают 1:0, но актуальный период/таймер не подтверждён; официальный live-страница КХЛ не раскрывает счёт, а Fonbet котировки не маркирует как live. Новая ставка не размещена из-за неполного подтверждения, а не из-за отказа анализировать. Банк 998,80 ₽, открытых ставок 0 ₽. Исходные прогнозы и расчёты сохранены; локальный HTML не синхронизируется автоматически.",
   "matches": [
     {
       "id": "khl-20261028-akbars-avangard",
@@ -478,7 +478,40 @@
         "text": "По превью КХЛ на 28.10: у «Сибири» три поражения подряд; «Металлург» лидирует на Востоке. Само по себе это не подтверждает модельные 64%.",
         "source": "https://www.khl.ru/news/2026/10/28/567831.html",
         "addedAt": "2026-10-28T23:45:00+06:00"
-      }
+      },
+      "liveReviewObservations": [
+        {
+          "checkedAt": "2026-10-29T19:15:00+06:00",
+          "sourceSnapshots": [
+            {
+              "source": "https://www.championat.com/hockey/_superleague/tournament/7092/match/1317006/",
+              "observedInSearchSnippet": "Сибирь — Металлург Мг, счёт 1:0",
+              "currentClockAndPeriodConfirmed": false
+            },
+            {
+              "source": "https://www.livesport.ru/hockey/2026/10/29/sibir-novosibirsk-metallurg-magnitogorsk-multionline/",
+              "observedInSearchSnippet": "Сибирь — Металлург 1:0",
+              "currentClockAndPeriodConfirmed": false
+            },
+            {
+              "source": "https://www.khl.ru/game/1436/902196/text/",
+              "observedStatus": "rendered page did not expose live score/clock"
+            },
+            {
+              "source": "https://fon.bet/sports/hockey/country/russia/13283/69334226",
+              "observedOdds": {
+                "regulationHome": 4.6,
+                "draw": 4.4,
+                "regulationAway": 1.65,
+                "finalWinAway": 1.37
+              },
+              "liveMarketConfirmed": false
+            }
+          ],
+          "decision": "NO_BET",
+          "reason": "Два поисковых сниппета показывают 1:0, но открытые страницы не дают синхронного игрового времени/периода: Championat и LiveSport body содержат статические данные до матча, официальный KHL page не раскрыл live-счёт. Fonbet отображает коэффициенты без доказательства, что это актуальная in-play линия. Не выполнены обязательные условия двух свежих подтверждений счёта/времени и подтверждённого live-коэффициента."
+        }
+      ]
     },
     {
       "id": "khl-20261029-avto-torpedo",
@@ -862,7 +895,7 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-29T18:10:00+06:00",
+  "currentRun": "2026-10-29T19:15:00+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -1782,6 +1815,48 @@
       ],
       "notification": "yes",
       "note": "Исторические прогнозы, коэффициенты, ставки и предыдущие расчёты сохранены. Локальный HTML автоматически не меняется."
+    },
+    {
+      "id": "hourly-20261029T1915-omsk",
+      "type": "hourly_live_and_result_check",
+      "at": "2026-10-29T13:15:00.000Z",
+      "checkedAtOmsk": "2026-10-29T19:15:00+06:00",
+      "leagueScope": [
+        "NHL",
+        "KHL"
+      ],
+      "summary": "Пользователь спросил, почему нет live-ставок. Проверена текущая игра КХЛ Сибирь — Металлург: поисковые сниппеты Championat и LiveSport показывают 1:0, но открытые страницы не подтверждают актуальный период и игровой таймер, а официальный KHL live page не раскрывает динамические данные. Fonbet показывает коэффициенты, но нельзя подтвердить, что это live-линия. Условия новой live-ставки не выполнены, ставка не добавлена. Матч уже есть в журнале как прематчевый прогноз на Металлург без ставки; прогноз задним числом не менялся.",
+      "newConfirmedFinals": [],
+      "newSettledWagers": 0,
+      "newVirtualStakes": 0,
+      "liveGameObservations": [
+        {
+          "matchId": "khl-20261029-sibir-metallurg",
+          "observedScoreInSearchSnippets": "Сибирь 1:0 Металлург",
+          "currentPeriodAndClockVerifiedByTwoFreshSources": false,
+          "liveOddsConfirmed": false,
+          "currentOddsDisplayedButLiveStatusUnknown": {
+            "source": "https://fon.bet/sports/hockey/country/russia/13283/69334226",
+            "regulationHome": 4.6,
+            "draw": 4.4,
+            "regulationAway": 1.65,
+            "finalWinAway": 1.37
+          },
+          "decision": "NO_BET",
+          "reason": "Не подтверждены синхронные счёт/время и актуальная in-play котировка; требуемый edge +5 п.п. рассчитать нельзя."
+        }
+      ],
+      "bankEquity": 998.8,
+      "reservedStake": 0,
+      "freeBank": 998.8,
+      "sources": [
+        "https://www.khl.ru/game/1436/902196/text/",
+        "https://www.championat.com/hockey/_superleague/tournament/7092/match/1317006/",
+        "https://www.livesport.ru/hockey/2026/10/29/sibir-novosibirsk-metallurg-magnitogorsk-multionline/",
+        "https://fon.bet/sports/hockey/country/russia/13283/69334226"
+      ],
+      "notification": "none",
+      "note": "Исходные прогнозы, коэффициенты и денежные ставки сохранены; не ставить задним числом. Локальный HTML автоматически не меняется."
     }
   ],
   "storage": {
@@ -1790,6 +1865,6 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-29T18:10:00+06:00",
+  "updatedAt": "2026-10-29T19:15:00+06:00",
   "automationNote": "Автоматическая проверка НХЛ и КХЛ. Счёт/статус обновляется из публичных табло; новые матчи получают только прозрачный прогноз по последним результатам без ставки. Букмекерские коэффициенты и live-ставки автоматически не создаются."
 }
