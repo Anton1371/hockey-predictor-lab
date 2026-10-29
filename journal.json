@@ -2,7 +2,7 @@
   "bank": 998.8,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T20:25:42.130Z",
+  "lastCheckedAt": "2026-10-29T20:34:01.000Z",
   "note": "Ежечасный обзор всех основных доступных видов спорта 2026-10-30T02:25:42+06:00: новые ставки 0 ₽ (NO_BET), банк 998,80 ₽, открытая экспозиция 0 ₽. НХЛ/НБА/НФЛ ещё не стартовали; в футбольных live-источниках нет синхронного счёта/таймера и live-линии; вечерняя КХЛ впереди. История и settlements сохранены.",
   "matches": [
     {
@@ -1121,7 +1121,7 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-30T02:25:42+06:00",
+  "currentRun": "2026-10-30T02:34:01+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -3256,6 +3256,198 @@
       "freeBank": 998.8,
       "notification": "hourly_report",
       "note": "Ставки только виртуальные. Все исходные locked picks/ставки/коэффициенты/времена и settlement записи оставлены без изменений; предыдущие результаты КХЛ 29.10 не дублируются. Локальный HTML пользователя не изменялся."
+    },
+    {
+      "id": "all-sports-fonbet-20261030T023401-omsk",
+      "type": "hourly_all_sports_review",
+      "at": "2026-10-29T20:34:01.000Z",
+      "checkedAtOmsk": "2026-10-30T02:34:01+06:00",
+      "summary": "Обзор спортивных событий 30.10 по Омску с приоритетом котировок Фонбет. Проверены 11 записанных NHL прематчей (старт 05:00–08:00 Омск), 5 матчей КХЛ вечером, три прематча NBA, часть ATP/WTA, NFL и текущие футбольные/теннисные кандидаты. Три исходные денежные ставки NHL рассчитаны ранее и не пересчитаны; 5 прогнозов КХЛ 29.10 уже завершены без денежных ставок. Новых подтверждённых финалов в ожидании нет. Из новых правил: вместо прежних +5 п.п. теперь нужны консервативная вероятность >=60% и строго положительное ожидание p>1/k по Фонбет. Ни один изученный кандидат не проходит обе проверки; live-данные не синхронны. Новых виртуальных ставок нет.",
+      "ruleVersion": "2026-10-30 Fonbet_only probability>=0.60 and p>1/decimalOdds; previous +0.05 minimum edge canceled",
+      "bookmaker": "Фонбет",
+      "bookmakerSite": "https://fon.bet",
+      "bookmakerOddsSourcePolicy": "only Fonbet for odds; observations from pre-match pages are snapshots, not independently guaranteed execution prices; historical football/tennis snapshots not treated as live",
+      "reviewedSports": [
+        "NHL",
+        "KHL",
+        "NBA",
+        "Euroleague (limited)",
+        "Football EFL Cup",
+        "Football UEFA Women CL",
+        "ATP",
+        "WTA",
+        "NFL"
+      ],
+      "coverageLimits": "Выборка доступных крупных матчей, не весь мировой календарь; футбольная лента Фонбет слишком крупная для полного извлечения; ATP/WTA рассмотрены приоритетные пары, live данные не подтверждены двумя синхронными источниками.",
+      "pendingNhlMatches": [
+        "nhl-20261030-jackets-hurricanes",
+        "nhl-20261030-jets-lightning",
+        "nhl-20261030-mammoth-penguins",
+        "nhl-20261030-blackhawks-wings",
+        "nhl-20261030-bruins-blues",
+        "nhl-20261030-canadiens-stars",
+        "nhl-20261030-capitals-predators",
+        "nhl-20261030-islanders-wild",
+        "nhl-20261030-canucks-sharks",
+        "nhl-20261030-sabres-ducks",
+        "nhl-20261030-senators-kings"
+      ],
+      "pendingKhlMatches": [],
+      "observations": [
+        {
+          "sport": "NHL",
+          "matchId": "nhl-20261030-jackets-hurricanes",
+          "match": "Каролина — Коламбус",
+          "market": "Каролина в основное время",
+          "fonbetOddsSnapshot": 1.68,
+          "impliedProbability": 0.595238,
+          "conservativeProbability": null,
+          "decision": "NO_BET",
+          "reason": "По открытым xG 3.56/3.16 против 2.59/2.31 базовая независимая пуассоновская оценка победы Каролины в основное время ~56.5%; модель с учётом прогнозируемых вратарей может быть выше 60%, но подтверждения стартовых вратарей нет и устойчивой консервативной вероятности >59.52% не установлено. Рыночная котировка Фонбет наблюдалась на прематчевой странице, не live.",
+          "sources": [
+            "https://fon.bet/sports/hockey/country/unitedstates/11781/69376123",
+            "https://www.nhl.com/hurricanes/news/topic/press-releases/projected-lineup-october-29-vs-columbus",
+            "https://deepmetricanalytics.com/nhl/game/2026020206"
+          ]
+        },
+        {
+          "sport": "NHL",
+          "matchId": "nhl-20261030-canucks-sharks",
+          "match": "Сан-Хосе — Ванкувер",
+          "market": "Сан-Хосе итоговая победа с ОТ/буллитами",
+          "fonbetOddsSnapshot": 1.58,
+          "impliedProbability": 0.632911,
+          "conservativeProbability": 0.59,
+          "decision": "NO_BET",
+          "reason": "Для гарантии положительной ожидаемой стоимости нужна вероятность >63.29%, а обоснованная осторожная оценка на основе голов команд и нейтрального разрешения равного счёта лишь около 59%. Независимые данные подтверждают слабую оборону Ванкувера, но стартовые голкиперы пока указаны как projected, а у Сан-Хосе травмы Wennberg/Chernyshov.",
+          "sources": [
+            "https://fon.bet/sports/hockey/country/unitedstates/11781/69376087",
+            "https://www.nhl.com/news/vancouver-canucks-san-jose-sharks-game-preview-october-29-2026",
+            "https://thebayareabrief.com/articles/sharks-vs-canucks-preview-oct-29-2026-sap-center-7-pm-nbc-sports-california"
+          ]
+        },
+        {
+          "sport": "KHL",
+          "match": "Лада — Авангард",
+          "market": "Авангард в основное время",
+          "fonbetOddsSnapshot": 1.57,
+          "impliedProbability": 0.636943,
+          "conservativeProbability": null,
+          "decision": "NO_BET",
+          "reason": "Авангард значительно сильнее по последним 10 играм, однако их результат 6 побед из 10 включает возможные овертаймы, а регуляционный исход требует >63.69%. Независимый модельный запас над ценой не установлен.",
+          "sources": [
+            "https://fon.bet/sports/hockey/country/russia/13283/69360351",
+            "https://fon.bet/sports/hockey/country/russia/13283/69360351/stat"
+          ]
+        },
+        {
+          "sport": "NBA",
+          "match": "Нью-Орлеан — Сакраменто",
+          "market": "Нью-Орлеан победит",
+          "fonbetOddsSnapshot": 1.38,
+          "impliedProbability": 0.724638,
+          "conservativeProbability": 0.66,
+          "decision": "NO_BET",
+          "reason": "Несколько независимых моделей дают ~59-70% на Нью-Орлеан, ниже необходимого уровня 72.46%; обе команды 0-4, травмы и back-to-back увеличивают неопределённость.",
+          "sources": [
+            "https://fon.bet/sports/basketball/country/unitedstates/12071/69394049",
+            "https://www.accuscore.com/game/cmvted5bk057jqk01kf12k55f",
+            "https://www.sportshub.com/picks/nba/sacramento-kings-vs-new-orleans-pelicans"
+          ]
+        },
+        {
+          "sport": "Tennis",
+          "match": "Паула Бадоса — Харриет Дарт (WTA Гуанчжоу)",
+          "market": "Бадоса победит",
+          "fonbetOddsSnapshot": 1.3,
+          "impliedProbability": 0.769231,
+          "conservativeProbability": null,
+          "decision": "NO_BET",
+          "reason": "Рынок требует >76.92%, но подтверждённой собственной модельной оценки выше этой величины нет.",
+          "sources": [
+            "https://fon.bet/sports/tennis/category/wta/13443/69401030"
+          ]
+        },
+        {
+          "sport": "NFL",
+          "match": "Грин-Бэй — Каролина Пэнтерс",
+          "market": "Грин-Бэй победит",
+          "fonbetOddsSnapshot": 1.5,
+          "impliedProbability": 0.666667,
+          "conservativeProbability": null,
+          "decision": "NO_BET",
+          "reason": "Для positive EV требуется >66.67%. Подтверждённая независимая модель с учётом актуальных травм не установлена.",
+          "sources": [
+            "https://fon.bet/sports/am-football/category/americanfootball/13178/69330219",
+            "https://chirpsports.app/games/nfl/panthers-vs-packers-2026-10-29-401873023"
+          ]
+        },
+        {
+          "sport": "Football",
+          "match": "Эвертон — Ньюкасл (Кубок лиги)",
+          "market": "live",
+          "fonbetOddsSnapshot": null,
+          "impliedProbability": null,
+          "conservativeProbability": null,
+          "decision": "NO_BET",
+          "reason": "Репортаж Guardian и клубная хроника показывают исторический 1:0 после гола на 34-й минуте, но синхронный текущий таймер двумя свежими источниками не получен; Фонбет открывает предматчевую страницу без подтверждённой live-линии.",
+          "sources": [
+            "https://www.theguardian.com/football/live/2026/oct/29/everton-v-newcastle-carabao-cup-fourth-round-live",
+            "https://fon.bet/sports/football/13950/68211558"
+          ]
+        },
+        {
+          "sport": "Football",
+          "match": "Манчестер Сити (ж) — ПСЖ (ж) (Лига чемпионов)",
+          "market": "live",
+          "fonbetOddsSnapshot": null,
+          "impliedProbability": null,
+          "conservativeProbability": null,
+          "decision": "NO_BET",
+          "reason": "Guardian содержит ранний счёт 0:0, но независимое свежесинхронное игровое время и текущая линия Фонбет не подтверждены.",
+          "sources": [
+            "https://www.theguardian.com/football/live/2026/oct/29/manchester-city-v-paris-saint-germain-womens-champions-league-live",
+            "https://fon.bet/sports/football/category/internationalclubs/133061/69333622/stat"
+          ]
+        },
+        {
+          "sport": "Tennis",
+          "match": "Джокович — Штруфф (ATP Базель)",
+          "market": "live",
+          "fonbetOddsSnapshot": null,
+          "impliedProbability": null,
+          "conservativeProbability": null,
+          "decision": "NO_BET",
+          "reason": "Снимок Фонбет 7:6, 3:4 во втором сете не имеет подтверждённой синхронной свежести и совпадающего независимого табло; использовать наблюдаемые live-числа для новой ставки нельзя.",
+          "sources": [
+            "https://fon.bet/sports/tennis"
+          ]
+        }
+      ],
+      "newConfirmedFinals": [],
+      "newSettledWagers": 0,
+      "newSettledPredictions": 0,
+      "newVirtualStakes": 0,
+      "liveBetDecision": "NO_BET",
+      "skipReason": "Даже при новом пороге 60% нет подтверждённой положительной EV с проверенной ценой Фонбет для прематча; для live нет синхронного независимого счёта+таймера или надёжной свежей in-play линии.",
+      "bankEquity": 998.8,
+      "reservedStake": 0,
+      "freeBank": 998.8,
+      "settledWagerCount": 3,
+      "unchangedHistory": true,
+      "notification": "hourly_report",
+      "sources": [
+        "https://fon.bet/sports/hockey",
+        "https://fon.bet/sports/basketball",
+        "https://fon.bet/sports/tennis",
+        "https://fon.bet/sports/am-football/category/americanfootball/13178/69330219",
+        "https://www.nhl.com/schedule/2026-10-29",
+        "https://www.nhl.com/hurricanes/news/topic/press-releases/projected-lineup-october-29-vs-columbus",
+        "https://deepmetricanalytics.com/nhl/game/2026020206",
+        "https://www.nhl.com/news/vancouver-canucks-san-jose-sharks-game-preview-october-29-2026",
+        "https://www.theguardian.com/football/live/2026/oct/29/everton-v-newcastle-carabao-cup-fourth-round-live"
+      ],
+      "note": "Коэффициенты Фонбет приведены как веб-снимки в момент чтения; их будущая доступность и исполнение не гарантированы. Не созданы ставки/settlements задним числом, все старые match records сохранены. Локальный HTML не обновлялся."
     }
   ],
   "storage": {
@@ -3264,6 +3456,6 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-30T02:25:42+06:00",
+  "updatedAt": "2026-10-30T02:34:01+06:00",
   "automationNote": "Ежечасный анализ NHL/KHL; виртуальные ставки допускаются исключительно после двух независимых свежих подтверждений счёта/таймера, действующей in-play линии и математически доказанного edge минимум 5 п.п. Прогнозы и settlements задним числом не изменяются. Локальный HTML не синхронизируется."
 }
