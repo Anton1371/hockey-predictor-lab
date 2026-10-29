@@ -2,7 +2,7 @@
   "bank": 1000,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-28T23:50:06.000Z",
+  "lastCheckedAt": "2026-10-29T01:01:20.000Z",
   "note": "Текущая проверка 2026-10-29T05:30:23.832+06:00: официально подтверждены итоговые счета 4 матчей КХЛ 28.10, начавшихся до фиксации (без прогнозов и ставок). Исходные 3 виртуальные ставки НХЛ по 20 ₽ до завершения остаются открытыми. 29.10 в 05:30 по Омску старт первого матча НХЛ только запланирован: фактический live-счёт/период двумя независимыми свежими источниками не подтверждён. Без новых ставок; виртуальный банк 1000 ₽, резерв 60 ₽, доступно 940 ₽. История прогнозов и расчётов не менялась.",
   "matches": [
     {
@@ -759,7 +759,7 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-29T05:50:06+06:00",
+  "currentRun": "2026-10-29T07:01:20+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -1084,6 +1084,80 @@
       ],
       "notification": "none",
       "note": "Все первоначальные прогнозы, коэффициенты, суммы, время фиксации и исторические записи оставлены без изменений. Нет расчётов по промежуточным результатам. Локальный HTML не меняется автоматически."
+    },
+    {
+      "id": "hourly-20261029T0701-omsk",
+      "type": "hourly_live_and_result_check",
+      "at": "2026-10-29T01:01:20.000Z",
+      "checkedAtOmsk": "2026-10-29T07:01:20+06:00",
+      "leagueScope": [
+        "NHL",
+        "KHL"
+      ],
+      "summary": "Новых достоверно завершившихся матчей среди исходных девяти прогнозов нет. В одном официальном протоколе НХЛ 'Филадельфия — Вашингтон' показан промежуточный счёт 0:1 (2-й период, 17:35 до конца) с отметкой генерации 20:36:53 EDT (06:36:53 Омск), а CBS содержит более ранний снимок 0:1 после 1-го периода. Счёт 0:1 совпадает, но игровой период/время не совпадают по актуальности; данные нельзя считать синхронными и свежими. Остальные NHL-матчи вечером 28.10 EDT не имеют подтверждённых финальных результатов, матчи КХЛ 29.10 по Омску назначены позже.",
+      "newSettledPredictions": 0,
+      "newSettledWagers": 0,
+      "newVirtualStakes": 0,
+      "scoreObservations": [
+        {
+          "id": "nhl-20261029-flyers-caps",
+          "score": "Филадельфия 0:1 Вашингтон",
+          "officialSnapshotPeriod": "2-й период, 17:35 до конца",
+          "officialSnapshotGeneratedAt": "2026-10-29T06:36:53+06:00",
+          "secondarySnapshotPeriod": "1-й период завершился",
+          "currentClockVerifiedByTwoFreshSources": false,
+          "finalVerified": false,
+          "sources": [
+            "https://www.nhl.com/scores/htmlreports/20262027/GS020199.HTM",
+            "https://www.cbssports.com/nhl/scoreboard/20261028/"
+          ]
+        },
+        {
+          "id": "nhl-20261029-flames-oilers",
+          "score": null,
+          "status": "not independently confirmed live",
+          "source": "https://www.cbssports.com/nhl/gametracker/live/NHL_20261028_CGY@EDM/"
+        },
+        {
+          "id": "nhl-20261029-devils-avalanche",
+          "score": null,
+          "status": "scheduled for 07:00 Omsk; live status not confirmed",
+          "source": "https://www.cbssports.com/nhl/scoreboard/20261028/"
+        },
+        {
+          "id": "nhl-20261029-leafs-kraken",
+          "score": null,
+          "status": "upcoming, scheduled 08:00 Omsk",
+          "source": "https://www.cbssports.com/nhl/scoreboard/20261028/"
+        }
+      ],
+      "liveReview": {
+        "checkedMatches": [
+          "nhl-20261029-flyers-caps",
+          "nhl-20261029-flames-oilers",
+          "nhl-20261029-devils-avalanche"
+        ],
+        "decision": "NO_BET",
+        "currentLinesVerified": false,
+        "currentScorePeriodConfirmedByTwoFreshSources": false,
+        "mathEdgeFivePercentagePointsVerified": false,
+        "reason": "Нет двух независимых синхронных свежих подтверждений игрового времени/счёта и подтверждённых in-play коэффициентов. Доступные котировки на страницах букмекеров имеют предматчевое время и не являются достоверной текущей live-линией. Без возможности оценить консервативную вероятность и 5-п.п. перевес ставка запрещена.",
+        "bookmakerPagesReviewed": [
+          "https://www.pokerstars.es/en/sports/ice-hockey/7524/nhl/12550521/philadelphia-flyers-washington-capitals/36230594/",
+          "https://www.pokerstars.es/en/sports/ice-hockey/7524/nhl/12550521/calgary-flames-edmonton-oilers/36230595/"
+        ]
+      },
+      "bankEquity": 1000,
+      "reservedStake": 60,
+      "freeBank": 940,
+      "sources": [
+        "https://www.nhl.com/scores/htmlreports/20262027/GS020199.HTM",
+        "https://www.cbssports.com/nhl/scoreboard/20261028/",
+        "https://www.cbssports.com/nhl/gametracker/live/NHL_20261028_CGY@EDM/",
+        "https://www.khl.ru/"
+      ],
+      "notification": "none",
+      "note": "Исходные прогнозы, коэффициенты, ставки и дата фиксации не изменены. Нет финала по зафиксированным прогнозам и новых ставок; повторного расчёта нет. Четыре завершённые игры КХЛ 28.10 без исходных прогнозов и ставок не учитываются в банке. Локальный HTML не изменяется автоматически."
     }
   ],
   "storage": {
@@ -1092,6 +1166,6 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-29T05:50:06+06:00",
+  "updatedAt": "2026-10-29T07:01:20+06:00",
   "automationNote": "Автоматическая проверка НХЛ и КХЛ. Счёт/статус обновляется из публичных табло; новые матчи получают только прозрачный прогноз по последним результатам без ставки. Букмекерские коэффициенты и live-ставки автоматически не создаются."
 }
