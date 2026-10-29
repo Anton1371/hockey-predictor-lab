@@ -2,7 +2,7 @@
   "bank": 998.8,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T20:34:14.000Z",
+  "lastCheckedAt": "2026-10-29T22:02:34.000Z",
   "note": "Проверка 30.10.2026 02:34 по Омску: коэффициенты проверяются только по Фонбет. По новому правилу пользовательского эксперимента допускается виртуальная ставка при консервативной вероятности >=60% и положительном EV, без прежнего требования edge +5 п.п. Зафиксирована одна открытая виртуальная ставка 20 ₽ на победу Каролины в основное время @1.68; ожидаемая прибыль по оценке 60% всего +0,16 ₽, преимущество пограничное. Банк 998,80 ₽; резерв 20 ₽; свободно 978,80 ₽. Предыдущие прогнозы и три settlements сохранены.",
   "matches": [
     {
@@ -1121,7 +1121,7 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-30T02:34:14+06:00",
+  "currentRun": "2026-10-30T04:02:34+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -3540,6 +3540,132 @@
         "https://www.nhl.com/news/columbus-blue-jackets-carolina-hurricanes-game-preview-october-29-2026"
       ],
       "note": "Все коэффициенты ставок взяты только с Фонбет. Другие источники использованы для спортивного контекста, не для подмены коэффициентов. Локальный HTML не изменялся."
+    },
+    {
+      "id": "hourly-all-sports-fonbet-20261030T040234-omsk",
+      "type": "hourly_all_sports_review",
+      "at": "2026-10-29T22:02:34.000Z",
+      "checkedAtOmsk": "2026-10-30T04:02:34+06:00",
+      "leagueScope": [
+        "NHL",
+        "KHL",
+        "NBA",
+        "EuroLeague",
+        "ATP",
+        "WTA",
+        "NFL",
+        "football"
+      ],
+      "summary": "Фонбет-обзор в 04:02 Омск. Из текущего journal.json подтверждены три уникальных денежных settlement с общей прибылью -1.20 ₽ и одна открытая виртуальная ставка 20 ₽ на Каролину в основное время @1.68, зафиксированная в 02:34:14. С момента предыдущей записи не появилось нового подтверждённого финала среди 11 ожидающих NHL-матчей: первые игры стартуют в 05:00 Омск. KHL 29.10 уже финализирована; игры 30.10 позже. Повторно просмотрена линия Фонбет: Каролина в основное время 1.70 (обновлённая цена, исходная ставка @1.68 неизменна), Тампа-Бэй в основное время 1.85, Авангард в основное время 1.57, Нью-Орлеан NBA 1.38, Медведев ATP 1.20. Другие виды: NFL Packers—Panthers и футбольные/теннисные live-кандидаты. Для новых ставок не удалось обосновать одновременно консервативную вероятность не ниже 60%, положительное EV и достаточно свежие подтверждения; для live нет двух независимых синхронных подтверждений счёта и таймера. Решение по новым ставкам NO BET. Общий банк 998.80, открытая экспозиция 20, свободно 978.80.",
+      "pendingRecordedMatches": 11,
+      "newConfirmedFinals": [],
+      "newSettledWagers": 0,
+      "newVirtualStakes": 0,
+      "previousOpenWagers": [
+        {
+          "wagerId": "wager-nhl-20261030-jackets-hurricanes-regulation-20261030T023414",
+          "matchId": "nhl-20261030-jackets-hurricanes",
+          "stake": 20,
+          "lockedOdds": 1.68,
+          "market": "Исход основного времени — победа Каролины (П1)",
+          "status": "open"
+        }
+      ],
+      "checkedMarkets": [
+        {
+          "sport": "ice_hockey",
+          "league": "NHL",
+          "match": "Каролина — Коламбус",
+          "market": "Победа Каролины в основное время",
+          "snapshotOdds": 1.7,
+          "source": "https://fon.bet/sports/hockey/country/unitedstates/11781/69376123",
+          "decision": "NO_NEW_BET",
+          "reason": "Уже имеется открытая ставка на этот же матч и рынок @1.68; вторую запрещено размещать."
+        },
+        {
+          "sport": "ice_hockey",
+          "league": "NHL",
+          "match": "Тампа-Бэй — Виннипег",
+          "market": "Победа Тампы в основное время",
+          "snapshotOdds": 1.85,
+          "impliedProbability": 0.5405405405405405,
+          "source": "https://fon.bet/sports/hockey/country/unitedstates/11781/69376117",
+          "decision": "NO_BET",
+          "reason": "Сильная домашняя форма Тампы, но NHL.com приводит только projected starting lineup; консервативные >=60% победы именно за 60 минут не обоснованы независимо и надёжно."
+        },
+        {
+          "sport": "ice_hockey",
+          "league": "KHL",
+          "match": "Лада — Авангард",
+          "market": "Победа Авангарда в основное время",
+          "snapshotOdds": 1.57,
+          "impliedProbability": 0.6369426751592356,
+          "source": "https://fon.bet/sports/hockey/country/russia/13283/69360351",
+          "decision": "NO_BET",
+          "reason": "Порог безубыточности 63.69%; без подтверждённых актуальных составов и численной консервативной оценки выше порога положительное EV не доказано."
+        },
+        {
+          "sport": "basketball",
+          "league": "NBA",
+          "match": "Нью-Орлеан — Сакраменто",
+          "market": "Победа Нью-Орлеана",
+          "snapshotOdds": 1.38,
+          "impliedProbability": 0.7246376811594204,
+          "source": "https://fon.bet/sports/basketball",
+          "decision": "NO_BET",
+          "reason": "Требуется вероятность >72.46%, а обе команды начали сезон 0-4; injuries и контекст не дают такой подтверждённой консервативной оценки."
+        },
+        {
+          "sport": "tennis",
+          "league": "ATP Vienna",
+          "match": "Маннарино — Медведев",
+          "market": "Победа Медведева",
+          "snapshotOdds": 1.2,
+          "impliedProbability": 0.8333333333333334,
+          "source": "https://fon.bet/sports/tennis",
+          "decision": "NO_BET",
+          "reason": "Для положительного EV требуется >83.33%, достаточная консервативная оценка не обоснована."
+        }
+      ],
+      "liveReviews": [
+        {
+          "sport": "football",
+          "source": "https://fonbet.com/live/football",
+          "decision": "NO_BET",
+          "reason": "Live-табло Фонбет отображает счета, но нет независимо подтвержденных синхронных таймеров и коэффициентов по выбранным кандидатам."
+        },
+        {
+          "sport": "basketball",
+          "source": "https://fon.bet/sports/basketball",
+          "decision": "NO_BET",
+          "reason": "Табло некоторых матчей Евролиги показывает live-состояние, но нет двух синхронных независимых источников игрового времени и достаточной модели вероятности."
+        },
+        {
+          "sport": "tennis",
+          "source": "https://fon.bet/sports/tennis",
+          "decision": "NO_BET",
+          "reason": "У матчей с отображаемым текущим геймом нет достаточного подтверждения свежести и согласованного второго источника."
+        }
+      ],
+      "newBetDecision": "NO_BET",
+      "bankEquity": 998.8,
+      "reservedStake": 20,
+      "freeBank": 978.8,
+      "settledWagerCount": 3,
+      "sources": [
+        "https://fon.bet/sports/hockey/country/unitedstates/11781/69376123",
+        "https://fon.bet/sports/hockey/country/unitedstates/11781/69376117",
+        "https://fon.bet/sports/hockey/country/russia/13283/69360351",
+        "https://fon.bet/sports/basketball",
+        "https://fon.bet/sports/tennis",
+        "https://fon.bet/sports/am-football",
+        "https://fonbet.com/live/football",
+        "https://www.nhl.com/schedule/2026-10-29",
+        "https://www.nhl.com/news/winnipeg-jets-at-tampa-bay-lightning-game-preview-october-29-2026",
+        "https://frontend.d3.nhle.com/news/columbus-blue-jackets-carolina-hurricanes-game-preview-october-29-2026",
+        "https://www.foxsports.com/articles/nba/new-orleans-takes-on-sacramento-seeks-to-stop-4game-skid"
+      ],
+      "note": "Коэффициенты только Фонбет. Снимки линии наблюдаются на момент просмотра, но не являются гарантиями будущей цены. Ни одна существующая ставка, исходный коэффициент, прогноз, settlement или событие не изменены. Локальный HTML не изменялся."
     }
   ],
   "storage": {
@@ -3548,7 +3674,7 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-30T02:34:14+06:00",
+  "updatedAt": "2026-10-30T04:02:34+06:00",
   "automationNote": "Ежечасный обзор всех доступных крупных видов спорта на дату Asia/Omsk. Коэффициенты — только Фонбет; виртуальная ставка допускается при консервативной вероятности >=60% и p>1/k. Обновлять GitHub journal.json append-only, проверять уникальные settlement IDs и повторно читать после записи. Локальный HTML не синхронизируется автоматически.",
   "virtualWagers": [
     {
