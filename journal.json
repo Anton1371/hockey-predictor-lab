@@ -2,8 +2,8 @@
   "bank": 998.8,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T22:02:34.000Z",
-  "note": "Проверка 30.10.2026 02:34 по Омску: коэффициенты проверяются только по Фонбет. По новому правилу пользовательского эксперимента допускается виртуальная ставка при консервативной вероятности >=60% и положительном EV, без прежнего требования edge +5 п.п. Зафиксирована одна открытая виртуальная ставка 20 ₽ на победу Каролины в основное время @1.68; ожидаемая прибыль по оценке 60% всего +0,16 ₽, преимущество пограничное. Банк 998,80 ₽; резерв 20 ₽; свободно 978,80 ₽. Предыдущие прогнозы и три settlements сохранены.",
+  "lastCheckedAt": "2026-10-29T22:04:39.000Z",
+  "note": "Проверка 30.10.2026 04:04 по Омску: Фонбет — единственный источник коэффициентов, порог p>=60% и строго положительное EV. Все 11 зафиксированных NHL-игр ещё предстоящие, KHL 29.10 уже финализирована. Новых виртуальных ставок нет; ранее открытая Каролина @1.68, 20 ₽ сохранена. Банк 998.80 ₽, резерв 20 ₽, свободно 978.80 ₽. По live футболу/теннису данные источников не синхронны; NO BET.",
   "matches": [
     {
       "id": "khl-20261028-akbars-avangard",
@@ -1121,7 +1121,7 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-30T04:02:34+06:00",
+  "currentRun": "2026-10-30T04:04:39+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -3666,6 +3666,204 @@
         "https://www.foxsports.com/articles/nba/new-orleans-takes-on-sacramento-seeks-to-stop-4game-skid"
       ],
       "note": "Коэффициенты только Фонбет. Снимки линии наблюдаются на момент просмотра, но не являются гарантиями будущей цены. Ни одна существующая ставка, исходный коэффициент, прогноз, settlement или событие не изменены. Локальный HTML не изменялся."
+    },
+    {
+      "id": "hourly-all-sports-fonbet-20261030T040439-omsk",
+      "type": "hourly_all_sports_review",
+      "at": "2026-10-29T22:04:39.000Z",
+      "checkedAtOmsk": "2026-10-30T04:04:39+06:00",
+      "oddsPolicy": "Only Fonbet (fon.bet or fonbet.com). Other sources used for schedules/results/live verification only.",
+      "leagueScope": [
+        "NHL",
+        "KHL",
+        "NBA",
+        "EuroLeague",
+        "football Serie A",
+        "ATP Basel/Vienna",
+        "WTA",
+        "NFL"
+      ],
+      "summary": "На 30.10.2026 04:04 по Омску прочитан текущий GitHub journal.json и перепроверены доступные крупные соревнования. Все 11 ранее записанных NHL-игр 30.10 по Омску начинаются не ранее 05:00, подтверждённых новых финалов нет; предшествующие KHL-матчи 29.10 уже завершены и учтены как прогнозы без сумм. Три уникальных NHL settlements в истории дают чистые -1.20 ₽; единственная открытая виртуальная ставка — Каролина в основное время @1.68, 20 ₽ от 02:34, сохранена без изменений. Новых ставок не создано: по просмотренным прематчевым котировкам Фонбет нельзя обосновать одновременно вероятность не ниже 60% и положительное EV; по футболу/теннису live-снимки конфликтуют и не отвечают правилу двух независимых свежих источников. Банк 998.80 ₽, открытая экспозиция 20 ₽, свободно 978.80 ₽.",
+      "verification": [
+        {
+          "sport": "ice_hockey",
+          "league": "NHL",
+          "status": "11 recorded upcoming, earliest 05:00 Omsk",
+          "checkedMatchIds": [
+            "nhl-20261030-jackets-hurricanes",
+            "nhl-20261030-jets-lightning",
+            "nhl-20261030-mammoth-penguins",
+            "nhl-20261030-blackhawks-wings",
+            "nhl-20261030-bruins-blues",
+            "nhl-20261030-canadiens-stars",
+            "nhl-20261030-capitals-predators",
+            "nhl-20261030-islanders-wild",
+            "nhl-20261030-canucks-sharks",
+            "nhl-20261030-sabres-ducks",
+            "nhl-20261030-senators-kings"
+          ],
+          "decision": "NO_ADDITIONAL_BET",
+          "reason": "Existing Carolina wager already locked before start. For other NHL games no independently grounded p>=60% with positive EV; previews and line alone insufficient.",
+          "oddsSource": "https://fon.bet/sports/hockey/country/unitedstates",
+          "scheduleSource": "https://www.nhl.com/sk/schedule/2026-10-29"
+        },
+        {
+          "sport": "ice_hockey",
+          "league": "KHL",
+          "status": "five upcoming games 30 Oct; no new finals",
+          "reviewed": [
+            "Лада — Авангард",
+            "Северсталь — Спартак",
+            "Ак Барс — Амур",
+            "Динамо Минск — Трактор",
+            "Шанхай Дрэгонс — Барыс"
+          ],
+          "observedPrematchOdds": [
+            {
+              "market": "Авангард в основное время",
+              "k": 1.57,
+              "impliedProbability": 0.6369426751592356
+            },
+            {
+              "market": "Ак Барс в основное время",
+              "k": 1.77,
+              "impliedProbability": 0.5649717514124294
+            }
+          ],
+          "decision": "NO_BET",
+          "reason": "Не обоснована консервативная вероятность выше порога 1/k и одновременно не ниже 60%.",
+          "source": "https://fon.bet/sports/hockey/country/russia"
+        },
+        {
+          "sport": "basketball",
+          "league": "NBA",
+          "status": "three scheduled matches 29 Oct ET (30 Oct Omsk)",
+          "reviewed": [
+            "Нью-Орлеан — Сакраменто",
+            "Атланта — Кливленд",
+            "Портленд — Мемфис"
+          ],
+          "observedPrematchOdds": [
+            {
+              "market": "Нью-Орлеан победит",
+              "k": 1.38
+            },
+            {
+              "market": "Атланта победит",
+              "k": 1.83
+            },
+            {
+              "market": "Портленд победит",
+              "k": 1.3
+            }
+          ],
+          "decision": "NO_BET",
+          "reason": "Недостаточно данных для консервативного p>=60% и p>1/k. Не выдавать фаворитизм из котировки за независимую оценку.",
+          "sources": [
+            "https://fon.bet/sports/basketball",
+            "https://www.nba.com/games?date=2026-10-29"
+          ]
+        },
+        {
+          "sport": "basketball",
+          "league": "EuroLeague",
+          "status": "Fonbet scoreboard snapshot Real Madrid — Fenerbahce 86:71 at 37:03; not independently validated current",
+          "decision": "NO_BET",
+          "reason": "Не подтверждены синхронные часы и счёт вторым свежим источником и не доказан edge.",
+          "source": "https://fon.bet/sports/basketball"
+        },
+        {
+          "sport": "football",
+          "league": "Serie A",
+          "match": "Фиорентина — Аталанта",
+          "observedSnapshots": [
+            {
+              "source": "https://fon.bet/sports/football",
+              "score": "2:2",
+              "clock": "85:18"
+            },
+            {
+              "source": "https://sport.sky.it/calcio/serie-a/partite/2026/giornata-9/fiorentina-atalanta/risultato-gol",
+              "score": "0:0",
+              "clock": "1st half 38' snapshot"
+            },
+            {
+              "source": "https://www.eurosport.it/calcio/serie-a/2026-2027/live-fiorentina-atalanta_mtc21874226/live-commentary.shtml",
+              "score": "0:1",
+              "clock": "half-time snapshot"
+            }
+          ],
+          "decision": "NO_BET",
+          "reason": "Разные источники не синхронны и показывают конфликтующие моменты матча, нет двух независимых свежих совпадающих текущих счёта/таймера; прематчевую линию не использовать как live."
+        },
+        {
+          "sport": "tennis",
+          "league": "ATP Basel",
+          "match": "Шелтон — Ким",
+          "observedSnapshots": [
+            {
+              "source": "https://fon.bet/sports/tennis",
+              "score": "1st set 2:1 (15-30*) snapshot"
+            },
+            {
+              "source": "https://www.tennislive.net/atp/match/ben-shelton-VS-jerome-kym/swiss-indoors-basel-basel-2026/",
+              "score": "1st set 2:3 15:40 snapshot"
+            }
+          ],
+          "decision": "NO_BET",
+          "reason": "Текущий счёт геймов/розыгрыш по двум независимым актуальным источникам не подтверждён; нельзя уверенно привязать коэффициент к live-моменту."
+        },
+        {
+          "sport": "tennis",
+          "league": "ATP Vienna, WTA",
+          "status": "prematch lines reviewed via Fonbet tennis listing; no qualified new wager",
+          "decision": "NO_BET",
+          "reason": "Нет обоснованной консервативной оценки p, превышающей и 60%, и 1/k.",
+          "source": "https://fon.bet/sports/tennis"
+        },
+        {
+          "sport": "american_football",
+          "league": "NFL",
+          "match": "Каролина Пантерс — Грин-Бей Пэкерс",
+          "observedPrematchOdds": [
+            {
+              "market": "Грин-Бей победит",
+              "k": 1.48,
+              "impliedProbability": 0.6756756756756757
+            }
+          ],
+          "status": "upcoming 06:15 Omsk (20:15 EDT)",
+          "decision": "NO_BET",
+          "reason": "Котировка подразумевает 67.57%; консервативная оценка выше неё не обоснована.",
+          "sources": [
+            "https://fon.bet/sports/am-football",
+            "https://www.nfl.com/schedules/2026/by-week/week-8"
+          ]
+        }
+      ],
+      "newConfirmedFinals": [],
+      "newSettledWagers": 0,
+      "newVirtualStakes": 0,
+      "liveBetDecision": "NO_BET",
+      "openWagers": [
+        {
+          "wagerId": "wager-nhl-20261030-jackets-hurricanes-regulation-20261030T023414",
+          "match": "Каролина Харрикейнз — Коламбус Блю Джекетс",
+          "market": "Исход основного времени — победа Каролины (П1)",
+          "odds": 1.68,
+          "stake": 20,
+          "placedAt": "2026-10-30T02:34:14+06:00"
+        }
+      ],
+      "bankEquity": 998.8,
+      "reservedStake": 20,
+      "freeBank": 978.8,
+      "uniqueSettlementIds": [
+        "settlement-nhl-20261029-flyers-caps-20261029T0829",
+        "settlement-nhl-20261029-flames-oilers-20261029T0944",
+        "settlement-nhl-20261029-devils-avalanche-20261029T1810"
+      ],
+      "note": "Проверка сделана без перезаписи старых прогнозов/ставок/settlements. Поисковые сниппеты и не синхронные live-снимки не считаются подтверждёнными. Локальный HTML не изменялся. Отчёт пользователю обязателен даже при NO BET."
     }
   ],
   "storage": {
@@ -3674,7 +3872,7 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-30T04:02:34+06:00",
+  "updatedAt": "2026-10-30T04:04:39+06:00",
   "automationNote": "Ежечасный обзор всех доступных крупных видов спорта на дату Asia/Omsk. Коэффициенты — только Фонбет; виртуальная ставка допускается при консервативной вероятности >=60% и p>1/k. Обновлять GitHub journal.json append-only, проверять уникальные settlement IDs и повторно читать после записи. Локальный HTML не синхронизируется автоматически.",
   "virtualWagers": [
     {
