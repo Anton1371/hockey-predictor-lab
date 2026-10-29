@@ -2,7 +2,7 @@
   "bank": 1008.4,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T02:46:13.000Z",
+  "lastCheckedAt": "2026-10-29T03:10:18.000Z",
   "note": "Последняя проверка 29.10.2026 07:13 по Омску: на табло CBS Sports доступны промежуточные снимки 3 матчей НХЛ (Вашингтон — Филадельфия, Эдмонтон — Калгари, Колорадо — Нью-Джерси), но их время не подтверждено синхронно вторым независимым свежим источником. Новых окончательных результатов по зафиксированным прогнозам нет, новые live-ставки не делались. Все 4 матча КХЛ 28.10 завершены и внесены без задним числом добавленных прогнозов. Виртуальный банк 1000 ₽, открытых ставок 60 ₽, свободных 940 ₽. Исходные прогнозы/коэффициенты/ставки и история неизменны; локальный HTML не синхронизирован.",
   "matches": [
     {
@@ -789,7 +789,7 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-29T08:46:13+06:00",
+  "currentRun": "2026-10-29T09:10:18+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -1460,6 +1460,71 @@
       ],
       "notification": "none",
       "note": "Ни один ранее зафиксированный прогноз, коэффициент, ставка или история расчетов не изменены. Ставка Вашингтона уже учтена и второй раз не рассчитывалась. Локальный HTML на компьютере не обновлялся."
+    },
+    {
+      "id": "hourly-20261029T091018-omsk",
+      "type": "hourly_live_and_result_check",
+      "at": "2026-10-29T03:10:18.000Z",
+      "checkedAtOmsk": "2026-10-29T09:10:18+06:00",
+      "leagueScope": [
+        "NHL",
+        "KHL"
+      ],
+      "summary": "Новых окончательных результатов среди ранее зафиксированных прогнозов после 08:46 по Омску не подтверждено. Вашингтон — Филадельфия 5:2 завершён и уже единожды рассчитан в 08:29. Эдмонтон — Калгари, Колорадо — Нью-Джерси, Сиэтл — Торонто остаются незавершёнными в доступных табло CBS Sports. Все четыре матча НХЛ из текущего игрового дня уже присутствуют в журнале, незаписанных live-матчей не выявлено. Пять матчей КХЛ 29.10 ещё не начались.",
+      "newConfirmedFinals": [],
+      "newSettledPredictions": 0,
+      "newSettledWagers": 0,
+      "newVirtualStakes": 0,
+      "liveGameObservations": [
+        {
+          "matchId": "nhl-20261029-flames-oilers",
+          "observedScore": "Эдмонтон 4:0 Калгари",
+          "observedClock": "3-й период: 14:33 на табло CBS и 09:12 на странице матча (расхождение снимков)",
+          "verifiedCurrentClock": false,
+          "observationOnly": true,
+          "sources": [
+            "https://www.cbssports.com/nhl/scoreboard/20261028/",
+            "https://www.cbssports.com/nhl/gametracker/live/NHL_20261028_CGY@EDM/"
+          ]
+        },
+        {
+          "matchId": "nhl-20261029-devils-avalanche",
+          "observedScore": "Колорадо 1:1 Нью-Джерси",
+          "observedClock": "второй перерыв по CBS",
+          "verifiedCurrentClock": false,
+          "observationOnly": true,
+          "sources": [
+            "https://www.cbssports.com/nhl/scoreboard/20261028/"
+          ]
+        },
+        {
+          "matchId": "nhl-20261029-leafs-kraken",
+          "observedScore": "Сиэтл 1:1 Торонто",
+          "observedClock": "начало второго периода / первый перерыв по CBS",
+          "verifiedCurrentClock": false,
+          "observationOnly": true,
+          "sources": [
+            "https://www.cbssports.com/nhl/scoreboard/20261028/"
+          ]
+        }
+      ],
+      "noNewUnrecordedLiveGames": true,
+      "liveBetDecision": "NO_BET",
+      "skipReason": "Нет незаписанных текущих live-матчей НХЛ/КХЛ. Три показанных в CBS live-матча НХЛ уже записаны, а два независимых свежих совпадающих подтверждения счёта и игрового времени и актуальный live-коэффициент не получены. Не найдено основания для доказанного перевеса вероятности ≥5 п.п.; никакие новые ставки не размещены.",
+      "noFutureGradingUntilFinal": true,
+      "bankEquity": 1008.4,
+      "reservedStake": 40,
+      "freeBank": 968.4,
+      "sources": [
+        "https://www.cbssports.com/nhl/scoreboard/20261028/",
+        "https://www.cbssports.com/nhl/gametracker/live/NHL_20261028_CGY@EDM/",
+        "https://www.cbssports.com/nhl/gametracker/live/NHL_20261028_NJ@COL/",
+        "https://www.cbssports.com/nhl/gametracker/live/NHL_20261028_TOR@SEA/",
+        "https://www.nhl.com/scores/2026-10-28",
+        "https://www.sports.ru/hockey/tournament/khl/calendar/"
+      ],
+      "notification": "none",
+      "note": "Исходные прогнозы, коэффициенты, суммы, время фиксации и уже проведённый расчёт Вашингтона сохранены без каких-либо изменений. Локальный HTML не синхронизируется автоматически."
     }
   ],
   "storage": {
@@ -1468,6 +1533,6 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-29T08:46:13+06:00",
+  "updatedAt": "2026-10-29T09:10:18+06:00",
   "automationNote": "Автоматическая проверка НХЛ и КХЛ. Счёт/статус обновляется из публичных табло; новые матчи получают только прозрачный прогноз по последним результатам без ставки. Букмекерские коэффициенты и live-ставки автоматически не создаются."
 }
