@@ -2,8 +2,8 @@
   "bank": 998.8,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T17:39:41.000Z",
-  "note": "Проверка 29.10.2026 23:39:41 по Омску: новых достоверно подтверждённых финалов по исходным прогнозам после предыдущей проверки нет. Остались 3 вечерние игры КХЛ без финального подтверждения; найденные снимки live-коэффициентов/счётов устарели или несинхронны. Новых live-ставок 0; банк 998,80 ₽, открытых ставок 0 ₽. История прогнозов и результатов сохранена.",
+  "lastCheckedAt": "2026-10-29T17:45:23.000Z",
+  "note": "Проверено 29.10.2026 23:45:23 Омск: новых подтвержденных финалов и live-ставок нет; по трём вечерним играм КХЛ счёт, игровой таймер и актуальная live-линия независимо не подтверждены. Банк 998,80 ₽, открытых ставок 0 ₽, свободно 998,80 ₽. Следующие матчи NHL стартуют 30.10 05:00 Омск.",
   "matches": [
     {
       "id": "khl-20261028-akbars-avangard",
@@ -962,7 +962,7 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-29T23:39:41+06:00",
+  "currentRun": "2026-10-29T23:45:23+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -972,7 +972,7 @@
     "pendingStakeSum": 0,
     "uncommittedCash": 998.8,
     "gradedWagers": 3,
-    "note": "Виртуальный банк = стартовые 1000 ₽ плюс чистый результат каждой уникальной рассчитанной ставки. Свободный банк = текущий банк минус открытые ставки; повторные расчёты не выполняются.",
+    "note": "Виртуальный банк = начальные 1000 ₽ плюс сумма чистых результатов уникальных settlements; резерв = сумма еще не рассчитанных ставок, и ни одна ставка не учитывается дважды.",
     "wins": 2,
     "losses": 1,
     "pushes": 0,
@@ -2217,6 +2217,108 @@
       ],
       "notification": "none",
       "note": "Предматчевые прогнозы 28.10 23:30 по Омску, суммы и коэффициенты оставлены без изменения; ранее рассчитанные денежные ставки не пересчитывались. Данные представлены только в журнале GitHub, локальный HTML не обновлён."
+    },
+    {
+      "id": "hourly-20261029T234523-omsk",
+      "type": "hourly_live_and_result_check",
+      "at": "2026-10-29T17:45:23.000Z",
+      "checkedAtOmsk": "2026-10-29T23:45:23+06:00",
+      "leagueScope": [
+        "NHL",
+        "KHL"
+      ],
+      "summary": "Проверены исходные 3 рассчитанные ставки НХЛ и ожидающие прогнозы КХЛ. После проверки в 23:39 по Омску ни одного нового надежно подтвержденного финального счета не найдено. Локомотив — Сочи, Северсталь — Спартак, Нефтехимик — Адмирал вероятно идут по расписанию, но текущие счёт/таймер и live-коэффициенты не подтверждены двумя независимыми свежими источниками; ставки не добавлены. Ближайшие игры NHL начнутся утром 30.10 в 05:00 Омск.",
+      "newConfirmedFinals": [],
+      "newSettledPredictions": 0,
+      "newSettledWagers": 0,
+      "newVirtualStakes": 0,
+      "reviewedLiveCandidates": [
+        {
+          "id": "khl-20261029-lokomotiv-sochi",
+          "name": "Локомотив — Сочи",
+          "status": "Live expected from official schedule, not independently validated",
+          "liveScoreVerified": false,
+          "liveClockVerified": false,
+          "liveOddsVerified": false,
+          "edgeVerified": false,
+          "decision": "NO_BET",
+          "reason": "Матч начался по расписанию в 19:00 МСК, но открытые страницы Чемпионата и Шайба.kz предоставляют только расписание/предматчевую информацию, а Шайба.kz всё ещё пишет 'не начался'; свежие совпадающие счёт и время отсутствуют.",
+          "sources": [
+            "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316994/",
+            "https://shaiba.kz/match/35334/lokomotiv-khk_sochi/29-10-2026",
+            "https://www.khl.ru/news/2026/10/29/567831.html"
+          ]
+        },
+        {
+          "id": "khl-20261029-severstal-spartak",
+          "name": "Северсталь — Спартак",
+          "status": "Live expected from official schedule, not independently validated",
+          "liveScoreVerified": false,
+          "liveClockVerified": false,
+          "liveOddsVerified": false,
+          "edgeVerified": false,
+          "decision": "NO_BET",
+          "reason": "OLIMPBET в поисковой выдаче показывает снимок 1:1, второй период, 19-я минута, но время публикации/свежесть live-поля не подтверждены; открытый Чемпионат отображает 'не начался', официальный сайт Спартака — 'предстоящий матч'. Нет двух независимых актуальных источников счёта/таймера, коэффициент OLIMPBET 2.60/3.19/2.79 нельзя считать проверенной текущей котировкой.",
+          "staleSnapshot": {
+            "source": "https://www.olimp.bet/live/khokkey-2/kkhl-regulyarnyy-chempionat-1928636/severstal-spartak-moskva-29-10-2026-86165161",
+            "score": "1:1",
+            "clock": "19-я минута 2-го периода",
+            "oddsMainTime": [
+              2.6,
+              3.19,
+              2.79
+            ],
+            "verifiedCurrent": false
+          },
+          "sources": [
+            "https://www.olimp.bet/live/khokkey-2/kkhl-regulyarnyy-chempionat-1928636/severstal-spartak-moskva-29-10-2026-86165161",
+            "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316998/",
+            "https://spartak.ru/matches/902199/"
+          ]
+        },
+        {
+          "id": "khl-20261029-neftekhimik-admiral",
+          "name": "Нефтехимик — Адмирал",
+          "status": "Live expected from official schedule, not independently validated",
+          "liveScoreVerified": false,
+          "liveClockVerified": false,
+          "liveOddsVerified": false,
+          "edgeVerified": false,
+          "decision": "NO_BET",
+          "reason": "Матч по расписанию начался в 19:30 МСК, но Чемпионат показывает предматчевую информацию; Shaiba.kz 'не начался', а страница LiveScore с 2:1 помечена как проиндексированная в прошлом месяце и не годится для подтверждения текущего финала. Нет свежих независимых текущих счёта/таймера и live-линии.",
+          "sources": [
+            "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316996/",
+            "https://shaiba.kz/match/35335/neftekhimik-admiral/29-10-2026",
+            "https://www.livescore.ru/hockey/view/5785749"
+          ]
+        }
+      ],
+      "liveBetDecision": "NO_BET",
+      "liveBetSkipReason": "Нет по каждому матчу двух независимых свежих подтверждений счета и игрового таймера, нет проверенного актуального in-play коэффициента, а значит нельзя доказать запас консервативной вероятности минимум +5 процентных пунктов над порогом 1/k.",
+      "upcomingNhl": {
+        "gamesAlreadyRecorded": 11,
+        "nextScheduledAtOmsk": "2026-10-30T05:00:00+06:00",
+        "liveGamesNowConfirmed": 0,
+        "source": "https://www.cbssports.com/nhl/schedule/20261029/"
+      },
+      "bankEquity": 998.8,
+      "reservedStake": 0,
+      "freeBank": 998.8,
+      "sources": [
+        "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316994/",
+        "https://shaiba.kz/match/35334/lokomotiv-khk_sochi/29-10-2026",
+        "https://www.khl.ru/news/2026/10/29/567831.html",
+        "https://www.olimp.bet/live/khokkey-2/kkhl-regulyarnyy-chempionat-1928636/severstal-spartak-moskva-29-10-2026-86165161",
+        "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316998/",
+        "https://spartak.ru/matches/902199/",
+        "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316996/",
+        "https://shaiba.kz/match/35335/neftekhimik-admiral/29-10-2026",
+        "https://www.livescore.ru/hockey/view/5785749",
+        "https://www.cbssports.com/nhl/schedule/20261029/",
+        "https://www.championat.com/hockey/news-6676638-raspisanie-matchej-khl-na-29-oktyabrya-2026-goda.html"
+      ],
+      "notification": "hourly_report",
+      "note": "Предыдущие ставки, прогнозы, коэффициенты, даты фиксации, исходы и events сохранены. Не присваивать устаревшим снимкам статус live/final. Локальный HTML не обновляется автоматически."
     }
   ],
   "storage": {
@@ -2225,6 +2327,6 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-29T23:39:41+06:00",
+  "updatedAt": "2026-10-29T23:45:23+06:00",
   "automationNote": "Автоматическая проверка НХЛ и КХЛ. Счёт/статус обновляется из публичных табло; новые матчи получают только прозрачный прогноз по последним результатам без ставки. Букмекерские коэффициенты и live-ставки автоматически не создаются."
 }
