@@ -2,8 +2,8 @@
   "bank": 998.8,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T16:59:09.000Z",
-  "note": "Проверка 29.10.2026 22:59 Омск: Сибирь — Металлург 5:2 (прогноз на Металлург проиграл, 0 ₽) и Автомобилист — Торпедо 3:2 Б (прогноз на Торпедо проиграл, 0 ₽), финалы подтверждены Чемпионатом и Спорт-Экспрессом. Остальные три игры КХЛ начались, но синхронный live-счёт и время двумя независимыми свежими источниками и текущие live-коэффициенты не подтверждены. Новых ставок нет. Банк 998,80 ₽, открытых 0 ₽. Старые денежные ставки и история не пересчитаны. Локальный HTML не меняется автоматически.",
+  "lastCheckedAt": "2026-10-29T16:57:00.000Z",
+  "note": "Проверка 29.10.2026 22:57 по Омску: Сибирь — Металлург завершился 5:2, прогноз на победу Металлурга проиграл без денежного эффекта (ставка 0 ₽). Остальные сегодняшние матчи КХЛ имеют несогласованные или устаревшие live-данные, поэтому новые ставки не добавлялись. Виртуальный банк 998,80 ₽, открытых ставок 0 ₽.",
   "matches": [
     {
       "id": "khl-20261028-akbars-avangard",
@@ -513,17 +513,18 @@
         }
       ],
       "predictionResult": "loss",
-      "predictionGradedAt": "2026-10-29T22:59:09+06:00",
-      "lastScoreCheckAt": "2026-10-29T16:59:09.000Z",
-      "scoreSource": "https://www.championat.com/hockey/news-6677418-sibir-metallurg-rezultat-matcha-29-oktyabrya-2026-schet-5-2-regulyarnyj-chempionat-khl-2026-2027.html",
+      "predictionGradedAt": "2026-10-29T22:57:00+06:00",
+      "lastScoreCheckAt": "2026-10-29T16:57:00.000Z",
+      "scoreSource": "https://www.championat.ru/hockey/news-6677418-sibir-metallurg-rezultat-matcha-29-oktyabrya-2026-schet-5-2-regulyarnyj-chempionat-khl-2026-2027.html",
       "finalVerification": {
-        "checkedAt": "2026-10-29T22:59:09+06:00",
+        "checkedAt": "2026-10-29T22:57:00+06:00",
         "final": true,
         "homeScore": 5,
         "awayScore": 2,
         "sources": [
-          "https://www.championat.com/hockey/news-6677418-sibir-metallurg-rezultat-matcha-29-oktyabrya-2026-schet-5-2-regulyarnyj-chempionat-khl-2026-2027.html",
-          "https://www.sport-express.net/hockey/khl/news/sibir-metallurg-rezultat-matcha-khl-29-oktyabrya-2026-2468720/"
+          "https://www.championat.ru/hockey/news-6677418-sibir-metallurg-rezultat-matcha-29-oktyabrya-2026-schet-5-2-regulyarnyj-chempionat-khl-2026-2027.html",
+          "https://www.sport-express.ru/hockey/khl/news/sibir-metallurg-rezultat-matcha-khl-29-oktyabrya-2026-2468720/",
+          "https://www.sports.kz/live/match/5785924"
         ]
       }
     },
@@ -961,7 +962,7 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-29T22:59:09+06:00",
+  "currentRun": "2026-10-29T22:57:00+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -2034,6 +2035,83 @@
       ],
       "notification": "yes",
       "note": "Исходные прогнозы, коэффициенты, ставки и предыдущие события сохранены без изменений. Старые денежные ставки учитываются строго один раз, финансовый итог не изменился. Локальный HTML не синхронизировался."
+    },
+    {
+      "id": "forecast-result-khl-20261029-sibir-metallurg-20261029T2257",
+      "type": "locked_forecast_result",
+      "at": "2026-10-29T16:57:00.000Z",
+      "checkedAtOmsk": "2026-10-29T22:57:00+06:00",
+      "matchId": "khl-20261029-sibir-metallurg",
+      "league": "KHL",
+      "match": "Сибирь — Металлург Магнитогорск",
+      "finalScore": "5:2",
+      "lockedPick": "Металлург Магнитогорск победит",
+      "lockedOdds": null,
+      "stake": 0,
+      "result": "loss",
+      "bankImpact": 0,
+      "sources": [
+        "https://www.championat.ru/hockey/news-6677418-sibir-metallurg-rezultat-matcha-29-oktyabrya-2026-schet-5-2-regulyarnyj-chempionat-khl-2026-2027.html",
+        "https://www.sport-express.ru/hockey/khl/news/sibir-metallurg-rezultat-matcha-khl-29-oktyabrya-2026-2468720/",
+        "https://www.sports.kz/live/match/5785924"
+      ],
+      "note": "Первоначальный прогноз на победу Металлурга отмечен как проигравший. Денежной ставки не было, банк не изменился. Прогноз, время фиксации и коэффициент задним числом не менялись."
+    },
+    {
+      "id": "hourly-20261029T2257-omsk",
+      "type": "hourly_live_and_result_check",
+      "at": "2026-10-29T16:57:00.000Z",
+      "checkedAtOmsk": "2026-10-29T22:57:00+06:00",
+      "leagueScope": [
+        "NHL",
+        "KHL"
+      ],
+      "summary": "Подтверждён финал КХЛ Сибирь — Металлург Магнитогорск 5:2. Ранее зафиксированный прогноз на победу Металлурга проиграл, ставка была 0 ₽. Для остальных матчей КХЛ источники показывают несинхронные или устаревшие статусы; текущий счёт/период двумя свежими независимыми источниками и актуальная live-линия не подтверждены. Новых live-ставок нет.",
+      "newConfirmedFinals": [
+        {
+          "matchId": "khl-20261029-sibir-metallurg",
+          "score": "Сибирь 5:2 Металлург Магнитогорск",
+          "predictionResult": "loss",
+          "stake": 0,
+          "bankImpact": 0
+        }
+      ],
+      "newSettledWagers": 0,
+      "newSettledPredictions": 1,
+      "newVirtualStakes": 0,
+      "liveBetDecision": "NO_BET",
+      "liveObservations": [
+        {
+          "match": "Автомобилист — Торпедо",
+          "observation": "Некоторые страницы всё ещё показывают «не начался», несмотря на прошедшее время; текущий/финальный счёт не подтверждён.",
+          "sources": [
+            "https://www.sport-express.ru/hockey/L/matchcenter/129298/",
+            "https://www.championat.com/hockey/_superleague/tournament/7092/calendar/"
+          ]
+        },
+        {
+          "match": "Локомотив — Сочи; Северсталь — Спартак; Нефтехимик — Адмирал",
+          "observation": "Доступные страницы содержат несогласованные или устаревшие статусы и часы. Нет двух синхронных свежих подтверждений счёта/времени и подтверждённого live-коэффициента.",
+          "sources": [
+            "https://www.sports.ru/hockey/tournament/khl/calendar/",
+            "https://www.championat.com/hockey/_superleague/tournament/7092/calendar/",
+            "https://www.365scores.com/ru/hockey/league/khl-636",
+            "https://www.livescore.ru/hockey/view/5785749"
+          ]
+        }
+      ],
+      "bankEquity": 998.8,
+      "reservedStake": 0,
+      "freeBank": 998.8,
+      "sources": [
+        "https://www.championat.ru/hockey/news-6677418-sibir-metallurg-rezultat-matcha-29-oktyabrya-2026-schet-5-2-regulyarnyj-chempionat-khl-2026-2027.html",
+        "https://www.sport-express.ru/hockey/khl/news/sibir-metallurg-rezultat-matcha-khl-29-oktyabrya-2026-2468720/",
+        "https://www.sports.kz/live/match/5785924",
+        "https://www.sports.ru/hockey/tournament/khl/calendar/",
+        "https://www.championat.com/hockey/_superleague/tournament/7092/calendar/"
+      ],
+      "notification": "yes",
+      "note": "Денежная ставка не рассчитывалась, так как ставка на Сибирь—Металлург была 0 ₽. Предыдущие три денежные ставки и все исходные прогнозы сохранены. Локальный HTML автоматически не меняется."
     }
   ],
   "storage": {
@@ -2042,6 +2120,6 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-29T22:59:09+06:00",
+  "updatedAt": "2026-10-29T22:57:00+06:00",
   "automationNote": "Автоматическая проверка НХЛ и КХЛ. Счёт/статус обновляется из публичных табло; новые матчи получают только прозрачный прогноз по последним результатам без ставки. Букмекерские коэффициенты и live-ставки автоматически не создаются."
 }
