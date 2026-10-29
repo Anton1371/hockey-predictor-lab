@@ -1,8 +1,8 @@
 {
-  "bank": 1008.4,
+  "bank": 988.4,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T03:10:18.000Z",
+  "lastCheckedAt": "2026-10-29T03:44:22.000Z",
   "note": "Последняя проверка 29.10.2026 07:13 по Омску: на табло CBS Sports доступны промежуточные снимки 3 матчей НХЛ (Вашингтон — Филадельфия, Эдмонтон — Калгари, Колорадо — Нью-Джерси), но их время не подтверждено синхронно вторым независимым свежим источником. Новых окончательных результатов по зафиксированным прогнозам нет, новые live-ставки не делались. Все 4 матча КХЛ 28.10 завершены и внесены без задним числом добавленных прогнозов. Виртуальный банк 1000 ₽, открытых ставок 60 ₽, свободных 940 ₽. Исходные прогнозы/коэффициенты/ставки и история неизменны; локальный HTML не синхронизирован.",
   "matches": [
     {
@@ -305,9 +305,9 @@
       "odds": 1.83,
       "stake": 20,
       "prob": 58,
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "homeScore": 4,
+      "awayScore": 0,
       "reason": "Предварительная оценка: у Эдмонтона высокая результативность в последних матчах; FanDuel Research отмечал серию из пяти игр подряд на ТБ 6.5. Коэффициент -120 ≈ 1.83. Проверить вратарей и актуальную линию перед стартом.",
       "source": "https://www.fanduel.com/research/nhl-predictions-today-picks-props-odds-wednesday-october-28",
       "lockedAt": "2026-10-28T23:30:00+06:00",
@@ -319,6 +319,36 @@
         "observedAt": "2026-10-28T23:40:00+06:00",
         "source": "https://sports.caliente.mx/es_MX/e/33788262/Calgary-Flames-%40-Edmonton-Oilers",
         "notWagerOdds": true
+      },
+      "scoreSource": "https://www.cbssports.com/nhl/gametracker/live/NHL_20261028_CGY@EDM/",
+      "lastScoreCheckAt": "2026-10-29T03:44:22.000Z",
+      "finalVerification": {
+        "checkedAt": "2026-10-29T09:44:22+06:00",
+        "final": true,
+        "homeScore": 4,
+        "awayScore": 0,
+        "sources": [
+          "https://www.cbssports.com/nhl/gametracker/live/NHL_20261028_CGY@EDM/",
+          "https://en.wikipedia.org/wiki/2026%E2%80%9327_Edmonton_Oilers_season"
+        ],
+        "verificationNote": "CBS Sports shows FINAL and complete 3-period scoring 1:0, 1:0, 2:0 (total 4:0). The independently maintained Edmonton season game log also lists Calgary 0–4 Edmonton. Official NHL.com gamecenter dynamic rendering was not retrievable."
+      },
+      "settlement": {
+        "id": "settlement-nhl-20261029-flames-oilers-20261029T0944",
+        "result": "loss",
+        "gradedAt": "2026-10-29T09:44:22+06:00",
+        "market": "total_over",
+        "pick": "ТБ 6.5",
+        "finalScore": "Эдмонтон 4:0 Калгари",
+        "totalGoals": 4,
+        "stake": 20,
+        "lockedOdds": 1.83,
+        "grossReturn": 0,
+        "netProfit": -20,
+        "sources": [
+          "https://www.cbssports.com/nhl/gametracker/live/NHL_20261028_CGY@EDM/",
+          "https://en.wikipedia.org/wiki/2026%E2%80%9327_Edmonton_Oilers_season"
+        ]
       }
     },
     {
@@ -789,21 +819,21 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-29T09:10:18+06:00",
+  "currentRun": "2026-10-29T09:44:22+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
     "startingBank": 1000,
-    "settledProfit": 8.4,
+    "settledProfit": -11.6,
     "equityBeforeResults": 1000,
-    "pendingStakeSum": 40,
+    "pendingStakeSum": 20,
     "uncommittedCash": 968.4,
-    "gradedWagers": 1,
-    "note": "Виртуальный банк = начальные 1000 ₽ + чистый итог рассчитанных ставок. Свободные средства = виртуальный банк минус открытые ставки; каждая ставка рассчитывается только один раз по уникальному settlement id.",
+    "gradedWagers": 2,
+    "note": "Виртуальный банк = стартовые 1000 ₽ плюс сумма чистых результатов уникальных расчётов. Свободный банк = виртуальный банк минус открытые ставки; никаких повторных расчётов.",
     "wins": 1,
-    "losses": 0,
+    "losses": 1,
     "pushes": 0,
-    "bankEquity": 1008.4
+    "bankEquity": 988.4
   },
   "events": [
     {
@@ -1525,6 +1555,77 @@
       ],
       "notification": "none",
       "note": "Исходные прогнозы, коэффициенты, суммы, время фиксации и уже проведённый расчёт Вашингтона сохранены без каких-либо изменений. Локальный HTML не синхронизируется автоматически."
+    },
+    {
+      "id": "settlement-nhl-20261029-flames-oilers-20261029T0944",
+      "type": "virtual_wager_settlement",
+      "at": "2026-10-29T03:44:22.000Z",
+      "checkedAtOmsk": "2026-10-29T09:44:22+06:00",
+      "matchId": "nhl-20261029-flames-oilers",
+      "finalScore": "Эдмонтон 4:0 Калгари",
+      "lockedPick": "ТБ 6.5",
+      "lockedOdds": 1.83,
+      "stake": 20,
+      "gradedResult": "loss",
+      "grossReturn": 0,
+      "netProfit": -20,
+      "bankAfter": 988.4,
+      "source": "https://www.cbssports.com/nhl/gametracker/live/NHL_20261028_CGY@EDM/",
+      "note": "Однократный расчёт. Исходная ставка и коэффициент не изменены."
+    },
+    {
+      "id": "hourly-20261029T094422-omsk",
+      "type": "hourly_live_and_result_check",
+      "at": "2026-10-29T03:44:22.000Z",
+      "checkedAtOmsk": "2026-10-29T09:44:22+06:00",
+      "leagueScope": [
+        "NHL",
+        "KHL"
+      ],
+      "summary": "Новый подтверждённый финальный результат НХЛ: Эдмонтон — Калгари 4:0 (CBS Sports FINAL, голы по периодам 1:0, 1:0, 2:0). Исходный ТБ 6.5 @1.83, 20 ₽ проиграл, списано 20 ₽ однократно. Вашингтон — Филадельфия 5:2 ранее рассчитан и повторно не учитывается. Колорадо — Нью-Джерси и Сиэтл — Торонто ещё без финального статуса; все матчи текущей ночи НХЛ уже присутствуют в журнале. Матчи КХЛ 29 октября ещё не начались.",
+      "newConfirmedFinals": [
+        {
+          "id": "nhl-20261029-flames-oilers",
+          "finalScore": "Эдмонтон 4:0 Калгари",
+          "pickResult": "loss",
+          "stake": 20,
+          "odds": 1.83,
+          "profit": -20
+        }
+      ],
+      "newSettledWagers": 1,
+      "newVirtualStakes": 0,
+      "liveGamesConfirmed": 0,
+      "liveBetDecision": "NO_BET",
+      "liveObservations": [
+        {
+          "id": "nhl-20261029-devils-avalanche",
+          "observedScore": "Колорадо 5:1 Нью-Джерси",
+          "observedPeriod": "3-й период, 06:53 (снимок CBS)",
+          "source": "https://www.cbssports.com/nhl/gametracker/live/NHL_20261028_NJ@COL/",
+          "currentVerifiedByTwoIndependentSources": false
+        },
+        {
+          "id": "nhl-20261029-leafs-kraken",
+          "observedScore": "Сиэтл 4:2 Торонто",
+          "observedPeriod": "2-й период, 04:59 (снимок CBS)",
+          "source": "https://www.cbssports.com/nhl/gametracker/live/NHL_20261028_TOR@SEA/",
+          "currentVerifiedByTwoIndependentSources": false
+        }
+      ],
+      "skipReason": "Нет незаписанных подтверждённых live-матчей: все 4 NHL игры 28.10 ET уже отражены в журнале; КХЛ 29.10 ещё не началась. Для дополнительных live-ставок нет двух независимых свежих подтверждений счёта/времени, актуальной линии и доказанного преимущества ≥5 п.п.",
+      "bankEquity": 988.4,
+      "reservedStake": 20,
+      "freeBank": 968.4,
+      "sources": [
+        "https://www.cbssports.com/nhl/gametracker/live/NHL_20261028_CGY@EDM/",
+        "https://en.wikipedia.org/wiki/2026%E2%80%9327_Edmonton_Oilers_season",
+        "https://www.cbssports.com/nhl/gametracker/live/NHL_20261028_NJ@COL/",
+        "https://www.cbssports.com/nhl/gametracker/live/NHL_20261028_TOR@SEA/",
+        "https://www.khl.ru/calendar/"
+      ],
+      "notification": "yes",
+      "note": "Только исходные результаты и хронологические события добавлены; изначальные прогнозы, коэффициенты, ставки и история сохранены. Локальный HTML не синхронизирован автоматически."
     }
   ],
   "storage": {
@@ -1533,6 +1634,6 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-29T09:10:18+06:00",
+  "updatedAt": "2026-10-29T09:44:22+06:00",
   "automationNote": "Автоматическая проверка НХЛ и КХЛ. Счёт/статус обновляется из публичных табло; новые матчи получают только прозрачный прогноз по последним результатам без ставки. Букмекерские коэффициенты и live-ставки автоматически не создаются."
 }
