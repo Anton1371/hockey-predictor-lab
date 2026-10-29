@@ -2,7 +2,7 @@
   "bank": 998.8,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T18:00:00.000Z",
+  "lastCheckedAt": "2026-10-29T18:27:00.000Z",
   "note": "Проверка 29.10.2026 23:54 по Омску: Автомобилист—Торпедо 2:2 в 3-м периоде подтверждается Stake.com и Flashscore, но игровой таймер отличается, и доказанного преимущества >=5 п.п. нет. Новая виртуальная ставка не размещена. NHL-игры ещё не начались. Банк 998,80 ₽, открытых ставок 0 ₽. Ежечасная автоматизация включена с начала 30.10 в 00:00 Asia/Omsk.",
   "matches": [
     {
@@ -962,7 +962,7 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-30T00:00:00+06:00",
+  "currentRun": "2026-10-30T00:27:00+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -2459,6 +2459,67 @@
       ],
       "notification": "none",
       "note": "Ни одна ставка не размещена. Условные кандидаты не являются ставками и не резервируют банк. Исходные прогнозы/settlements не менялись; локальный HTML не обновляется автоматически."
+    },
+    {
+      "id": "hourly-20261030T0027-omsk",
+      "type": "hourly_live_and_result_check",
+      "at": "2026-10-29T18:27:00.000Z",
+      "checkedAtOmsk": "2026-10-30T00:27:00+06:00",
+      "leagueScope": [
+        "NHL",
+        "KHL"
+      ],
+      "summary": "Повторно прочитан journal.json перед проверкой; все три денежные ставки уже рассчитаны, дубликатов settlement не добавлено. NHL: четыре игры 28.10 ET подтверждены финальными разными источниками и уже учтены; 11 игр 29.10 ET (30.10 Омск) ещё не начались на момент проверки. KHL: три матча от 29.10 (Локомотив—Сочи, Северсталь—Спартак, Нефтехимик—Адмирал) не удалось подтвердить как финальные по двум независимым свежим источникам: страницы Чемпионата/Шайба.kz/Sportbox показывают несинхронные или предматчевые статусы, а отдельные найденные счёты не подтверждены свежим временем. Не объявляю их завершёнными и не выставляю ставки.",
+      "pendingMatchesReviewed": [
+        {
+          "matchId": "khl-20261029-lokomotiv-sochi",
+          "decision": "NO_BET",
+          "reason": "Доступная страница Championat показывает «не начался» без финального счёта; нет второго свежего подтверждения финала и периодной разбивки.",
+          "sources": [
+            "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316994/",
+            "https://en.khl.ru/news/2026/10/29/567834.html"
+          ]
+        },
+        {
+          "matchId": "khl-20261029-severstal-spartak",
+          "decision": "NO_BET",
+          "reason": "Championат сообщает начало матча и 0:0 первого периода, но не даёт подтверждённого финала; другие доступные страницы имеют статус «не начался» или устаревшие данные.",
+          "sources": [
+            "https://www.championat.com/hockey/news-6676664-severstal-spartak-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
+            "https://shaiba.kz/match/35336/severstal-spartak/29-10-2026"
+          ]
+        },
+        {
+          "matchId": "khl-20261029-neftekhimik-admiral",
+          "decision": "NO_BET",
+          "reason": "Один результативный сниппет показывает 2:1, но время/финальный статус не подтверждены вторым свежим источником; Sportbox и Championat продолжают показывать предматчевые сведения.",
+          "sources": [
+            "https://www.livescore.ru/hockey/view/5785749",
+            "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316996/",
+            "https://s-cdn.sportbox.ru/Vidy_sporta/Hokkej/KHL/stats/turnir_23952/game_1380958915"
+          ]
+        }
+      ],
+      "newConfirmedFinals": [],
+      "newSettledWagers": 0,
+      "newSettledPredictions": 0,
+      "newVirtualStakes": 0,
+      "liveBetDecision": "NO_BET",
+      "skipReason": "На момент проверки нет ни одного live-кандидата с синхронным счётом/периодом/таймером из двух свежих источников и подтверждённой актуальной in-play линией; для трёх матчей КХЛ статус финала противоречив или устарел, NHL ещё не стартовала. Edge >=5 п.п. не доказан.",
+      "bankEquity": 998.8,
+      "reservedStake": 0,
+      "freeBank": 998.8,
+      "settledWagerCount": 3,
+      "sources": [
+        "https://www.livescores.com/hockey/2026-10-29/",
+        "https://www.hockeydesk.com/nhl-scores",
+        "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316994/",
+        "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316998/",
+        "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316996/",
+        "https://www.livescore.ru/hockey/view/5785749"
+      ],
+      "notification": "hourly_report",
+      "note": "Все ранее записанные прогнозы, коэффициенты, суммы, временные метки и settlement IDs сохранены. Повторного расчёта трёх ставок нет. Локальный HTML не изменялся."
     }
   ],
   "storage": {
@@ -2467,6 +2528,6 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-30T00:00:00+06:00",
+  "updatedAt": "2026-10-30T00:27:00+06:00",
   "automationNote": "Автоматическая проверка НХЛ и КХЛ. Счёт/статус обновляется из публичных табло; новые матчи получают только прозрачный прогноз по последним результатам без ставки. Букмекерские коэффициенты и live-ставки автоматически не создаются."
 }
