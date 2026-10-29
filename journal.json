@@ -2,8 +2,8 @@
   "bank": 998.8,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T20:22:49.000Z",
-  "note": "Общий спортивный обзор 30.10 02:22 Омск: NHL, KHL, NBA, футбол, теннис, NFL. Новых ставок нет: нет свежих подтверждённых live-счёта/часов/коэффициента или доказанного прематчевого преимущества +5 п.п. Банк 998.80 ₽, открытые 0 ₽. История сохранена.",
+  "lastCheckedAt": "2026-10-29T20:25:42.130Z",
+  "note": "Ежечасный обзор всех основных доступных видов спорта 2026-10-30T02:25:42+06:00: новые ставки 0 ₽ (NO_BET), банк 998,80 ₽, открытая экспозиция 0 ₽. НХЛ/НБА/НФЛ ещё не стартовали; в футбольных live-источниках нет синхронного счёта/таймера и live-линии; вечерняя КХЛ впереди. История и settlements сохранены.",
   "matches": [
     {
       "id": "khl-20261028-akbars-avangard",
@@ -1121,7 +1121,7 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-30T02:22:49+06:00",
+  "currentRun": "2026-10-30T02:25:42+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -3138,6 +3138,124 @@
       "newWagerIds": [],
       "notification": "hourly_report",
       "note": "Все старые матчи/прогнозы/settlements сохранены без изменения. Только обновлённый GitHub JSON; локальный HTML не изменён."
+    },
+    {
+      "id": "all-sports-20261030T022542-omsk",
+      "type": "hourly_all_sports_review",
+      "at": "2026-10-29T20:25:42.130Z",
+      "checkedAtOmsk": "2026-10-30T02:25:42+06:00",
+      "calendarDateOmsk": "2026-10-30",
+      "summary": "Проверены актуальные доступные расписания НХЛ (11 игр ночью/утром), КХЛ (5 матчей вечером), НБА (3 игры утром), НФЛ (Каролина—Грин-Бэй), футбол (Эвертон—Ньюкасл, Манчестер Сити Ж—ПСЖ Ж и Фиорентина—Аталанта), теннис (ATP Вена/Базель, WTA Токио/Гуанчжоу). Все 11 ранее записанных ожидающих прогнозов NHL назначены на 05:00–08:00 Омск и ещё не начались, остальные KHL 29.10 уже финализированы в журнале ранее. Новых подтверждённых финалов для записанных матчей, денежных settlements или виртуальных ставок нет.",
+      "newConfirmedFinals": [],
+      "newSettledWagers": 0,
+      "newSettledPredictions": 0,
+      "newVirtualStakes": 0,
+      "settledWagerIdsVerified": [
+        "settlement-nhl-20261029-flyers-caps-20261029T0829",
+        "settlement-nhl-20261029-flames-oilers-20261029T0944",
+        "settlement-nhl-20261029-devils-avalanche-20261029T1810"
+      ],
+      "settledWagerCount": 3,
+      "pendingRecordedMatches": [
+        "nhl-20261030-jackets-hurricanes",
+        "nhl-20261030-jets-lightning",
+        "nhl-20261030-mammoth-penguins",
+        "nhl-20261030-blackhawks-wings",
+        "nhl-20261030-bruins-blues",
+        "nhl-20261030-canadiens-stars",
+        "nhl-20261030-capitals-predators",
+        "nhl-20261030-islanders-wild",
+        "nhl-20261030-canucks-sharks",
+        "nhl-20261030-sabres-ducks",
+        "nhl-20261030-senators-kings"
+      ],
+      "coverage": [
+        {
+          "sport": "ice_hockey",
+          "leagues": [
+            "NHL",
+            "KHL"
+          ],
+          "matchesReviewed": "11 предстоящих NHL и 5 вечерних KHL",
+          "keyFinding": "Официальное превью Каролины называет Петра Кочеткова предполагаемым стартовым вратарём; Daily Faceoff — Likely, не Confirmed. Ориентир на победу Каролины -253 (десятичный около 1.395), implied 71.68%; консервативная обоснованная вероятность >=76.68% не установлена. KHL Лада—Авангард и другие вечером; актуальная полная линия/составы не проверены.",
+          "decision": "NO_BET",
+          "sources": [
+            "https://www.nhl.com/hurricanes/news/topic/press-releases/projected-lineup-october-29-vs-columbus",
+            "https://www.dailyfaceoff.com/starting-goalies/10-29-2026",
+            "https://www.nhl-schedules.com/season/2026-2027/10/29/",
+            "https://www.championat.com/hockey/article-6677452-raspisanie-sportivnyh-matchej-30-oktyabrya-2026-goda-live-translyacii-tekstovye-translyacii-rezultaty-kto-sygraet.html",
+            "https://www.khl.ru/news/2026/10/26/567743.html"
+          ]
+        },
+        {
+          "sport": "football",
+          "leagues": [
+            "Carabao Cup",
+            "Women's Champions League",
+            "Serie A"
+          ],
+          "matchesReviewed": "Эвертон—Ньюкасл, Манчестер Сити Ж—ПСЖ Ж, Фиорентина—Аталанта",
+          "keyFinding": "Guardian у Эвертона отражает 1:0, 34-я минута (20:21 UTC); VAVEL отстаёт (0:0, 21-я минута, 20:08 UTC). Guardian для Ман Сити Ж—ПСЖ Ж отражает 0:0 ~18-я минута; Sky Sports 0:0 без синхронного таймера и все детальные показатели 0. Нельзя считать эти пары источников свежими синхронными. Свежих live-коэффициентов нет.",
+          "decision": "NO_BET",
+          "sources": [
+            "https://www.theguardian.com/football/live/2026/oct/29/everton-v-newcastle-carabao-cup-fourth-round-live",
+            "https://www.vavel.com/en-us/soccer/2026/10/29/1277236-everton-vs-newcastle-live-score-efl-carabao-cup.html",
+            "https://www.theguardian.com/football/live/2026/oct/29/manchester-city-v-paris-saint-germain-womens-champions-league-live",
+            "https://www.skysports.com/football/manchester-city-women-vs-paris-saint-germain-women/stats/578257"
+          ]
+        },
+        {
+          "sport": "basketball",
+          "leagues": [
+            "NBA"
+          ],
+          "matchesReviewed": "Кливленд—Атланта, Сакраменто—Новый Орлеан, Мемфис—Портленд",
+          "keyFinding": "NBA.com/RealGM подтверждают расписание после текущего времени. Кливленд—Атланта близки по свежим ориентирующим котировкам (-110/-110); аналитическая модель Sportshub даёт Атланте около 51%, порог @1.91 равен 52.36%, edge не доказан. Отчёты о травмах/составы перед игрой не финализированы.",
+          "decision": "NO_BET",
+          "sources": [
+            "https://www.nba.com/schedule/2026",
+            "https://basketball.realgm.com/nba/scores/2026-10-29",
+            "https://www.sportshub.com/picks/nba/cleveland-cavaliers-vs-atlanta-hawks"
+          ]
+        },
+        {
+          "sport": "tennis",
+          "leagues": [
+            "ATP Vienna",
+            "ATP Basel",
+            "WTA Tokyo",
+            "WTA Guangzhou"
+          ],
+          "matchesReviewed": "турниры и четвертьфиналы 30 октября",
+          "keyFinding": "Подтверждены календарные окна турниров; полные подтверждённые пары, составы и свежие ставки для всех матчей в этой проверке не получены. Условия для ставок не выполнены.",
+          "decision": "NO_BET",
+          "sources": [
+            "https://www.wtatennis.com/tournaments/1056/Tokyo/2026/draws",
+            "https://www.sportsmediawatch.com/tv-schedules/tennis/"
+          ]
+        },
+        {
+          "sport": "american_football",
+          "leagues": [
+            "NFL"
+          ],
+          "matchesReviewed": "Каролина Пантерс—Грин-Бэй Пэкерс",
+          "keyFinding": "Официальный календарь NFL указывает 29 Oct 20:15 EDT (30 Oct 06:15 Омск). Актуальный коэффициент с проверенным временем и обоснованный edge не подтверждены.",
+          "decision": "NO_BET",
+          "sources": [
+            "https://www.nfl.com/schedules/2026/prime-time/thursday-night-football",
+            "https://freshcalendars.com/news/thursday-night-football-tonight-panthers-packers-tnf-schedule-2026/"
+          ]
+        }
+      ],
+      "verifiedLiveBetCandidates": 0,
+      "liveBetDecision": "NO_BET",
+      "skipReason": "Невозможно одновременно подтвердить два свежих независимых совпадающих табло и актуальную in-play линию для обнаруженных идущих футбольных матчей; баскетбол/хоккей/НФЛ ещё не стартовали по времени Омска, а по будущим матчам нет свежего доказанного edge >=5 п.п. Теннис проверен на уровне турниров, а не всех отдельных пар.",
+      "bankEquity": 998.8,
+      "reservedStake": 0,
+      "freeBank": 998.8,
+      "notification": "hourly_report",
+      "note": "Ставки только виртуальные. Все исходные locked picks/ставки/коэффициенты/времена и settlement записи оставлены без изменений; предыдущие результаты КХЛ 29.10 не дублируются. Локальный HTML пользователя не изменялся."
     }
   ],
   "storage": {
@@ -3146,6 +3264,6 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-30T02:22:49+06:00",
+  "updatedAt": "2026-10-30T02:25:42+06:00",
   "automationNote": "Ежечасный анализ NHL/KHL; виртуальные ставки допускаются исключительно после двух независимых свежих подтверждений счёта/таймера, действующей in-play линии и математически доказанного edge минимум 5 п.п. Прогнозы и settlements задним числом не изменяются. Локальный HTML не синхронизируется."
 }
