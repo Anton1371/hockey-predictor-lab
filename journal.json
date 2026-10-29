@@ -2,8 +2,8 @@
   "bank": 998.8,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T13:15:00.000Z",
-  "note": "Проверка 29.10.2026 19:15 Омск: по Сибирь — Металлург поисковые сниппеты двух источников показывают 1:0, но актуальный период/таймер не подтверждён; официальный live-страница КХЛ не раскрывает счёт, а Fonbet котировки не маркирует как live. Новая ставка не размещена из-за неполного подтверждения, а не из-за отказа анализировать. Банк 998,80 ₽, открытых ставок 0 ₽. Исходные прогнозы и расчёты сохранены; локальный HTML не синхронизируется автоматически.",
+  "lastCheckedAt": "2026-10-29T16:59:09.000Z",
+  "note": "Проверка 29.10.2026 22:59 Омск: Сибирь — Металлург 5:2 (прогноз на Металлург проиграл, 0 ₽) и Автомобилист — Торпедо 3:2 Б (прогноз на Торпедо проиграл, 0 ₽), финалы подтверждены Чемпионатом и Спорт-Экспрессом. Остальные три игры КХЛ начались, но синхронный live-счёт и время двумя независимыми свежими источниками и текущие live-коэффициенты не подтверждены. Новых ставок нет. Банк 998,80 ₽, открытых 0 ₽. Старые денежные ставки и история не пересчитаны. Локальный HTML не меняется автоматически.",
   "matches": [
     {
       "id": "khl-20261028-akbars-avangard",
@@ -459,9 +459,9 @@
       "odds": null,
       "stake": 0,
       "prob": 64,
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "homeScore": 5,
+      "awayScore": 2,
       "reason": "Предварительный прогноз по таблице: Металлург лидирует на Востоке, Сибирь находится в нижней части таблицы. Коэффициент при первоначальной фиксации не подтверждён — виртуальную ставку не ставим до проверки рынка и составов.",
       "source": "https://www.sports.ru/hockey/match/2026-10-29/",
       "lockedAt": "2026-10-28T23:30:00+06:00",
@@ -511,7 +511,21 @@
           "decision": "NO_BET",
           "reason": "Два поисковых сниппета показывают 1:0, но открытые страницы не дают синхронного игрового времени/периода: Championat и LiveSport body содержат статические данные до матча, официальный KHL page не раскрыл live-счёт. Fonbet отображает коэффициенты без доказательства, что это актуальная in-play линия. Не выполнены обязательные условия двух свежих подтверждений счёта/времени и подтверждённого live-коэффициента."
         }
-      ]
+      ],
+      "predictionResult": "loss",
+      "predictionGradedAt": "2026-10-29T22:59:09+06:00",
+      "lastScoreCheckAt": "2026-10-29T16:59:09.000Z",
+      "scoreSource": "https://www.championat.com/hockey/news-6677418-sibir-metallurg-rezultat-matcha-29-oktyabrya-2026-schet-5-2-regulyarnyj-chempionat-khl-2026-2027.html",
+      "finalVerification": {
+        "checkedAt": "2026-10-29T22:59:09+06:00",
+        "final": true,
+        "homeScore": 5,
+        "awayScore": 2,
+        "sources": [
+          "https://www.championat.com/hockey/news-6677418-sibir-metallurg-rezultat-matcha-29-oktyabrya-2026-schet-5-2-regulyarnyj-chempionat-khl-2026-2027.html",
+          "https://www.sport-express.net/hockey/khl/news/sibir-metallurg-rezultat-matcha-khl-29-oktyabrya-2026-2468720/"
+        ]
+      }
     },
     {
       "id": "khl-20261029-avto-torpedo",
@@ -524,9 +538,9 @@
       "odds": null,
       "stake": 0,
       "prob": 56,
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "homeScore": 3,
+      "awayScore": 2,
       "reason": "Предварительный прогноз по текущим очкам: Торпедо выглядит сильнее по балансу побед и поражений. При первоначальной фиксации коэффициент и вратари не были подтверждены, поэтому без виртуальной ставки до обновления данных.",
       "source": "https://www.sports.ru/hockey/match/2026-10-29/",
       "lockedAt": "2026-10-28T23:30:00+06:00",
@@ -543,6 +557,22 @@
         "text": "По официальному превью КХЛ: «Автомобилист» выиграл три подряд и пропустил за них только три шайбы; даже при преимуществе «Торпедо» по очкам матч не прост.",
         "source": "https://www.khl.ru/news/2026/10/28/567831.html",
         "addedAt": "2026-10-28T23:45:00+06:00"
+      },
+      "predictionResult": "loss",
+      "predictionGradedAt": "2026-10-29T22:59:09+06:00",
+      "lastScoreCheckAt": "2026-10-29T16:59:09.000Z",
+      "scoreSource": "https://www.championat.com/hockey/news-6677528-avtomobilist-torpedo-rezultat-matcha-29-oktyabrya-2026-goda-schet-3-2-b-regulyarnyj-chempionat-khl-2026-2027.html",
+      "finalVerification": {
+        "checkedAt": "2026-10-29T22:59:09+06:00",
+        "final": true,
+        "homeScore": 3,
+        "awayScore": 2,
+        "sources": [
+          "https://www.championat.com/hockey/news-6677528-avtomobilist-torpedo-rezultat-matcha-29-oktyabrya-2026-goda-schet-3-2-b-regulyarnyj-chempionat-khl-2026-2027.html",
+          "https://www.sport-express.net/hockey/khl/news/avtomobilist-torpedo-schet-i-rezultat-matcha-khl-29-oktyabrya-2026-2468752/"
+        ],
+        "decidedBy": "shootout",
+        "regulationScore": "2:2"
       }
     },
     {
@@ -575,7 +605,19 @@
         "text": "По официальному превью КХЛ: «Сочи» неожиданно выиграл три подряд, хотя «Локомотив» выиграл 18 из 24 домашних очных матчей; форвард Радулов у хозяев травмирован.",
         "source": "https://www.khl.ru/news/2026/10/28/567831.html",
         "addedAt": "2026-10-28T23:45:00+06:00"
-      }
+      },
+      "scoreObservations": [
+        {
+          "checkedAt": "2026-10-29T22:59:09+06:00",
+          "snapshotScore": "Локомотив 2:0 Сочи, 2-й период (недатированный по времени страницы снимок)",
+          "snapshotSource": "https://www.championat.com/hockey/news-6677528-avtomobilist-torpedo-rezultat-matcha-29-oktyabrya-2026-goda-schet-3-2-b-regulyarnyj-chempionat-khl-2026-2027.html",
+          "independentFreshClockVerified": false,
+          "currentLiveOddsVerified": false,
+          "decision": "NO_BET",
+          "reason": "Нет двух независимых синхронных подтверждений игрового времени и текущего счёта; букмекерские источники отображают предматчевую линию без подтверждения live. Перевес не доказан.",
+          "observationOnly": true
+        }
+      ]
     },
     {
       "id": "khl-20261029-severstal-spartak",
@@ -607,7 +649,19 @@
         "text": "По превью КХЛ: «Спартак» взял обе очные игры сезона (8:0 и 3:1); «Северсталь» потерпела три поражения подряд, но имеет историческое преимущество дома.",
         "source": "https://www.khl.ru/news/2026/10/28/567831.html",
         "addedAt": "2026-10-28T23:45:00+06:00"
-      }
+      },
+      "scoreObservations": [
+        {
+          "checkedAt": "2026-10-29T22:59:09+06:00",
+          "snapshotScore": "Северсталь 1:1 Спартак, 2-й период (недатированный по времени страницы снимок)",
+          "snapshotSource": "https://www.championat.com/hockey/news-6677528-avtomobilist-torpedo-rezultat-matcha-29-oktyabrya-2026-goda-schet-3-2-b-regulyarnyj-chempionat-khl-2026-2027.html",
+          "independentFreshClockVerified": false,
+          "currentLiveOddsVerified": false,
+          "decision": "NO_BET",
+          "reason": "Отсутствуют два независимых свежих подтверждения счёта и игровых часов; сторонние матч-центры показывают 'не начался'. Доступные коэффициенты относятся к прематчу или без live timestamp.",
+          "observationOnly": true
+        }
+      ]
     },
     {
       "id": "khl-20261029-neftekhimik-admiral",
@@ -639,7 +693,19 @@
         "text": "По официальному превью КХЛ: обе команды выиграли по 3 из последних 5; «Нефтехимик» выиграл 16 из 19 домашних встреч с «Адмиралом».",
         "source": "https://www.khl.ru/news/2026/10/28/567831.html",
         "addedAt": "2026-10-28T23:45:00+06:00"
-      }
+      },
+      "scoreObservations": [
+        {
+          "checkedAt": "2026-10-29T22:59:09+06:00",
+          "snapshotScore": "Нефтехимик 0:2 Адмирал, 1-й период (недатированный по времени страницы снимок)",
+          "snapshotSource": "https://www.championat.com/hockey/news-6677528-avtomobilist-torpedo-rezultat-matcha-29-oktyabrya-2026-goda-schet-3-2-b-regulyarnyj-chempionat-khl-2026-2027.html",
+          "independentFreshClockVerified": false,
+          "currentLiveOddsVerified": false,
+          "decision": "NO_BET",
+          "reason": "Нет двух независимых свежих подтверждений текущего периода и часов: страница Чемпионата с отдельным протоколом отстаёт и отображает 'не начался'. Актуальный live-коэффициент не подтверждён, edge 5 п.п. не доказан.",
+          "observationOnly": true
+        }
+      ]
     },
     {
       "id": "nhl-20261030-jackets-hurricanes",
@@ -895,7 +961,7 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-29T19:15:00+06:00",
+  "currentRun": "2026-10-29T22:59:09+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -1857,6 +1923,117 @@
       ],
       "notification": "none",
       "note": "Исходные прогнозы, коэффициенты и денежные ставки сохранены; не ставить задним числом. Локальный HTML автоматически не меняется."
+    },
+    {
+      "id": "prediction-result-khl-20261029-sibir-metallurg-20261029T225909",
+      "type": "locked_forecast_result",
+      "at": "2026-10-29T16:59:09.000Z",
+      "checkedAtOmsk": "2026-10-29T22:59:09+06:00",
+      "matchId": "khl-20261029-sibir-metallurg",
+      "finalScore": "Сибирь 5:2 Металлург Магнитогорск",
+      "lockedPick": "Металлург Магнитогорск победит (без ставки до проверки КФ)",
+      "lockedOdds": null,
+      "stake": 0,
+      "result": "loss",
+      "bankImpact": 0,
+      "sources": [
+        "https://www.championat.com/hockey/news-6677418-sibir-metallurg-rezultat-matcha-29-oktyabrya-2026-schet-5-2-regulyarnyj-chempionat-khl-2026-2027.html",
+        "https://www.sport-express.net/hockey/khl/news/sibir-metallurg-rezultat-matcha-khl-29-oktyabrya-2026-2468720/"
+      ]
+    },
+    {
+      "id": "prediction-result-khl-20261029-avto-torpedo-20261029T225909",
+      "type": "locked_forecast_result",
+      "at": "2026-10-29T16:59:09.000Z",
+      "checkedAtOmsk": "2026-10-29T22:59:09+06:00",
+      "matchId": "khl-20261029-avto-torpedo",
+      "finalScore": "Автомобилист 3:2 Б Торпедо",
+      "lockedPick": "Торпедо победит (без ставки до проверки КФ)",
+      "lockedOdds": null,
+      "stake": 0,
+      "result": "loss",
+      "bankImpact": 0,
+      "sources": [
+        "https://www.championat.com/hockey/news-6677528-avtomobilist-torpedo-rezultat-matcha-29-oktyabrya-2026-goda-schet-3-2-b-regulyarnyj-chempionat-khl-2026-2027.html",
+        "https://www.sport-express.net/hockey/khl/news/avtomobilist-torpedo-schet-i-rezultat-matcha-khl-29-oktyabrya-2026-2468752/"
+      ],
+      "decidedBy": "shootout",
+      "regulationScore": "2:2"
+    },
+    {
+      "id": "hourly-20261029T225909-omsk",
+      "type": "hourly_live_and_result_check",
+      "at": "2026-10-29T16:59:09.000Z",
+      "checkedAtOmsk": "2026-10-29T22:59:09+06:00",
+      "leagueScope": [
+        "NHL",
+        "KHL"
+      ],
+      "summary": "Впервые подтверждены финалы КХЛ 29.10: Сибирь — Металлург 5:2 и Автомобилист — Торпедо 3:2 Б. Оба ранее зафиксированных прогноза проиграли, денежные ставки 0 ₽, банк не изменился. По трём начавшимся вечерним матчам КХЛ актуальные счёт/игровое время не подтверждены двумя свежими независимыми источниками; букмекеры не показывают достоверную текущую live-линию с временем. Новые live-ставки запрещены правилами. Матчи НХЛ 28.10 ET уже рассчитаны ранее; новые НХЛ игры по расписанию позже.",
+      "newConfirmedFinals": [
+        {
+          "matchId": "khl-20261029-sibir-metallurg",
+          "score": "Сибирь 5:2 Металлург Магнитогорск",
+          "result": "loss",
+          "stake": 0,
+          "bankImpact": 0
+        },
+        {
+          "matchId": "khl-20261029-avto-torpedo",
+          "score": "Автомобилист 3:2 Б Торпедо",
+          "result": "loss",
+          "stake": 0,
+          "bankImpact": 0
+        }
+      ],
+      "newSettledPredictions": 2,
+      "newSettledWagers": 0,
+      "newVirtualStakes": 0,
+      "liveReview": {
+        "reviewedMatches": [
+          {
+            "matchId": "khl-20261029-severstal-spartak",
+            "reportedSnapshot": "Северсталь 1:1 Спартак, 2-й период (недатированный по времени страницы снимок)",
+            "source": "https://www.championat.com/hockey/news-6677528-avtomobilist-torpedo-rezultat-matcha-29-oktyabrya-2026-goda-schet-3-2-b-regulyarnyj-chempionat-khl-2026-2027.html",
+            "decision": "NO_BET",
+            "reason": "Отсутствуют два независимых свежих подтверждения счёта и игровых часов; сторонние матч-центры показывают 'не начался'. Доступные коэффициенты относятся к прематчу или без live timestamp."
+          },
+          {
+            "matchId": "khl-20261029-lokomotiv-sochi",
+            "reportedSnapshot": "Локомотив 2:0 Сочи, 2-й период (недатированный по времени страницы снимок)",
+            "source": "https://www.championat.com/hockey/news-6677528-avtomobilist-torpedo-rezultat-matcha-29-oktyabrya-2026-goda-schet-3-2-b-regulyarnyj-chempionat-khl-2026-2027.html",
+            "decision": "NO_BET",
+            "reason": "Нет двух независимых синхронных подтверждений игрового времени и текущего счёта; букмекерские источники отображают предматчевую линию без подтверждения live. Перевес не доказан."
+          },
+          {
+            "matchId": "khl-20261029-neftekhimik-admiral",
+            "reportedSnapshot": "Нефтехимик 0:2 Адмирал, 1-й период (недатированный по времени страницы снимок)",
+            "source": "https://www.championat.com/hockey/news-6677528-avtomobilist-torpedo-rezultat-matcha-29-oktyabrya-2026-goda-schet-3-2-b-regulyarnyj-chempionat-khl-2026-2027.html",
+            "decision": "NO_BET",
+            "reason": "Нет двух независимых свежих подтверждений текущего периода и часов: страница Чемпионата с отдельным протоколом отстаёт и отображает 'не начался'. Актуальный live-коэффициент не подтверждён, edge 5 п.п. не доказан."
+          }
+        ],
+        "decision": "NO_BET",
+        "confirmedSimultaneousFreshIndependentScoreClock": false,
+        "verifiedCurrentLiveOdds": false,
+        "edgePlusFivePp": false
+      },
+      "bankEquity": 998.8,
+      "reservedStake": 0,
+      "freeBank": 998.8,
+      "sources": [
+        "https://www.championat.com/hockey/news-6677418-sibir-metallurg-rezultat-matcha-29-oktyabrya-2026-schet-5-2-regulyarnyj-chempionat-khl-2026-2027.html",
+        "https://www.sport-express.net/hockey/khl/news/sibir-metallurg-rezultat-matcha-khl-29-oktyabrya-2026-2468720/",
+        "https://www.championat.com/hockey/news-6677528-avtomobilist-torpedo-rezultat-matcha-29-oktyabrya-2026-goda-schet-3-2-b-regulyarnyj-chempionat-khl-2026-2027.html",
+        "https://www.sport-express.net/hockey/khl/news/avtomobilist-torpedo-schet-i-rezultat-matcha-khl-29-oktyabrya-2026-2468752/",
+        "https://www.championat.com/hockey/news-6677528-avtomobilist-torpedo-rezultat-matcha-29-oktyabrya-2026-goda-schet-3-2-b-regulyarnyj-chempionat-khl-2026-2027.html",
+        "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316994/",
+        "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316996/",
+        "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316998/",
+        "https://www.nhl.com/schedule/2026-10-29"
+      ],
+      "notification": "yes",
+      "note": "Исходные прогнозы, коэффициенты, ставки и предыдущие события сохранены без изменений. Старые денежные ставки учитываются строго один раз, финансовый итог не изменился. Локальный HTML не синхронизировался."
     }
   ],
   "storage": {
@@ -1865,6 +2042,6 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-29T19:15:00+06:00",
+  "updatedAt": "2026-10-29T22:59:09+06:00",
   "automationNote": "Автоматическая проверка НХЛ и КХЛ. Счёт/статус обновляется из публичных табло; новые матчи получают только прозрачный прогноз по последним результатам без ставки. Букмекерские коэффициенты и live-ставки автоматически не создаются."
 }
