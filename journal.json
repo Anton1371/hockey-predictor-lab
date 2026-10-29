@@ -2,8 +2,8 @@
   "bank": 998.8,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T20:18:00.563Z",
-  "note": "Проверка 2026-10-30T02:18:00+06:00: закрыты 3 безденежных прогноза КХЛ 29.10 (Локомотив 6:2 Сочи; Северсталь 3:2 Б Спартак; Нефтехимик 3:4 Адмирал); новых live-ставок нет. Банк 998.80 ₽, резерв 0.00 ₽; 3 предыдущих денежные settlement учтены один раз.",
+  "lastCheckedAt": "2026-10-29T20:22:49.000Z",
+  "note": "Общий спортивный обзор 30.10 02:22 Омск: NHL, KHL, NBA, футбол, теннис, NFL. Новых ставок нет: нет свежих подтверждённых live-счёта/часов/коэффициента или доказанного прематчевого преимущества +5 п.п. Банк 998.80 ₽, открытые 0 ₽. История сохранена.",
   "matches": [
     {
       "id": "khl-20261028-akbars-avangard",
@@ -1121,7 +1121,7 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-30T02:18:00+06:00",
+  "currentRun": "2026-10-30T02:22:49+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -3001,6 +3001,143 @@
       ],
       "notification": "hourly_report",
       "note": "Исходные прогнозы/суммы/коэффициенты/lockedAt и все ранее существовавшие events оставлены неизменными. Локальный HTML не обновлялся."
+    },
+    {
+      "id": "all-sports-20261030T022249-omsk",
+      "type": "hourly_all_sports_review",
+      "at": "2026-10-29T20:22:49.000Z",
+      "checkedAtOmsk": "2026-10-30T02:22:49+06:00",
+      "dateScope": "2026-10-30",
+      "timeZone": "Asia/Omsk",
+      "summary": "Расширенная проверка спортивных событий календарного 30.10 по Омску: хоккей (11 игр НХЛ утром, 5 матчей КХЛ вечером), футбол (Fiorentina—Atalanta, Everton—Newcastle, Man City Women—PSG Women поздним вечером 29.10 в Европе, что соответствует ночи 30.10 в Омске), баскетбол (3 матча NBA Oct 29 ET утром 30.10 Омск), теннис (WTA Guangzhou/Tokyo, ATP Vienna/Basel) и американский футбол NFL Carolina—Green Bay. Объекты охвата репрезентативны, но не являются всеми матчами мира. Новых подтверждённых окончательных результатов по ранее записанным ожидающим ставкам нет: прежние KHL 29.10 уже рассчитаны как прогнозы без суммы, денежные NHL 28.10 уже рассчитаны ровно раз; 11 записанных NHL 30.10 ещё не начались. Live-кандидат Man City Women—PSG: Guardian показывает ~19-ю минуту 0:0, Sky Sports 0:0 без синхронного таймера; актуальная in-play линия не подтверждена. Для Fiorentina—Atalanta/ Everton—Newcastle нет двух свежих согласованных счётов+таймеров и актуального live-рынка. PREMATCH: WTA Badosa—Dart ~1.30 (порог 76.92%, нужен консервативный p >=81.92%; модель не обоснована), NBA Cavaliers—Hawks близкая линия без подтверждённого +5 п.п.; NHL Carolina—Columbus вероятные вратари не подтверждены, цена из старого превью; NFL Packers—Panthers котировка вторника устарела; КХЛ ставки на игры 30.10 не подтверждены свежей линией. Решение NO BET, нулевая новая виртуальная сумма.",
+      "coverage": [
+        {
+          "sport": "Хоккей",
+          "leagues": [
+            "NHL",
+            "KHL"
+          ],
+          "scheduledCountKnown": {
+            "NHL": 11,
+            "KHL": 5
+          },
+          "currentStatus": "матчи 30.10 ещё не стартовали на момент 02:22 Омск",
+          "decision": "NO_BET",
+          "reasons": [
+            "NHL ближайшая в 05:00 Omsk",
+            "KHL вечером: 21:00,22:00,22:10,22:30 Omsk; свежих подтверждённых цен/составов и +5 п.п. нет"
+          ],
+          "sources": [
+            "https://www.nhl.com/schedule/2026-10-29",
+            "https://www.championat.ru/hockey/_superleague/tournament/7092/calendar/",
+            "https://www.flashscore.com/hockey/russia/khl/fixtures/",
+            "https://www.cappersdirect.com/blue-jackets-vs-hurricanes-odds-october-29-2026/"
+          ]
+        },
+        {
+          "sport": "Футбол",
+          "leagues": [
+            "Serie A",
+            "Carabao Cup",
+            "UEFA Women's Champions League"
+          ],
+          "candidates": [
+            {
+              "match": "Fiorentina—Atalanta",
+              "state": "Согласно календарю уже начался; Sky Sports показывает снимок 0:0 без игрового таймера; второй независимый текущий таймер и live odds не подтверждены",
+              "decision": "NO_BET"
+            },
+            {
+              "match": "Everton—Newcastle",
+              "state": "В расписании четверга в Англии; независимый актуальный счёт/таймер и live odds не подтверждены",
+              "decision": "NO_BET"
+            },
+            {
+              "match": "Manchester City Women—PSG Women",
+              "state": "Guardian на 16:19 EDT показывает 0:0 около 19-й минуты; Sky Sports 0:0 без таймера; live-коэффициент отсутствует",
+              "decision": "NO_BET"
+            }
+          ],
+          "sources": [
+            "https://www.theguardian.com/football/fixtures/2026/Oct/29",
+            "https://www.theguardian.com/football/live/2026/oct/29/manchester-city-v-paris-saint-germain-womens-champions-league-live",
+            "https://www.skysports.com/football/manchester-city-women-vs-paris-saint-germain-women/stats/578257",
+            "https://www.skysports.com/football/fiorentina-vs-atalanta/5068765458693125232"
+          ]
+        },
+        {
+          "sport": "Баскетбол",
+          "leagues": [
+            "NBA"
+          ],
+          "candidates": [
+            "Cleveland Cavaliers—Atlanta Hawks",
+            "Sacramento Kings—New Orleans Pelicans",
+            "Memphis Grizzlies—Portland Trail Blazers"
+          ],
+          "decision": "NO_BET",
+          "reason": "На 02:22 Омск матчи ещё не начались. По Cleveland—Atlanta доступна цена близка к равной, нет доказуемого консервативного перевеса +5 п.п. и подтверждения состава перед стартом.",
+          "sources": [
+            "https://nbacalendar.com/schedule/2026-10-29/",
+            "https://www.actionnetwork.com/nba-game/cavaliers-hawks-score-odds-october-29-2026/295345",
+            "https://www.linewhale.com/nba/nba-atlanta-hawks-vs-cleveland-cavaliers-2026-10-30"
+          ]
+        },
+        {
+          "sport": "Теннис",
+          "leagues": [
+            "WTA Guangzhou",
+            "WTA Tokyo",
+            "ATP Vienna",
+            "ATP Basel"
+          ],
+          "candidates": [
+            "Paula Badosa—Harriet Dart (Guangzhou)",
+            "Tokyo WTA четвертьфиналы",
+            "Vienna и Basel"
+          ],
+          "decision": "NO_BET",
+          "reason": "WTA Badosa—Dart цена 1.30-1.33 в опубликованных рынках; при 1.30 порог 76.92%, необходимо >=81.92%. Основания для такой консервативной вероятности нет, а некоторые котировки датированы 28.10. Для остальных нет полной свежей линии, формы и официальных составов/порядка игры.",
+          "sources": [
+            "https://www.wtatennis.com/tournaments/1023/guangzhou/2026/scores/LS014",
+            "https://www.betfair.com/betting/tennis/wta-guangzhou-2026/p-badosa-v-h-dart/e-36250626",
+            "https://scoretab.in/calendar/2026/10"
+          ]
+        },
+        {
+          "sport": "Американский футбол",
+          "leagues": [
+            "NFL"
+          ],
+          "candidates": [
+            "Carolina Panthers—Green Bay Packers"
+          ],
+          "decision": "NO_BET",
+          "reason": "Старт 06:15 Omsk; Packers -195/1.513 из 27.10 не подтверждён как свежая линия, требуется p >=71.1%, оценки недостаточно.",
+          "sources": [
+            "https://www.nfl.com/schedules/2026/prime-time/thursday-night-football",
+            "https://www.oddsjournal.io/blog/panthers-at-packers-thursday-night-football-odds-green-bay-35-with-a-48-total"
+          ]
+        }
+      ],
+      "liveCandidatesIndependentlyVerifiedWithClockAndOdds": 0,
+      "newConfirmedFinals": [],
+      "newSettledWagers": 0,
+      "newSettledPredictions": 0,
+      "newVirtualStakes": 0,
+      "decision": "NO_BET",
+      "skipReason": "Ни для одного live-кандидата не получены два независимых свежих согласованных счёта/таймера и достоверный текущий in-play коэффициент. Для прематча нет обоснованного edge ≥5 процентных пунктов при проверенной свежей цене. Нет ставки ради количества.",
+      "uniqueSettlementIds": [
+        "settlement-nhl-20261029-flyers-caps-20261029T0829",
+        "settlement-nhl-20261029-flames-oilers-20261029T0944",
+        "settlement-nhl-20261029-devils-avalanche-20261029T1810"
+      ],
+      "bankEquity": 998.8,
+      "reservedStake": 0,
+      "freeBank": 998.8,
+      "newWagerIds": [],
+      "notification": "hourly_report",
+      "note": "Все старые матчи/прогнозы/settlements сохранены без изменения. Только обновлённый GitHub JSON; локальный HTML не изменён."
     }
   ],
   "storage": {
@@ -3009,6 +3146,6 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-30T02:18:00+06:00",
+  "updatedAt": "2026-10-30T02:22:49+06:00",
   "automationNote": "Ежечасный анализ NHL/KHL; виртуальные ставки допускаются исключительно после двух независимых свежих подтверждений счёта/таймера, действующей in-play линии и математически доказанного edge минимум 5 п.п. Прогнозы и settlements задним числом не изменяются. Локальный HTML не синхронизируется."
 }
