@@ -2,8 +2,8 @@
   "bank": 998.8,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T18:47:52.129Z",
-  "note": "Проверка 2026-10-30T00:47:52+06:00: новых подтверждённых финалов и live-ставок нет; три вечерних матча КХЛ 29.10 остаются ожидающими надёжной верификации. NHL 30.10 начинается позже. Банк 998.80 ₽, открытых ставок 0.00 ₽.",
+  "lastCheckedAt": "2026-10-29T20:18:00.563Z",
+  "note": "Проверка 2026-10-30T02:18:00+06:00: закрыты 3 безденежных прогноза КХЛ 29.10 (Локомотив 6:2 Сочи; Северсталь 3:2 Б Спартак; Нефтехимик 3:4 Адмирал); новых live-ставок нет. Банк 998.80 ₽, резерв 0.00 ₽; 3 предыдущих денежные settlement учтены один раз.",
   "matches": [
     {
       "id": "khl-20261028-akbars-avangard",
@@ -587,9 +587,9 @@
       "odds": null,
       "stake": 0,
       "prob": 72,
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "homeScore": 6,
+      "awayScore": 2,
       "reason": "Предварительный прогноз: Локомотив — лидер Западной конференции, Сочи в нижней части таблицы; опубликована сильная серия очных матчей в пользу Локомотива. Коэффициент при первоначальной фиксации не подтверждён, ставка не выставляется.",
       "source": "https://www.365scores.com/ru/hockey/league/khl-636",
       "lockedAt": "2026-10-28T23:30:00+06:00",
@@ -618,7 +618,59 @@
           "reason": "Нет двух независимых синхронных подтверждений игрового времени и текущего счёта; букмекерские источники отображают предматчевую линию без подтверждения live. Перевес не доказан.",
           "observationOnly": true
         }
-      ]
+      ],
+      "periodBreakdown": [
+        {
+          "period": 1,
+          "home": 1,
+          "away": 0
+        },
+        {
+          "period": 2,
+          "home": 3,
+          "away": 2
+        },
+        {
+          "period": 3,
+          "home": 2,
+          "away": 0
+        }
+      ],
+      "decidedBy": "regulation",
+      "predictionResult": "win",
+      "predictionGradedAt": "2026-10-30T02:18:00+06:00",
+      "lastScoreCheckAt": "2026-10-29T20:18:00.563Z",
+      "scoreSource": "https://www.championat.ru/hockey/news-6677668-lokomotiv-sochi-rezultat-matcha-29-oktyabrya-2026-goda-schet-6-2-regulyarnyj-chempionat-khl-2026-2027.html",
+      "finalVerification": {
+        "checkedAt": "2026-10-30T02:18:00+06:00",
+        "final": true,
+        "homeScore": 6,
+        "awayScore": 2,
+        "periods": [
+          {
+            "period": 1,
+            "home": 1,
+            "away": 0
+          },
+          {
+            "period": 2,
+            "home": 3,
+            "away": 2
+          },
+          {
+            "period": 3,
+            "home": 2,
+            "away": 0
+          }
+        ],
+        "decidedBy": "regulation",
+        "sources": [
+          "https://www.championat.ru/hockey/news-6677668-lokomotiv-sochi-rezultat-matcha-29-oktyabrya-2026-goda-schet-6-2-regulyarnyj-chempionat-khl-2026-2027.html",
+          "https://www.sports.ru/hockey/1117419638-lokomotiv-vyigral-4-iz-5-poslednix-matchej-segodnya-62-s-sochi-komanda.html"
+        ],
+        "stake": 0,
+        "bankImpact": 0
+      }
     },
     {
       "id": "khl-20261029-severstal-spartak",
@@ -631,9 +683,9 @@
       "odds": null,
       "stake": 0,
       "prob": 52,
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "homeScore": 3,
+      "awayScore": 2,
       "reason": "Команды близки по текущим очкам и результатам. Выбор слабый, коэффициент не подтверждён; прогноз сохраняем для проверки точности, виртуальную ставку пропускаем.",
       "source": "https://www.sports.ru/hockey/match/2026-10-29/",
       "lockedAt": "2026-10-28T23:30:00+06:00",
@@ -662,7 +714,62 @@
           "reason": "Отсутствуют два независимых свежих подтверждения счёта и игровых часов; сторонние матч-центры показывают 'не начался'. Доступные коэффициенты относятся к прематчу или без live timestamp.",
           "observationOnly": true
         }
-      ]
+      ],
+      "periodBreakdown": [
+        {
+          "period": 1,
+          "home": 1,
+          "away": 1
+        },
+        {
+          "period": 2,
+          "home": 0,
+          "away": 1
+        },
+        {
+          "period": 3,
+          "home": 1,
+          "away": 0
+        }
+      ],
+      "decidedBy": "shootout",
+      "predictionResult": "loss",
+      "predictionGradedAt": "2026-10-30T02:18:00+06:00",
+      "lastScoreCheckAt": "2026-10-29T20:18:00.563Z",
+      "scoreSource": "https://www.championat.ru/hockey/news-6677664-severstal-spartak-rezultat-matcha-29-oktyabrya-2026-goda-schet-3-2-b-regulyarnyj-chempionat-khl-2026-2027.html",
+      "finalVerification": {
+        "checkedAt": "2026-10-30T02:18:00+06:00",
+        "final": true,
+        "homeScore": 3,
+        "awayScore": 2,
+        "periods": [
+          {
+            "period": 1,
+            "home": 1,
+            "away": 1
+          },
+          {
+            "period": 2,
+            "home": 0,
+            "away": 1
+          },
+          {
+            "period": 3,
+            "home": 1,
+            "away": 0
+          }
+        ],
+        "decidedBy": "shootout",
+        "sources": [
+          "https://www.championat.ru/hockey/news-6677664-severstal-spartak-rezultat-matcha-29-oktyabrya-2026-goda-schet-3-2-b-regulyarnyj-chempionat-khl-2026-2027.html",
+          "https://www.sport-express.ru/hockey/khl/news/severstal-spartak-rezultat-matcha-khl-29-oktyabrya-2026-2468793/"
+        ],
+        "stake": 0,
+        "bankImpact": 0,
+        "regulationScore": "2:2",
+        "overtimeScore": "0:0",
+        "shootoutWinner": "Северсталь"
+      }
     },
     {
       "id": "khl-20261029-neftekhimik-admiral",
@@ -675,9 +782,9 @@
       "odds": null,
       "stake": 0,
       "prob": 58,
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "homeScore": 3,
+      "awayScore": 4,
       "reason": "Предварительный прогноз по таблице: у Нефтехимика больше очков, чем у Адмирала. Коэффициент и подтверждённые вратари не найдены — ставку не моделируем до проверки.",
       "source": "https://www.sports.ru/hockey/match/2026-10-29/",
       "lockedAt": "2026-10-28T23:30:00+06:00",
@@ -706,7 +813,59 @@
           "reason": "Нет двух независимых свежих подтверждений текущего периода и часов: страница Чемпионата с отдельным протоколом отстаёт и отображает 'не начался'. Актуальный live-коэффициент не подтверждён, edge 5 п.п. не доказан.",
           "observationOnly": true
         }
-      ]
+      ],
+      "periodBreakdown": [
+        {
+          "period": 1,
+          "home": 0,
+          "away": 2
+        },
+        {
+          "period": 2,
+          "home": 3,
+          "away": 1
+        },
+        {
+          "period": 3,
+          "home": 0,
+          "away": 1
+        }
+      ],
+      "decidedBy": "regulation",
+      "predictionResult": "loss",
+      "predictionGradedAt": "2026-10-30T02:18:00+06:00",
+      "lastScoreCheckAt": "2026-10-29T20:18:00.563Z",
+      "scoreSource": "https://www.championat.ru/hockey/news-6677700-neftehimik-admiral-rezultat-matcha-29-oktyabrya-2026-goda-schet-3-4-regulyarnyj-chempionat-khl-2026-2027.html",
+      "finalVerification": {
+        "checkedAt": "2026-10-30T02:18:00+06:00",
+        "final": true,
+        "homeScore": 3,
+        "awayScore": 4,
+        "periods": [
+          {
+            "period": 1,
+            "home": 0,
+            "away": 2
+          },
+          {
+            "period": 2,
+            "home": 3,
+            "away": 1
+          },
+          {
+            "period": 3,
+            "home": 0,
+            "away": 1
+          }
+        ],
+        "decidedBy": "regulation",
+        "sources": [
+          "https://www.championat.ru/hockey/news-6677700-neftehimik-admiral-rezultat-matcha-29-oktyabrya-2026-goda-schet-3-4-regulyarnyj-chempionat-khl-2026-2027.html",
+          "https://www.sport-express.ru/hockey/khl/news/neftehimik-admiral-schet-i-rezultat-matcha-khl-29-oktyabrya-2026-2468820/"
+        ],
+        "stake": 0,
+        "bankImpact": 0
+      }
     },
     {
       "id": "nhl-20261030-jackets-hurricanes",
@@ -962,7 +1121,7 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-30T00:47:52+06:00",
+  "currentRun": "2026-10-30T02:18:00+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -2681,6 +2840,167 @@
       ],
       "notification": "hourly_report",
       "note": "Поиск и открытие страниц проведены при этой проверке; если контент не обновляется в реальном времени, он не подтверждает live. Ставок задним числом не делалось; локальный HTML пользователя не изменялся."
+    },
+    {
+      "id": "forecast-result-khl-20261029-lokomotiv-sochi-20261030T0217",
+      "type": "locked_forecast_result",
+      "at": "2026-10-29T20:18:00.563Z",
+      "checkedAtOmsk": "2026-10-30T02:18:00+06:00",
+      "matchId": "khl-20261029-lokomotiv-sochi",
+      "league": "KHL",
+      "finalScore": "Локомотив 6:2 Сочи",
+      "lockedPick": "Локомотив победит (без ставки до проверки КФ)",
+      "lockedOdds": null,
+      "virtualStake": 0,
+      "periodBreakdown": [
+        {
+          "period": 1,
+          "home": 1,
+          "away": 0
+        },
+        {
+          "period": 2,
+          "home": 3,
+          "away": 2
+        },
+        {
+          "period": 3,
+          "home": 2,
+          "away": 0
+        }
+      ],
+      "decidedBy": "regulation",
+      "result": "win",
+      "bankImpact": 0,
+      "sources": [
+        "https://www.championat.ru/hockey/news-6677668-lokomotiv-sochi-rezultat-matcha-29-oktyabrya-2026-goda-schet-6-2-regulyarnyj-chempionat-khl-2026-2027.html",
+        "https://www.sports.ru/hockey/1117419638-lokomotiv-vyigral-4-iz-5-poslednix-matchej-segodnya-62-s-sochi-komanda.html"
+      ],
+      "note": "Результат подтверждён двумя независимыми спортивными источниками. Исходный прогноз сохранён, ставка была 0 ₽, денежный settlement не создавался."
+    },
+    {
+      "id": "forecast-result-khl-20261029-severstal-spartak-20261030T0217",
+      "type": "locked_forecast_result",
+      "at": "2026-10-29T20:18:00.563Z",
+      "checkedAtOmsk": "2026-10-30T02:18:00+06:00",
+      "matchId": "khl-20261029-severstal-spartak",
+      "league": "KHL",
+      "finalScore": "Северсталь 3:2 Б Спартак",
+      "lockedPick": "Спартак победит (прогноз без ставки)",
+      "lockedOdds": null,
+      "virtualStake": 0,
+      "periodBreakdown": [
+        {
+          "period": 1,
+          "home": 1,
+          "away": 1
+        },
+        {
+          "period": 2,
+          "home": 0,
+          "away": 1
+        },
+        {
+          "period": 3,
+          "home": 1,
+          "away": 0
+        }
+      ],
+      "decidedBy": "shootout",
+      "result": "loss",
+      "bankImpact": 0,
+      "sources": [
+        "https://www.championat.ru/hockey/news-6677664-severstal-spartak-rezultat-matcha-29-oktyabrya-2026-goda-schet-3-2-b-regulyarnyj-chempionat-khl-2026-2027.html",
+        "https://www.sport-express.ru/hockey/khl/news/severstal-spartak-rezultat-matcha-khl-29-oktyabrya-2026-2468793/"
+      ],
+      "note": "Результат подтверждён двумя независимыми спортивными источниками. Исходный прогноз сохранён, ставка была 0 ₽, денежный settlement не создавался.",
+      "regulationScore": "2:2"
+    },
+    {
+      "id": "forecast-result-khl-20261029-neftekhimik-admiral-20261030T0217",
+      "type": "locked_forecast_result",
+      "at": "2026-10-29T20:18:00.563Z",
+      "checkedAtOmsk": "2026-10-30T02:18:00+06:00",
+      "matchId": "khl-20261029-neftekhimik-admiral",
+      "league": "KHL",
+      "finalScore": "Нефтехимик 3:4 Адмирал",
+      "lockedPick": "Нефтехимик победит (без ставки до проверки КФ)",
+      "lockedOdds": null,
+      "virtualStake": 0,
+      "periodBreakdown": [
+        {
+          "period": 1,
+          "home": 0,
+          "away": 2
+        },
+        {
+          "period": 2,
+          "home": 3,
+          "away": 1
+        },
+        {
+          "period": 3,
+          "home": 0,
+          "away": 1
+        }
+      ],
+      "decidedBy": "regulation",
+      "result": "loss",
+      "bankImpact": 0,
+      "sources": [
+        "https://www.championat.ru/hockey/news-6677700-neftehimik-admiral-rezultat-matcha-29-oktyabrya-2026-goda-schet-3-4-regulyarnyj-chempionat-khl-2026-2027.html",
+        "https://www.sport-express.ru/hockey/khl/news/neftehimik-admiral-schet-i-rezultat-matcha-khl-29-oktyabrya-2026-2468820/"
+      ],
+      "note": "Результат подтверждён двумя независимыми спортивными источниками. Исходный прогноз сохранён, ставка была 0 ₽, денежный settlement не создавался."
+    },
+    {
+      "id": "hourly-20261030T0218-omsk",
+      "type": "hourly_live_and_result_check",
+      "at": "2026-10-29T20:18:00.563Z",
+      "checkedAtOmsk": "2026-10-30T02:18:00+06:00",
+      "leagueScope": [
+        "NHL",
+        "KHL"
+      ],
+      "summary": "Подтверждены три ранее ожидавших финала КХЛ 29.10: Локомотив — Сочи 6:2, Северсталь — Спартак 3:2 по буллитам, Нефтехимик — Адмирал 3:4. Зафиксированные исходные прогнозы: Локомотив выиграл, Спартак проиграл, Нефтехимик проиграл; все три были без виртуальных ставок (0 ₽). 11 записанных матчей НХЛ 30.10 по Омску стартуют в 05:00–08:00 и в момент проверки не идут. Новых live-матчей НХЛ/КХЛ, подтверждённых в момент проверки двумя свежими источниками со счётом/временем и с действующими коэффициентами, не обнаружено. Новые virtual wagers NO BET; резерв 0 ₽, банк 998,80 ₽. Все прежние три денежные ставки проверены по уникальным settlement IDs и не пересчитаны.",
+      "newConfirmedFinals": [
+        {
+          "id": "khl-20261029-lokomotiv-sochi",
+          "score": "Локомотив 6:2 Сочи",
+          "result": "win"
+        },
+        {
+          "id": "khl-20261029-severstal-spartak",
+          "score": "Северсталь 3:2 Б Спартак",
+          "result": "loss"
+        },
+        {
+          "id": "khl-20261029-neftekhimik-admiral",
+          "score": "Нефтехимик 3:4 Адмирал",
+          "result": "loss"
+        }
+      ],
+      "newSettledPredictions": 3,
+      "newSettledWagers": 0,
+      "newVirtualStakes": 0,
+      "liveMatchesCurrentlyVerified": [],
+      "liveBetDecision": "NO_BET",
+      "skipReason": "КХЛ 29.10 все матчи уже завершены, НХЛ 30.10 по Омску ещё не началась. Нет текущей live-ситуации с двумя свежими источниками, подтверждённой in-play линией и доказанным edge ≥5 п.п.; задним числом не ставим.",
+      "bankEquity": 998.8,
+      "reservedStake": 0,
+      "freeBank": 998.8,
+      "settledWagerCount": 3,
+      "sources": [
+        "https://www.championat.ru/hockey/news-6677668-lokomotiv-sochi-rezultat-matcha-29-oktyabrya-2026-goda-schet-6-2-regulyarnyj-chempionat-khl-2026-2027.html",
+        "https://www.sports.ru/hockey/1117419638-lokomotiv-vyigral-4-iz-5-poslednix-matchej-segodnya-62-s-sochi-komanda.html",
+        "https://www.championat.ru/hockey/news-6677664-severstal-spartak-rezultat-matcha-29-oktyabrya-2026-goda-schet-3-2-b-regulyarnyj-chempionat-khl-2026-2027.html",
+        "https://www.sport-express.ru/hockey/khl/news/severstal-spartak-rezultat-matcha-khl-29-oktyabrya-2026-2468793/",
+        "https://www.championat.ru/hockey/news-6677700-neftehimik-admiral-rezultat-matcha-29-oktyabrya-2026-goda-schet-3-4-regulyarnyj-chempionat-khl-2026-2027.html",
+        "https://www.sport-express.ru/hockey/khl/news/neftehimik-admiral-schet-i-rezultat-matcha-khl-29-oktyabrya-2026-2468820/",
+        "https://www.nhl.com/schedule/2026-10-29"
+      ],
+      "notification": "hourly_report",
+      "note": "Исходные прогнозы/суммы/коэффициенты/lockedAt и все ранее существовавшие events оставлены неизменными. Локальный HTML не обновлялся."
     }
   ],
   "storage": {
@@ -2689,6 +3009,6 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-30T00:47:52+06:00",
+  "updatedAt": "2026-10-30T02:18:00+06:00",
   "automationNote": "Ежечасный анализ NHL/KHL; виртуальные ставки допускаются исключительно после двух независимых свежих подтверждений счёта/таймера, действующей in-play линии и математически доказанного edge минимум 5 п.п. Прогнозы и settlements задним числом не изменяются. Локальный HTML не синхронизируется."
 }
