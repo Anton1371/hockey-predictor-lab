@@ -2,8 +2,8 @@
   "bank": 998.8,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T20:34:01.000Z",
-  "note": "Ежечасный обзор всех основных доступных видов спорта 2026-10-30T02:25:42+06:00: новые ставки 0 ₽ (NO_BET), банк 998,80 ₽, открытая экспозиция 0 ₽. НХЛ/НБА/НФЛ ещё не стартовали; в футбольных live-источниках нет синхронного счёта/таймера и live-линии; вечерняя КХЛ впереди. История и settlements сохранены.",
+  "lastCheckedAt": "2026-10-29T20:34:14.000Z",
+  "note": "Проверка 30.10.2026 02:34 по Омску: коэффициенты проверяются только по Фонбет. По новому правилу пользовательского эксперимента допускается виртуальная ставка при консервативной вероятности >=60% и положительном EV, без прежнего требования edge +5 п.п. Зафиксирована одна открытая виртуальная ставка 20 ₽ на победу Каролины в основное время @1.68; ожидаемая прибыль по оценке 60% всего +0,16 ₽, преимущество пограничное. Банк 998,80 ₽; резерв 20 ₽; свободно 978,80 ₽. Предыдущие прогнозы и три settlements сохранены.",
   "matches": [
     {
       "id": "khl-20261028-akbars-avangard",
@@ -1121,17 +1121,17 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-30T02:34:01+06:00",
+  "currentRun": "2026-10-30T02:34:14+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
     "startingBank": 1000,
     "settledProfit": -1.2,
     "equityBeforeResults": 1000,
-    "pendingStakeSum": 0,
-    "uncommittedCash": 998.8,
+    "pendingStakeSum": 20,
+    "uncommittedCash": 978.8,
     "gradedWagers": 3,
-    "note": "Виртуальный банк = начальные 1000 ₽ плюс сумма чистых результатов уникальных settlements; резерв = сумма еще не рассчитанных ставок, и ни одна ставка не учитывается дважды.",
+    "note": "Виртуальный банк = 1000 ₽ плюс чистые результаты уникальных settlements. Открытые ставки резервируются отдельно; свободный банк = банк минус открытые ставки. Ни одна ставка не рассчитывается дважды.",
     "wins": 2,
     "losses": 1,
     "pushes": 0,
@@ -3448,6 +3448,98 @@
         "https://www.theguardian.com/football/live/2026/oct/29/everton-v-newcastle-carabao-cup-fourth-round-live"
       ],
       "note": "Коэффициенты Фонбет приведены как веб-снимки в момент чтения; их будущая доступность и исполнение не гарантированы. Не созданы ставки/settlements задним числом, все старые match records сохранены. Локальный HTML не обновлялся."
+    },
+    {
+      "id": "policy-update-fonbet-60pct-20261030T023414",
+      "type": "strategy_rule_update",
+      "at": "2026-10-29T20:34:14.000Z",
+      "checkedAtOmsk": "2026-10-30T02:34:14+06:00",
+      "detail": "Пользователь установил Фонбет как единственный источник коэффициентов для всех видов спорта. Экспериментальный порог: консервативная вероятность >=60% и положительное матожидание p>1/k; прежний обязательный edge +5 п.п. отменён. Ограничения по размеру ставки, отсутствию экспрессов/догонов и дубликатов сохранены. Ежечасная автоматизация обновлена и включена.",
+      "oddsSource": "Fonbet",
+      "automationEnabled": true
+    },
+    {
+      "id": "virtual-wager-placed-20261030T023414-carolina-regulation",
+      "type": "virtual_wager_placed",
+      "at": "2026-10-29T20:34:14.000Z",
+      "checkedAtOmsk": "2026-10-30T02:34:14+06:00",
+      "wagerId": "wager-nhl-20261030-jackets-hurricanes-regulation-20261030T023414",
+      "matchId": "nhl-20261030-jackets-hurricanes",
+      "sport": "ice_hockey",
+      "league": "NHL",
+      "match": "Каролина Харрикейнз — Коламбус Блю Джекетс",
+      "market": "Исход основного времени — победа Каролины (П1)",
+      "selection": "Каролина победит в основное время",
+      "odds": 1.68,
+      "oddsSource": "Fonbet",
+      "oddsUrl": "https://fon.bet/sports/hockey/country/unitedstates/11781/69376123",
+      "impliedProbability": 0.5952380952380952,
+      "conservativeProbability": 0.6,
+      "edge": 0.004761904761904745,
+      "stake": 20,
+      "expectedNetValue": 0.16000000000000014,
+      "matchStateAtPlacement": "prematch",
+      "scheduledStartOmsk": "2026-10-30T05:00:00+06:00",
+      "decision": "BET",
+      "rationale": "Небольшое преимущество по сезонным результатам и показателям атаки/защиты плюс стартовый вратарь Кочетков; оценка 60% лишь немного выше implied probability 59.52%. Это низкий запас, зафиксированный ради пользовательского эксперимента, а не гарантия.",
+      "sources": [
+        "https://fon.bet/sports/hockey/country/unitedstates/11781/69376123",
+        "https://www.nhl.com/news/columbus-blue-jackets-carolina-hurricanes-game-preview-october-29-2026",
+        "https://frontend.d3.nhle.com/hurricanes/news/preview-october-29-vs-columbus",
+        "https://statsnext.com/nhl/games/2026-10-29-blue-jackets-at-hurricanes-da4cf9fb"
+      ],
+      "bankEquity": 998.8,
+      "reservedStake": 20,
+      "freeBank": 978.8
+    },
+    {
+      "id": "all-sports-fonbet-20261030T023414-omsk",
+      "type": "hourly_all_sports_review",
+      "at": "2026-10-29T20:34:14.000Z",
+      "checkedAtOmsk": "2026-10-30T02:34:14+06:00",
+      "leagueScope": [
+        "NHL",
+        "KHL",
+        "NBA",
+        "EuroLeague",
+        "football",
+        "ATP",
+        "WTA",
+        "NFL"
+      ],
+      "summary": "Сначала прочитан текущий journal.json. Проверены доступные страницы Фонбет по хоккею, футболу/live-футболу, баскетболу, теннису и американскому футболу; выборка крупных соревнований, не все матчи мира. KHL-прогнозы 29.10 уже финализированы, новых результатов для них нет; 11 матчей NHL 30.10 ещё не начались. Live-кандидаты на футбольной и теннисной странице Фонбет не получили достаточного независимого свежего подтверждения счёта/таймера и/или не имели надёжно подтверждённой текущей линии; новых live-ставок нет. Из прематча NHL единственная ставка по экспериментальному правилу — Каролина в основное время @1.68, вероятность 60%, ставка 20 ₽. Другие просмотренные линии NBA, тенниса, футбола и NFL не прошли порог 60% с положительным EV либо отсутствовали надёжные актуальные данные.",
+      "newConfirmedFinals": [],
+      "newSettledWagers": 0,
+      "newVirtualStakes": 1,
+      "liveCandidatesReviewed": [
+        {
+          "sport": "football",
+          "source": "https://fonbet.com/live/football",
+          "decision": "NO_BET",
+          "reason": "Счёт/время из независимого свежего источника и актуальный live-рынок не удалось подтвердить одновременно; отдельные события/популярные карточки не считаются live-линией."
+        },
+        {
+          "sport": "tennis",
+          "source": "https://fon.bet/sports/tennis",
+          "decision": "NO_BET",
+          "reason": "У доступных live-снимков нет достаточной синхронной независимой проверки текущего гейма/сета; прематчевые фавориты не дали обоснованного положительного EV."
+        }
+      ],
+      "noOtherWagersReason": "Остальные проверенные линии Фонбет по NHL/KHL, NBA/EuroLeague, футболу, ATP/WTA и NFL не имели одновременно консервативной вероятности >=60%, положительного EV и достаточного подтверждения текущих данных.",
+      "bankEquity": 998.8,
+      "reservedStake": 20,
+      "freeBank": 978.8,
+      "sources": [
+        "https://fon.bet/sports/hockey",
+        "https://fon.bet/sports/basketball",
+        "https://fon.bet/sports/tennis",
+        "https://fon.bet/sports/am-football",
+        "https://fonbet.com/sports/football",
+        "https://fonbet.com/live/football",
+        "https://www.nhl.com/schedule/2026-10-29",
+        "https://www.nhl.com/news/columbus-blue-jackets-carolina-hurricanes-game-preview-october-29-2026"
+      ],
+      "note": "Все коэффициенты ставок взяты только с Фонбет. Другие источники использованы для спортивного контекста, не для подмены коэффициентов. Локальный HTML не изменялся."
     }
   ],
   "storage": {
@@ -3456,6 +3548,41 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-30T02:34:01+06:00",
-  "automationNote": "Ежечасный анализ NHL/KHL; виртуальные ставки допускаются исключительно после двух независимых свежих подтверждений счёта/таймера, действующей in-play линии и математически доказанного edge минимум 5 п.п. Прогнозы и settlements задним числом не изменяются. Локальный HTML не синхронизируется."
+  "updatedAt": "2026-10-30T02:34:14+06:00",
+  "automationNote": "Ежечасный обзор всех доступных крупных видов спорта на дату Asia/Omsk. Коэффициенты — только Фонбет; виртуальная ставка допускается при консервативной вероятности >=60% и p>1/k. Обновлять GitHub journal.json append-only, проверять уникальные settlement IDs и повторно читать после записи. Локальный HTML не синхронизируется автоматически.",
+  "virtualWagers": [
+    {
+      "wagerId": "wager-nhl-20261030-jackets-hurricanes-regulation-20261030T023414",
+      "matchId": "nhl-20261030-jackets-hurricanes",
+      "sport": "ice_hockey",
+      "league": "NHL",
+      "match": "Каролина Харрикейнз — Коламбус Блю Джекетс",
+      "market": "Исход основного времени — победа Каролины (П1)",
+      "selection": "Каролина победит в основное время",
+      "oddsSource": "Fonbet",
+      "oddsUrl": "https://fon.bet/sports/hockey/country/unitedstates/11781/69376123",
+      "oddsObservedAt": "2026-10-30T02:34:14+06:00",
+      "odds": 1.68,
+      "impliedProbability": 0.5952380952380952,
+      "conservativeProbability": 0.6,
+      "edge": 0.004761904761904745,
+      "stake": 20,
+      "grossReturnIfWin": 33.6,
+      "netProfitIfWin": 13.6,
+      "netLossIfLose": -20,
+      "expectedNetValue": 0.16000000000000014,
+      "status": "open",
+      "placedAt": "2026-10-30T02:34:14+06:00",
+      "scheduledStartOmsk": "2026-10-30T05:00:00+06:00",
+      "matchStateAtPlacement": "prematch",
+      "rationale": "Экспериментальный порог пользователя: консервативная оценка 60% и p>1/k. Carolina 10-2-2 против Columbus 5-5-0; в опубликованной сезонной выборке Carolina забивает 3.8 гола за игру против 2.6 у Columbus и пропускает 2.4 против 3.3. Официальная страница Carolina называет Петра Кочеткова стартовым вратарём; он начал сезон 8-0-0 с GAA 1.62 и SV% .918. Против: у Carolina отсутствуют Jordan Staal и Taylor Hall; выборка мала, а преимущество над implied probability всего около 0.48 п.п., поэтому ставка пограничная и ожидаемая прибыль мала.",
+      "sources": [
+        "https://fon.bet/sports/hockey/country/unitedstates/11781/69376123",
+        "https://www.nhl.com/news/columbus-blue-jackets-carolina-hurricanes-game-preview-october-29-2026",
+        "https://frontend.d3.nhle.com/hurricanes/news/preview-october-29-vs-columbus",
+        "https://statsnext.com/nhl/games/2026-10-29-blue-jackets-at-hurricanes-da4cf9fb"
+      ],
+      "settlementId": null
+    }
+  ]
 }
