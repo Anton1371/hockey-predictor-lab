@@ -2,7 +2,7 @@
   "bank": 1000,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T01:01:20.000Z",
+  "lastCheckedAt": "2026-10-29T01:13:00.000Z",
   "note": "Текущая проверка 2026-10-29T05:30:23.832+06:00: официально подтверждены итоговые счета 4 матчей КХЛ 28.10, начавшихся до фиксации (без прогнозов и ставок). Исходные 3 виртуальные ставки НХЛ по 20 ₽ до завершения остаются открытыми. 29.10 в 05:30 по Омску старт первого матча НХЛ только запланирован: фактический live-счёт/период двумя независимыми свежими источниками не подтверждён. Без новых ставок; виртуальный банк 1000 ₽, резерв 60 ₽, доступно 940 ₽. История прогнозов и расчётов не менялась.",
   "matches": [
     {
@@ -759,7 +759,7 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-29T07:01:20+06:00",
+  "currentRun": "2026-10-29T07:13:00+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -1158,6 +1158,76 @@
       ],
       "notification": "none",
       "note": "Исходные прогнозы, коэффициенты, ставки и дата фиксации не изменены. Нет финала по зафиксированным прогнозам и новых ставок; повторного расчёта нет. Четыре завершённые игры КХЛ 28.10 без исходных прогнозов и ставок не учитываются в банке. Локальный HTML не изменяется автоматически."
+    },
+    {
+      "id": "hourly-20261029T0713-omsk",
+      "type": "hourly_live_and_result_check",
+      "at": "2026-10-29T01:13:00.000Z",
+      "checkedAtOmsk": "2026-10-29T07:13:00+06:00",
+      "leagueScope": [
+        "NHL",
+        "KHL"
+      ],
+      "summary": "Проверены текущие табло CBS Sports, официальные страницы NHL.com и расписания КХЛ на 29.10.2026 около 07:13 по Омску. Ни один исходный зафиксированный прогноз НХЛ/КХЛ ещё не получил достоверно подтверждённого финала. CBS показывает промежуточные снимки трёх матчей НХЛ, но точное время и свежесть всех снимков двумя независимыми источниками не подтверждены. Предварительные прогнозы, коэффициенты и виртуальные суммы сохранены без изменений.",
+      "observations": [
+        {
+          "matchId": "nhl-20261029-flyers-caps",
+          "snapshotScore": "Филадельфия 1:2 Вашингтон",
+          "snapshotPeriodClock": "2-й период, 03:35 по табло CBS (точность и свежесть не подтверждены)",
+          "source": "https://www.cbssports.com/nhl/gametracker/live/NHL_20261028_PHI@WAS/",
+          "independentClockVerified": false,
+          "finalVerified": false,
+          "confidence": "historical_unverified_live_snapshot"
+        },
+        {
+          "matchId": "nhl-20261029-flames-oilers",
+          "snapshotScore": "Калгари 0:0 Эдмонтон",
+          "snapshotPeriodClock": "1-й период, 19:56 по табло CBS (потенциально устаревший снимок)",
+          "source": "https://www.cbssports.com/nhl/gametracker/live/NHL_20261028_CGY@EDM/",
+          "independentClockVerified": false,
+          "finalVerified": false,
+          "confidence": "historical_unverified_live_snapshot"
+        },
+        {
+          "matchId": "nhl-20261029-devils-avalanche",
+          "snapshotScore": "Нью-Джерси 0:0 Колорадо",
+          "snapshotPeriodClock": "1-й период, 17:43 по табло CBS (потенциально устаревший снимок)",
+          "source": "https://www.cbssports.com/nhl/gametracker/live/NHL_20261028_NJ@COL/",
+          "independentClockVerified": false,
+          "finalVerified": false,
+          "confidence": "historical_unverified_live_snapshot"
+        },
+        {
+          "matchId": "nhl-20261029-leafs-kraken",
+          "status": "scheduled",
+          "scheduledAtOmsk": "2026-10-29T08:00:00+06:00",
+          "source": "https://www.nhl.com/schedule/2026-10-28"
+        }
+      ],
+      "olderKhlFinals": "Все четыре встречи КХЛ 28 октября уже внесены как финальные без предматчевых прогнозов/ставок, не пересчитывать.",
+      "khlOctober29": "Пять зафиксированных матчей КХЛ начинаются позднее 29.10 по Омску; нового финала нет.",
+      "newSettledPredictions": 0,
+      "newSettledWagers": 0,
+      "newVirtualStakes": 0,
+      "liveBetDecision": "NO_BET",
+      "liveBetSkipReasons": [
+        "Все обнаруженные на табло CBS игры НХЛ уже присутствуют в журнале с предматчевыми прогнозами; незаписанных live-матчей нет.",
+        "Официальные страницы NHL.com доступны, но не отдают синхронный динамический счёт и часы; альтернативные сайты либо отстают, либо дают только расписание.",
+        "Указанные рядом с табло CBS денежные линии не являются доказательством текущего подтверждённого live-коэффициента; перевес 5 процентных пунктов не доказан."
+      ],
+      "bankEquity": 1000,
+      "reservedStake": 60,
+      "freeBank": 940,
+      "notification": "none",
+      "sources": [
+        "https://www.cbssports.com/nhl/gametracker/live/NHL_20261028_PHI@WAS/",
+        "https://www.cbssports.com/nhl/gametracker/live/NHL_20261028_CGY@EDM/",
+        "https://www.cbssports.com/nhl/gametracker/live/NHL_20261028_NJ@COL/",
+        "https://www.nhl.com/gamecenter/phi-vs-wsh/2026/10/28/2026020199",
+        "https://www.nhl.com/schedule/2026-10-28",
+        "https://www.khl.ru/"
+      ],
+      "note": "Данные обновлены только в GitHub journal.json. Прогнозы, коэффициенты, ставки и даты фиксации НЕ менялись, локальный HTML пользователя не изменяется."
     }
   ],
   "storage": {
@@ -1166,6 +1236,6 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-29T07:01:20+06:00",
+  "updatedAt": "2026-10-29T07:13:00+06:00",
   "automationNote": "Автоматическая проверка НХЛ и КХЛ. Счёт/статус обновляется из публичных табло; новые матчи получают только прозрачный прогноз по последним результатам без ставки. Букмекерские коэффициенты и live-ставки автоматически не создаются."
 }
