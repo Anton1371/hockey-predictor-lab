@@ -2,8 +2,8 @@
   "bank": 998.8,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T16:57:00.000Z",
-  "note": "Проверка 29.10.2026 22:57 по Омску: Сибирь — Металлург завершился 5:2, прогноз на победу Металлурга проиграл без денежного эффекта (ставка 0 ₽). Остальные сегодняшние матчи КХЛ имеют несогласованные или устаревшие live-данные, поэтому новые ставки не добавлялись. Виртуальный банк 998,80 ₽, открытых ставок 0 ₽.",
+  "lastCheckedAt": "2026-10-29T17:39:41.000Z",
+  "note": "Проверка 29.10.2026 23:39:41 по Омску: новых достоверно подтверждённых финалов по исходным прогнозам после предыдущей проверки нет. Остались 3 вечерние игры КХЛ без финального подтверждения; найденные снимки live-коэффициентов/счётов устарели или несинхронны. Новых live-ставок 0; банк 998,80 ₽, открытых ставок 0 ₽. История прогнозов и результатов сохранена.",
   "matches": [
     {
       "id": "khl-20261028-akbars-avangard",
@@ -962,7 +962,7 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-29T22:57:00+06:00",
+  "currentRun": "2026-10-29T23:39:41+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -2112,6 +2112,111 @@
       ],
       "notification": "yes",
       "note": "Денежная ставка не рассчитывалась, так как ставка на Сибирь—Металлург была 0 ₽. Предыдущие три денежные ставки и все исходные прогнозы сохранены. Локальный HTML автоматически не меняется."
+    },
+    {
+      "id": "hourly-20261029T233941-omsk",
+      "type": "hourly_live_and_result_check",
+      "at": "2026-10-29T17:39:41.000Z",
+      "checkedAtOmsk": "2026-10-29T23:39:41+06:00",
+      "leagueScope": [
+        "NHL",
+        "KHL"
+      ],
+      "summary": "Проверены зафиксированные исходы NHL/KHL и три вечерних матча КХЛ. Сибирь — Металлург 5:2 и Автомобилист — Торпедо 3:2 Б уже записаны и оценены ранее без денежных ставок; результат повторно не рассчитан. Для Локомотива — Сочи, Северстали — Спартака, Нефтехимика — Адмирала найденные OLIMPBET-снимки не подтверждаются двумя независимыми свежими источниками по игровому времени и счёту; подтверждённых новых финалов нет. Нельзя доказать, что найденные live-коэффициенты актуальны; новых виртуальных ставок нет.",
+      "newConfirmedFinals": [],
+      "newSettledWagers": 0,
+      "newSettledPredictions": 0,
+      "newVirtualStakes": 0,
+      "liveReview": {
+        "decision": "NO_BET",
+        "scope": "3 remaining previously recorded KHL matches (one pre-match forecast each, stake 0); no unrecorded live match verified",
+        "records": [
+          {
+            "id": "khl-20261029-lokomotiv-sochi",
+            "display": "Локомотив — Сочи",
+            "observation": "OLIMPBET: 1:0 после 1-го периода (снимок не синхронизирован с 23:39 Омск), котировка на победу Локомотива 1,07. Независимая страница Championat показывает предматчевые данные, время/счёт не подтверждает.",
+            "primary": "https://www.olimp.bet/live/khokkey-2/kkhl-regulyarnyy-chempionat-1928636/lokomotiv-sochi-29-10-2026-86165151",
+            "secondary": "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316994/",
+            "odds": {
+              "market": "Победитель матча: Локомотив",
+              "snapshotDecimalOdds": 1.07
+            },
+            "verified": false,
+            "decision": "NO_BET",
+            "reason": "Коэффициент относится к снимку после 1-го периода и не доказано, что действует на момент проверки. Текущий счёт и время не подтверждены двумя независимыми свежими источниками; перевес +5 п.п. не обоснован."
+          },
+          {
+            "id": "khl-20261029-severstal-spartak",
+            "display": "Северсталь — Спартак",
+            "observation": "OLIMPBET: 1:1, 2-й период, 19 минут по снимку, исход в основное время 2,60/3,19/2,79. Championat выдаёт более ранний снимок 0:0 первого периода; независимого синхронного подтверждения времени нет.",
+            "primary": "https://www.olimp.bet/live/khokkey-2/kkhl-regulyarnyy-chempionat-1928636/severstal-spartak-moskva-29-10-2026-86165161",
+            "secondary": "https://www.championat.com/hockey/news-6676664-severstal-spartak-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
+            "odds": {
+              "market": "Основное время П1/X/П2",
+              "snapshotDecimalOdds": [
+                2.6,
+                3.19,
+                2.79
+              ]
+            },
+            "verified": false,
+            "decision": "NO_BET",
+            "reason": "Счёт/период не подтверждены двумя синхронными свежими источниками, коэффициенты относятся к неизвестному моменту; доказанного перевеса +5 п.п. нет."
+          },
+          {
+            "id": "khl-20261029-neftekhimik-admiral",
+            "display": "Нефтехимик — Адмирал",
+            "observation": "OLIMPBET: 0:2, 1-й период, 9-я минута по снимку; исход основного времени 3,99/4,89/1,67. Доступная страница LiveScore 2:1 относится к другому/старому матчу и не является подтверждением.",
+            "primary": "https://www.olimp.bet/live/khokkey-2/kkhl-regulyarnyy-chempionat-1928636/neftekhimik-admiral-29-10-2026-86165162",
+            "secondary": "https://www.championat.com/hockey/_superleague/tournament/7092/match/1317354/",
+            "odds": {
+              "market": "Основное время П1/X/П2",
+              "snapshotDecimalOdds": [
+                3.99,
+                4.89,
+                1.67
+              ]
+            },
+            "verified": false,
+            "decision": "NO_BET",
+            "reason": "Снимок букмекера мог устареть, а второе независимое свежее подтверждение игрового времени/счёта отсутствует. Другие страницы показывают старые очные матчи. Текущий live-коэффициент и +5 п.п. не доказаны."
+          }
+        ],
+        "verifiedCurrentScoreAndClockByTwoIndependentSources": false,
+        "confirmedCurrentLiveOdds": false,
+        "provenEdgeAtLeastFivePercentagePoints": false,
+        "skipReason": "Для трёх игр есть только несинхронные исторические снимки, а не два свежих подтверждения текущего игрового времени. Букмекерские страницы не предоставили надёжной отметки актуальности линии и счёта. Выставлять новую ставку запрещено правилами пользователя."
+      },
+      "earlierKhlSettledWithoutCash": [
+        {
+          "id": "prediction-result-khl-20261029-sibir-metallurg-20261029T225909",
+          "matchId": "khl-20261029-sibir-metallurg",
+          "score": "Сибирь 5:2 Металлург Магнитогорск"
+        },
+        {
+          "id": "prediction-result-khl-20261029-avto-torpedo-20261029T225909",
+          "matchId": "khl-20261029-avto-torpedo",
+          "score": "Автомобилист 3:2 Б Торпедо"
+        },
+        {
+          "id": "forecast-result-khl-20261029-sibir-metallurg-20261029T2257",
+          "matchId": "khl-20261029-sibir-metallurg",
+          "score": "5:2"
+        }
+      ],
+      "bankEquity": 998.8,
+      "reservedStake": 0,
+      "freeBank": 998.8,
+      "sources": [
+        "https://www.olimp.bet/live/khokkey-2/kkhl-regulyarnyy-chempionat-1928636/lokomotiv-sochi-29-10-2026-86165151",
+        "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316994/",
+        "https://www.olimp.bet/live/khokkey-2/kkhl-regulyarnyy-chempionat-1928636/severstal-spartak-moskva-29-10-2026-86165161",
+        "https://www.championat.com/hockey/news-6676664-severstal-spartak-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
+        "https://www.olimp.bet/live/khokkey-2/kkhl-regulyarnyy-chempionat-1928636/neftekhimik-admiral-29-10-2026-86165162",
+        "https://www.championat.com/hockey/_superleague/tournament/7092/match/1317354/"
+      ],
+      "notification": "none",
+      "note": "Предматчевые прогнозы 28.10 23:30 по Омску, суммы и коэффициенты оставлены без изменения; ранее рассчитанные денежные ставки не пересчитывались. Данные представлены только в журнале GitHub, локальный HTML не обновлён."
     }
   ],
   "storage": {
@@ -2120,6 +2225,6 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-29T22:57:00+06:00",
+  "updatedAt": "2026-10-29T23:39:41+06:00",
   "automationNote": "Автоматическая проверка НХЛ и КХЛ. Счёт/статус обновляется из публичных табло; новые матчи получают только прозрачный прогноз по последним результатам без ставки. Букмекерские коэффициенты и live-ставки автоматически не создаются."
 }
