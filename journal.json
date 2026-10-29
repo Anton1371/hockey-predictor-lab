@@ -3,7 +3,7 @@
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
   "lastCheckedAt": "2026-10-29T12:10:00.000Z",
-  "note": "Проверка на 18:10 по Омску. Все четыре зафиксированных матча НХЛ 28.10 ET уже завершены и отражены в журнале: Вашингтон 5:2 Филадельфия, Эдмонтон 4:0 Калгари, Колорадо 5:2 Нью-Джерси, Сиэтл 5:4 Торонто. Новых финалов по другим зафиксированным прогнозам не обнаружено. Первый матч КХЛ 29.10 — Сибирь–Металлург — по расписанию начнётся в 18:30 Омск, то есть на момент проверки ещё не LIVE. Незаписанных текущих матчей НХЛ/КХЛ не подтверждено. Банк 998,80 ₽; открытых ставок 0 ₽; свободно 998,80 ₽. История сохранена, локальный HTML не синхронизируется автоматически.",
+  "note": "Проверка 29.10.2026 18:10 по Омску: Колорадо — Нью-Джерси завершился 5:2, ставка 20 ₽ @1.52 выиграла (+10,40 ₽); Сиэтл — Торонто завершился 5:4, прогноз на Торонто проиграл при ставке 0 ₽. Вашингтон и Эдмонтон уже рассчитаны ранее и не пересчитывались. Подтверждённых текущих live-матчей нет: Сибирь — Металлург запланирован на 18:30 Омск; матчи НХЛ начнутся позже. Банк 998,80 ₽, открытых ставок 0 ₽, свободно 998,80 ₽. Локальный HTML автоматически не меняется.",
   "matches": [
     {
       "id": "khl-20261028-akbars-avangard",
@@ -362,9 +362,9 @@
       "odds": 1.52,
       "stake": 20,
       "prob": 69,
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "homeScore": 5,
+      "awayScore": 2,
       "reason": "Предварительная оценка: Колорадо — фаворит по линии ESPN (-192 ≈ 1.52); у Нью-Джерси плотный график с коротким интервалом между играми. Оценка вероятности 69% — гипотеза. Проверить подтверждённых вратарей, особенно после изменений состава.",
       "source": "https://www.espn.com/nhl/story/_/id/50298873/nhl-2026-27-tonight-games-schedule-matchups-stats-top-players-betting",
       "lockedAt": "2026-10-28T23:30:00+06:00",
@@ -376,7 +376,36 @@
         "observedAt": "2026-10-28T23:40:00+06:00",
         "source": "https://stake.com/sports/ice-hockey/usa/nhl",
         "notWagerOdds": true
-      }
+      },
+      "lastScoreCheckAt": "2026-10-29T12:10:00.000Z",
+      "scoreSource": "https://www.nhl.com/news/new-jersey-devils-colorado-avalanche-game-recap-october-28-2026",
+      "finalVerification": {
+        "checkedAt": "2026-10-29T18:10:00+06:00",
+        "final": true,
+        "homeScore": 5,
+        "awayScore": 2,
+        "sources": [
+          "https://www.nhl.com/news/new-jersey-devils-colorado-avalanche-game-recap-october-28-2026",
+          "https://www.cbssports.com/nhl/gametracker/recap/NHL_20261028_NJ@COL/"
+        ]
+      },
+      "settlement": {
+        "id": "settlement-nhl-20261029-devils-avalanche-20261029T1810",
+        "result": "win",
+        "gradedAt": "2026-10-29T18:10:00+06:00",
+        "market": "moneyline",
+        "pick": "Колорадо победит",
+        "finalScore": "Колорадо 5:2 Нью-Джерси",
+        "stake": 20,
+        "lockedOdds": 1.52,
+        "grossReturn": 30.4,
+        "netProfit": 10.4,
+        "sources": [
+          "https://www.nhl.com/news/new-jersey-devils-colorado-avalanche-game-recap-october-28-2026",
+          "https://www.cbssports.com/nhl/gametracker/recap/NHL_20261028_NJ@COL/"
+        ]
+      },
+      "gradedAt": "2026-10-29T18:10:00+06:00"
     },
     {
       "id": "nhl-20261029-leafs-kraken",
@@ -389,9 +418,9 @@
       "odds": 1.87,
       "stake": 0,
       "prob": 53,
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "homeScore": 5,
+      "awayScore": 4,
       "reason": "Матч близкий: ESPN указывал Toronto -115 (≈1.87), что подразумевает около 53.5% до маржи. Наша предварительная оценка почти совпадает с рынком, поэтому виртуальную ставку пропускаем из-за отсутствия явного преимущества.",
       "source": "https://www.espn.com/nhl/story/_/id/50298873/nhl-2026-27-tonight-games-schedule-matchups-stats-top-players-betting",
       "lockedAt": "2026-10-28T23:30:00+06:00",
@@ -403,7 +432,21 @@
         "observedAt": "2026-10-28T23:40:00+06:00",
         "source": "https://stake.com/sports/ice-hockey/usa/nhl",
         "notWagerOdds": true
-      }
+      },
+      "lastScoreCheckAt": "2026-10-29T12:10:00.000Z",
+      "scoreSource": "https://www.nhl.com/news/toronto-maple-leafs-seattle-kraken-game-recap-october-28-2026",
+      "finalVerification": {
+        "checkedAt": "2026-10-29T18:10:00+06:00",
+        "final": true,
+        "homeScore": 5,
+        "awayScore": 4,
+        "sources": [
+          "https://www.nhl.com/news/toronto-maple-leafs-seattle-kraken-game-recap-october-28-2026",
+          "https://www.sportsnet.ca/nhl/article/maple-leafs-outlasted-by-kraken-despite-mckennas-big-game/"
+        ]
+      },
+      "predictionResult": "loss",
+      "predictionGradedAt": "2026-10-29T18:10:00+06:00"
     },
     {
       "id": "khl-20261029-sibir-metallurg",
@@ -829,7 +872,7 @@
     "pendingStakeSum": 0,
     "uncommittedCash": 998.8,
     "gradedWagers": 3,
-    "note": "Виртуальный банк = стартовые 1000 ₽ плюс чистый результат уникальных расчётов. Свободный банк = банк минус открытые ставки. Каждая ставка рассчитывается один раз.",
+    "note": "Виртуальный банк = стартовые 1000 ₽ плюс чистый результат каждой уникальной рассчитанной ставки. Свободный банк = текущий банк минус открытые ставки; повторные расчёты не выполняются.",
     "wins": 2,
     "losses": 1,
     "pushes": 0,
@@ -1654,6 +1697,91 @@
       ],
       "notification": "none",
       "note": "Исходные прогнозы, коэффициенты, суммы и даты фиксации не изменены; прежние расчёты не повторялись. Локальный HTML автоматически не изменяется."
+    },
+    {
+      "id": "settlement-nhl-20261029-devils-avalanche-20261029T1810",
+      "type": "virtual_wager_settlement",
+      "at": "2026-10-29T12:10:00.000Z",
+      "checkedAtOmsk": "2026-10-29T18:10:00+06:00",
+      "wagerId": "nhl-20261029-devils-avalanche",
+      "league": "NHL",
+      "match": "Колорадо Эвеланш — Нью-Джерси Девилз",
+      "finalScore": "5:2",
+      "lockedPick": "Колорадо победит",
+      "lockedOdds": 1.52,
+      "stake": 20,
+      "gradedResult": "win",
+      "grossReturn": 30.4,
+      "netProfit": 10.4,
+      "sources": [
+        "https://www.nhl.com/news/new-jersey-devils-colorado-avalanche-game-recap-october-28-2026",
+        "https://www.cbssports.com/nhl/gametracker/recap/NHL_20261028_NJ@COL/"
+      ],
+      "note": "Расчёт добавлен один раз; исходный прогноз, коэффициент и сумма не изменены."
+    },
+    {
+      "id": "forecast-result-nhl-20261029-leafs-kraken-20261029T1810",
+      "type": "locked_forecast_result",
+      "at": "2026-10-29T12:10:00.000Z",
+      "checkedAtOmsk": "2026-10-29T18:10:00+06:00",
+      "matchId": "nhl-20261029-leafs-kraken",
+      "match": "Сиэтл Кракен — Торонто Мэйпл Лифс",
+      "finalScore": "5:4",
+      "lockedPick": "Торонто победит",
+      "lockedOdds": 1.87,
+      "stake": 0,
+      "result": "loss",
+      "bankImpact": 0,
+      "sources": [
+        "https://www.nhl.com/news/toronto-maple-leafs-seattle-kraken-game-recap-october-28-2026",
+        "https://www.sportsnet.ca/nhl/article/maple-leafs-outlasted-by-kraken-despite-mckennas-big-game/"
+      ],
+      "note": "Прогноз отмечен как проигравший; ставка была 0 ₽, поэтому банк не изменился."
+    },
+    {
+      "id": "hourly-20261029T1810-omsk",
+      "type": "hourly_live_and_result_check",
+      "at": "2026-10-29T12:10:00.000Z",
+      "checkedAtOmsk": "2026-10-29T18:10:00+06:00",
+      "leagueScope": [
+        "NHL",
+        "KHL"
+      ],
+      "summary": "Подтверждены финалы Колорадо — Нью-Джерси 5:2 и Сиэтл — Торонто 5:4. Ставка Колорадо 20 ₽ @1.52 рассчитана с чистой прибылью 10,40 ₽; прогноз на Торонто был без ставки и проиграл. Вашингтон и Эдмонтон не пересчитывались. По расписаниям на 18:10 Омск подтверждённых текущих live-матчей НХЛ/КХЛ нет: первая игра КХЛ Сибирь — Металлург назначена на 18:30 Омск, ближайшие матчи НХЛ — на утро 30.10 по Омску.",
+      "newConfirmedFinals": [
+        {
+          "matchId": "nhl-20261029-devils-avalanche",
+          "score": "Колорадо 5:2 Нью-Джерси",
+          "result": "win",
+          "netProfit": 10.4
+        },
+        {
+          "matchId": "nhl-20261029-leafs-kraken",
+          "score": "Сиэтл 5:4 Торонто",
+          "result": "loss",
+          "netProfit": 0
+        }
+      ],
+      "newSettledWagers": 1,
+      "newSettledPredictions": 2,
+      "newVirtualStakes": 0,
+      "liveGamesConfirmed": 0,
+      "liveBetDecision": "NO_BET",
+      "skipReason": "Нет live-матчей, для которых можно проверять in-play коэффициенты прямо сейчас. Сибирь — Металлург назначен на 18:30 Омск (15:30 МСК), то есть на момент проверки ещё не начался; NHL игры 29.10 ET также ещё впереди. Новых live-ставок нет.",
+      "bankEquity": 998.8,
+      "reservedStake": 0,
+      "freeBank": 998.8,
+      "sources": [
+        "https://www.nhl.com/news/new-jersey-devils-colorado-avalanche-game-recap-october-28-2026",
+        "https://www.cbssports.com/nhl/gametracker/recap/NHL_20261028_NJ@COL/",
+        "https://www.nhl.com/news/toronto-maple-leafs-seattle-kraken-game-recap-october-28-2026",
+        "https://www.sportsnet.ca/nhl/article/maple-leafs-outlasted-by-kraken-despite-mckennas-big-game/",
+        "https://www.khl.ru/news/2026/10/29/567831.html",
+        "https://www.sport-express.net/hockey/khl/news/khl-raspisanie-rezultaty-i-video-golov-29-oktyabrya-2026-sibir-metallurg-avtomobilist-torpedo-severstal-spartak-2468542/",
+        "https://www.nhl.com/sk/schedule/2026-10-29"
+      ],
+      "notification": "yes",
+      "note": "Исторические прогнозы, коэффициенты, ставки и предыдущие расчёты сохранены. Локальный HTML автоматически не меняется."
     }
   ],
   "storage": {
