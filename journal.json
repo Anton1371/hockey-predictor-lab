@@ -2,7 +2,7 @@
   "bank": 998.8,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T17:54:00.000Z",
+  "lastCheckedAt": "2026-10-29T18:00:00.000Z",
   "note": "Проверка 29.10.2026 23:54 по Омску: Автомобилист—Торпедо 2:2 в 3-м периоде подтверждается Stake.com и Flashscore, но игровой таймер отличается, и доказанного преимущества >=5 п.п. нет. Новая виртуальная ставка не размещена. NHL-игры ещё не начались. Банк 998,80 ₽, открытых ставок 0 ₽. Ежечасная автоматизация включена с начала 30.10 в 00:00 Asia/Omsk.",
   "matches": [
     {
@@ -962,7 +962,7 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-29T23:54:00+06:00",
+  "currentRun": "2026-10-30T00:00:00+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -2382,6 +2382,83 @@
       ],
       "notification": "yes",
       "note": "Ежечасная автоматизация вновь включена с началом 2026-10-30 00:00 Asia/Omsk. Ставки только виртуальные. Предыдущие прогнозы и расчёты не изменялись. Локальный HTML не меняется автоматически."
+    },
+    {
+      "id": "prematch-plan-20261030-omsk",
+      "type": "prematch_slate_analysis",
+      "at": "2026-10-29T18:00:00.000Z",
+      "checkedAtOmsk": "2026-10-30T00:00:00+06:00",
+      "leagueScope": [
+        "NHL",
+        "KHL"
+      ],
+      "summary": "Полный предварительный разбор расписания на 30.10 по Омску. Проверены официальное расписание NHL, Sports.ru календарь КХЛ, текущие ориентировочные рынки NHL на ValuePunter и превью КХЛ на LiveSport/SovSport/Legalbet. Ни одна ставка не зафиксирована: страница NHL odds не показывает свежую метку обновления, подтверждённые стартовые вратари не согласованы для кандидата Carolina, а по остальным рынкам консервативная оценка не превышает порог безубыточности на 5 п.п. Основные условные кандидаты для повторной проверки перед стартом: Carolina ML только при подтверждении Kochetkov и цене >=1.43; San Jose ML только если цена поднимется >=1.65 при подтверждённом стартовом вратаре; KHL Avangard regulation only at >=1.70, otherwise no bet. These are conditions, not placed wagers.",
+      "newConfirmedFinals": [],
+      "newSettledWagers": 0,
+      "newSettledPredictions": 0,
+      "newVirtualStakes": 0,
+      "preMatchCandidates": [
+        {
+          "match": "Columbus — Carolina",
+          "market": "Carolina ML",
+          "indicativeOdds": 1.4,
+          "estimatedProbability": "не фиксируется до подтверждения стартового вратаря",
+          "condition": "повторно рассмотреть только если Пётр Кочетков официально стартует; ориентир цены >=1.43",
+          "plannedStakeIfQualified": 20,
+          "decision": "WAIT"
+        },
+        {
+          "match": "San Jose — Vancouver",
+          "market": "San Jose ML incl. OT",
+          "indicativeOdds": 1.57,
+          "conservativeProbabilityEstimate": 0.66,
+          "breakEvenAtIndicativeOdds": 0.6369,
+          "edgeAtIndicativeOdds": 0.0231,
+          "condition": "повторно рассмотреть только при подтверждённом вратаре и цене >=1.65; при 1.65 порог 60.61%, оценочный запас 5.39 п.п.",
+          "plannedStakeIfQualified": 20,
+          "decision": "WAIT"
+        },
+        {
+          "match": "Lada — Avangard",
+          "market": "Avangard regulation win",
+          "indicativeOdds": 1.62,
+          "conservativeProbabilityEstimate": 0.61,
+          "breakEvenAtIndicativeOdds": 0.6173,
+          "edgeAtIndicativeOdds": -0.0073,
+          "condition": "цена 1.62 не проходит; повторно рассмотреть только при >=1.70 и после актуализации состава/рынка",
+          "plannedStakeIfQualified": 15,
+          "decision": "NO_BET_AT_CURRENT_PRICE"
+        },
+        {
+          "match": "Severstal — Spartak",
+          "market": "Over 5.5 goals",
+          "indicativeOdds": 2.21,
+          "conservativeProbabilityEstimate": 0.49,
+          "breakEvenAtIndicativeOdds": 0.4525,
+          "edgeAtIndicativeOdds": 0.0375,
+          "condition": "оценочный запас лишь 3.75 п.п.; нужна лучшая цена или новая подтверждённая информация",
+          "plannedStakeIfQualified": 10,
+          "decision": "NO_BET_AT_CURRENT_PRICE"
+        }
+      ],
+      "liveBetDecision": "NO_BET",
+      "skipReason": "Это предварительный prematch review, не live-проверка. Котировки NHL имеют неизвестную свежесть (страница отмечает Last updated —), а актуальные составы/вратари не подтверждены для ставки. По строгому порогу value сейчас нельзя честно зафиксировать ни одну ставку. Условные кандидаты будут повторно оценены перед началом матчей.",
+      "bankEquity": 998.8,
+      "reservedStake": 0,
+      "freeBank": 998.8,
+      "sources": [
+        "https://www.nhl.com/schedule/2026-10-30",
+        "https://www.sports.ru/hockey/match/2026-10-30/",
+        "https://www.valuepunter.com/odds/nhl",
+        "https://www.cbssports.com/nhl/gametracker/preview/NHL_20261029_CLB@CAR/",
+        "https://www.legalbet.ru/hockey/lada-avangard-30-10-2026/",
+        "https://www.livesport.ru/tips/hockey/2026/10/30/ak-bars-kazan-amur-khabarovsk/",
+        "https://www.livesport.ru/tips/hockey/2026/10/30/dinamo-minsk-traktor/",
+        "https://www.livesport.ru/tips/hockey/2026/10/30/redstar-kunlun-barys-astana/",
+        "https://www.sports.ru/hockey/predictions/3580759-kxl-shansy-severstali-i-spartaka-na-pobedu-v-matche-regulyarnogo-chemp.html"
+      ],
+      "notification": "none",
+      "note": "Ни одна ставка не размещена. Условные кандидаты не являются ставками и не резервируют банк. Исходные прогнозы/settlements не менялись; локальный HTML не обновляется автоматически."
     }
   ],
   "storage": {
@@ -2390,6 +2467,6 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-29T23:54:00+06:00",
+  "updatedAt": "2026-10-30T00:00:00+06:00",
   "automationNote": "Автоматическая проверка НХЛ и КХЛ. Счёт/статус обновляется из публичных табло; новые матчи получают только прозрачный прогноз по последним результатам без ставки. Букмекерские коэффициенты и live-ставки автоматически не создаются."
 }
