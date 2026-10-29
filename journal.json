@@ -2,8 +2,8 @@
   "bank": 998.8,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T18:27:00.000Z",
-  "note": "Проверка 29.10.2026 23:54 по Омску: Автомобилист—Торпедо 2:2 в 3-м периоде подтверждается Stake.com и Flashscore, но игровой таймер отличается, и доказанного преимущества >=5 п.п. нет. Новая виртуальная ставка не размещена. NHL-игры ещё не начались. Банк 998,80 ₽, открытых ставок 0 ₽. Ежечасная автоматизация включена с начала 30.10 в 00:00 Asia/Omsk.",
+  "lastCheckedAt": "2026-10-29T18:47:52.129Z",
+  "note": "Проверка 2026-10-30T00:47:52+06:00: новых подтверждённых финалов и live-ставок нет; три вечерних матча КХЛ 29.10 остаются ожидающими надёжной верификации. NHL 30.10 начинается позже. Банк 998.80 ₽, открытых ставок 0.00 ₽.",
   "matches": [
     {
       "id": "khl-20261028-akbars-avangard",
@@ -962,7 +962,7 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-30T00:27:00+06:00",
+  "currentRun": "2026-10-30T00:47:52+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -2520,6 +2520,167 @@
       ],
       "notification": "hourly_report",
       "note": "Все ранее записанные прогнозы, коэффициенты, суммы, временные метки и settlement IDs сохранены. Повторного расчёта трёх ставок нет. Локальный HTML не изменялся."
+    },
+    {
+      "id": "hourly-20261030T0047-omsk",
+      "type": "hourly_live_and_result_check",
+      "at": "2026-10-29T18:47:52.129Z",
+      "checkedAtOmsk": "2026-10-30T00:47:52+06:00",
+      "leagueScope": [
+        "NHL",
+        "KHL"
+      ],
+      "summary": "Выполнена проверка записанных ожидающих прогнозов и расписаний НХЛ/КХЛ. Три ранее рассчитанные денежные ставки НХЛ сверены по уникальным settlement IDs; чистый итог -1,20 ₽. Новых подтверждённых финалов не обнаружено. Три встречи КХЛ 29.10 (Локомотив — Сочи, Северсталь — Спартак, Нефтехимик — Адмирал) по времени уже должны были идти/завершаться, но доступные страницы Чемпионата, Sports.ru, Шайба.kz и Sportbox противоречиво показывают предматчевые статусы. Отдельный результат 2:1 Нефтехимик — Адмирал с LiveScore имеет недостоверную свежесть и не подтверждён независимым источником; в финал не переводить. 11 NHL 30.10 Омск начинаются с 05:00 и на момент этой проверки не являются live. Двух синхронных свежих подтверждений счёта, периода и часов, действующей in-play котировки и доказанного edge +5 п.п. нет; новых виртуальных ставок не было.",
+      "reviewedPendingIds": [
+        "khl-20261029-lokomotiv-sochi",
+        "khl-20261029-severstal-spartak",
+        "khl-20261029-neftekhimik-admiral",
+        "nhl-20261030-jackets-hurricanes",
+        "nhl-20261030-jets-lightning",
+        "nhl-20261030-mammoth-penguins",
+        "nhl-20261030-blackhawks-wings",
+        "nhl-20261030-bruins-blues",
+        "nhl-20261030-canadiens-stars",
+        "nhl-20261030-islanders-wild",
+        "nhl-20261030-canucks-sharks",
+        "nhl-20261030-senators-kings"
+      ],
+      "pendingCount": 12,
+      "khlPendingReviewed": [
+        {
+          "matchId": "khl-20261029-lokomotiv-sochi",
+          "status": "awaiting_independently_verified_final",
+          "confirmedLiveScoreAndClock": false,
+          "confirmedFinal": false,
+          "liveOddsVerified": false,
+          "decision": "NO_BET",
+          "reason": "Доступные источники показывают предматчевые или несинхронные статусы; две независимые свежие записи счёта/периода/таймера и подтверждённый финал не получены."
+        },
+        {
+          "matchId": "khl-20261029-severstal-spartak",
+          "status": "awaiting_independently_verified_final",
+          "confirmedLiveScoreAndClock": false,
+          "confirmedFinal": false,
+          "liveOddsVerified": false,
+          "decision": "NO_BET",
+          "reason": "Доступные источники показывают предматчевые или несинхронные статусы; две независимые свежие записи счёта/периода/таймера и подтверждённый финал не получены."
+        },
+        {
+          "matchId": "khl-20261029-neftekhimik-admiral",
+          "status": "awaiting_independently_verified_final",
+          "confirmedLiveScoreAndClock": false,
+          "confirmedFinal": false,
+          "liveOddsVerified": false,
+          "decision": "NO_BET",
+          "reason": "LiveScore показывает 2:1, но страница имеет противоречивую метку свежести, другие спортивные ресурсы отдают предматчевые статусы. Нельзя считать матч завершённым или привязывать live-цену к текущему времени."
+        }
+      ],
+      "nhlPendingReviewed": [
+        {
+          "matchId": "nhl-20261030-jackets-hurricanes",
+          "scheduledAtOmsk": "2026-10-30T05:00",
+          "status": "not_started_at_check",
+          "decision": "NO_BET",
+          "reason": "Начало матча позже времени проверки; live-ставка заранее не создаётся."
+        },
+        {
+          "matchId": "nhl-20261030-jets-lightning",
+          "scheduledAtOmsk": "2026-10-30T05:00",
+          "status": "not_started_at_check",
+          "decision": "NO_BET",
+          "reason": "Начало матча позже времени проверки; live-ставка заранее не создаётся."
+        },
+        {
+          "matchId": "nhl-20261030-mammoth-penguins",
+          "scheduledAtOmsk": "2026-10-30T05:00",
+          "status": "not_started_at_check",
+          "decision": "NO_BET",
+          "reason": "Начало матча позже времени проверки; live-ставка заранее не создаётся."
+        },
+        {
+          "matchId": "nhl-20261030-blackhawks-wings",
+          "scheduledAtOmsk": "2026-10-30T05:30",
+          "status": "not_started_at_check",
+          "decision": "NO_BET",
+          "reason": "Начало матча позже времени проверки; live-ставка заранее не создаётся."
+        },
+        {
+          "matchId": "nhl-20261030-bruins-blues",
+          "scheduledAtOmsk": "2026-10-30T06:00",
+          "status": "not_started_at_check",
+          "decision": "NO_BET",
+          "reason": "Начало матча позже времени проверки; live-ставка заранее не создаётся."
+        },
+        {
+          "matchId": "nhl-20261030-canadiens-stars",
+          "scheduledAtOmsk": "2026-10-30T06:00",
+          "status": "not_started_at_check",
+          "decision": "NO_BET",
+          "reason": "Начало матча позже времени проверки; live-ставка заранее не создаётся."
+        },
+        {
+          "matchId": "nhl-20261030-islanders-wild",
+          "scheduledAtOmsk": "2026-10-30T06:00",
+          "status": "not_started_at_check",
+          "decision": "NO_BET",
+          "reason": "Начало матча позже времени проверки; live-ставка заранее не создаётся."
+        },
+        {
+          "matchId": "nhl-20261030-canucks-sharks",
+          "scheduledAtOmsk": "2026-10-30T08:00",
+          "status": "not_started_at_check",
+          "decision": "NO_BET",
+          "reason": "Начало матча позже времени проверки; live-ставка заранее не создаётся."
+        },
+        {
+          "matchId": "nhl-20261030-senators-kings",
+          "scheduledAtOmsk": "2026-10-30T08:00",
+          "status": "not_started_at_check",
+          "decision": "NO_BET",
+          "reason": "Начало матча позже времени проверки; live-ставка заранее не создаётся."
+        }
+      ],
+      "liveBetDecision": "NO_BET",
+      "liveBetSkipReason": "Ни один кандидат не удовлетворяет одновременно двум независимым свежим табло счёт+период+таймер, актуальной in-play линии и консервативному edge >=5 п.п. Прематчевые цены не использовались как live.",
+      "newConfirmedFinals": [],
+      "newSettledPredictions": 0,
+      "newSettledWagers": 0,
+      "newVirtualStakes": 0,
+      "bankEquity": 998.8,
+      "reservedStake": 0,
+      "freeBank": 998.8,
+      "financialAudit": {
+        "startingBank": 1000,
+        "uniqueSettledWagers": [
+          "nhl-20261029-flyers-caps",
+          "nhl-20261029-flames-oilers",
+          "nhl-20261029-devils-avalanche"
+        ],
+        "settlements": [
+          "settlement-nhl-20261029-flyers-caps-20261029T0829",
+          "settlement-nhl-20261029-flames-oilers-20261029T0944",
+          "settlement-nhl-20261029-devils-avalanche-20261029T1810"
+        ],
+        "netResults": [
+          8.4,
+          -20,
+          10.4
+        ],
+        "closedProfit": -1.2,
+        "duplicateSettlementApplied": false
+      },
+      "sources": [
+        "https://www.khl.ru/news/2026/10/29/567831.html",
+        "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316994/",
+        "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316998/",
+        "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316996/",
+        "https://www.sports.ru/hockey/match/",
+        "https://shaiba.kz/match/35334/lokomotiv-khk_sochi/29-10-2026",
+        "https://www.sport-express.net/hockey/khl/news/khl-raspisanie-rezultaty-i-video-golov-29-oktyabrya-2026-sibir-metallurg-avtomobilist-torpedo-severstal-spartak-2468542/",
+        "https://www.livescore.ru/hockey/view/5785749"
+      ],
+      "notification": "hourly_report",
+      "note": "Поиск и открытие страниц проведены при этой проверке; если контент не обновляется в реальном времени, он не подтверждает live. Ставок задним числом не делалось; локальный HTML пользователя не изменялся."
     }
   ],
   "storage": {
@@ -2528,6 +2689,6 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-30T00:27:00+06:00",
-  "automationNote": "Автоматическая проверка НХЛ и КХЛ. Счёт/статус обновляется из публичных табло; новые матчи получают только прозрачный прогноз по последним результатам без ставки. Букмекерские коэффициенты и live-ставки автоматически не создаются."
+  "updatedAt": "2026-10-30T00:47:52+06:00",
+  "automationNote": "Ежечасный анализ NHL/KHL; виртуальные ставки допускаются исключительно после двух независимых свежих подтверждений счёта/таймера, действующей in-play линии и математически доказанного edge минимум 5 п.п. Прогнозы и settlements задним числом не изменяются. Локальный HTML не синхронизируется."
 }
