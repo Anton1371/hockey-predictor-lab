@@ -1,8 +1,8 @@
 {
-  "bank": 1000,
+  "bank": 1008.4,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T01:19:58.000Z",
+  "lastCheckedAt": "2026-10-29T02:29:32.000Z",
   "note": "Последняя проверка 29.10.2026 07:13 по Омску: на табло CBS Sports доступны промежуточные снимки 3 матчей НХЛ (Вашингтон — Филадельфия, Эдмонтон — Калгари, Колорадо — Нью-Джерси), но их время не подтверждено синхронно вторым независимым свежим источником. Новых окончательных результатов по зафиксированным прогнозам нет, новые live-ставки не делались. Все 4 матча КХЛ 28.10 завершены и внесены без задним числом добавленных прогнозов. Виртуальный банк 1000 ₽, открытых ставок 60 ₽, свободных 940 ₽. Исходные прогнозы/коэффициенты/ставки и история неизменны; локальный HTML не синхронизирован.",
   "matches": [
     {
@@ -248,9 +248,9 @@
       "odds": 1.42,
       "stake": 20,
       "prob": 74,
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "homeScore": 5,
+      "awayScore": 2,
       "reason": "Предварительная оценка: Вашингтон дома, у Филадельфии слабый старт сезона и матч на второй день подряд. Коэффициент -238 ≈ 1.42 взят из превью ESPN; оценка вероятности 74% — наша модельная гипотеза, не факт. Перепроверить стартового вратаря и линию перед вбрасыванием.",
       "source": "https://www.espn.com/nhl/story/_/id/50298873/nhl-2026-27-tonight-games-schedule-matchups-stats-top-players-betting",
       "lockedAt": "2026-10-28T23:30:00+06:00",
@@ -262,6 +262,36 @@
         "observedAt": "2026-10-28T23:40:00+06:00",
         "source": "https://stake.com/sports/ice-hockey/usa/nhl",
         "notWagerOdds": true
+      },
+      "lastScoreCheckAt": "2026-10-29T02:29:32.000Z",
+      "scoreSource": "https://www.cbssports.com/nhl/scoreboard/20261028/",
+      "settlement": {
+        "id": "settlement-nhl-20261029-flyers-caps-20261029T0829",
+        "result": "win",
+        "gradedAt": "2026-10-29T08:29:32+06:00",
+        "market": "moneyline",
+        "pick": "Вашингтон победит",
+        "finalScore": "Вашингтон 5:2 Филадельфия",
+        "stake": 20,
+        "lockedOdds": 1.42,
+        "grossReturn": 28.4,
+        "netProfit": 8.4,
+        "includesOvertimeAndShootout": true,
+        "sources": [
+          "https://www.cbssports.com/nhl/scoreboard/20261028/",
+          "https://www.thescore.com/nhl/event/35179"
+        ]
+      },
+      "gradedAt": "2026-10-29T08:29:32+06:00",
+      "finalVerification": {
+        "checkedAt": "2026-10-29T08:29:32+06:00",
+        "final": true,
+        "homeScore": 5,
+        "awayScore": 2,
+        "sources": [
+          "https://www.cbssports.com/nhl/scoreboard/20261028/",
+          "https://www.thescore.com/nhl/event/35179"
+        ]
       }
     },
     {
@@ -759,20 +789,21 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-29T07:19:58+06:00",
+  "currentRun": "2026-10-29T08:29:32+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
     "startingBank": 1000,
-    "settledProfit": 0,
+    "settledProfit": 8.4,
     "equityBeforeResults": 1000,
-    "pendingStakeSum": 60,
-    "uncommittedCash": 940,
-    "gradedWagers": 0,
-    "note": "Только виртуальный банк; старые прогнозы не переписываются.",
-    "wins": 0,
+    "pendingStakeSum": 40,
+    "uncommittedCash": 968.4,
+    "gradedWagers": 1,
+    "note": "Виртуальный банк = начальные 1000 ₽ + чистый итог рассчитанных ставок. Свободные средства = виртуальный банк минус открытые ставки; каждая ставка рассчитывается только один раз по уникальному settlement id.",
+    "wins": 1,
     "losses": 0,
-    "pushes": 0
+    "pushes": 0,
+    "bankEquity": 1008.4
   },
   "events": [
     {
@@ -1297,6 +1328,80 @@
       ],
       "notification": "none",
       "note": "Ранее зафиксированные прогнозы, коэффициенты, суммы и даты не изменены. Нет расчётов по промежуточному счёту; не изменялся локальный HTML."
+    },
+    {
+      "id": "settlement-nhl-20261029-flyers-caps-20261029T0829",
+      "type": "virtual_wager_settlement",
+      "wagerId": "nhl-20261029-flyers-caps",
+      "at": "2026-10-29T02:29:32.000Z",
+      "checkedAtOmsk": "2026-10-29T08:29:32+06:00",
+      "league": "NHL",
+      "match": "Вашингтон Кэпиталз — Филадельфия Флайерз",
+      "finalScore": "5:2",
+      "selection": "Вашингтон победит",
+      "lockedOdds": 1.42,
+      "virtualStake": 20,
+      "result": "win",
+      "grossReturn": 28.4,
+      "netProfit": 8.4,
+      "bankBefore": 1000,
+      "bankAfter": 1008.4,
+      "pendingStake": 40,
+      "freeBank": 968.4,
+      "sources": [
+        "https://www.cbssports.com/nhl/scoreboard/20261028/",
+        "https://www.thescore.com/nhl/event/35179"
+      ],
+      "note": "Подтверждено независимыми табло CBS Sports (FINAL 5:2) и theScore (5:2, разбивка по периодам). Исходная ставка и коэффициент сохранены без ретроактивного изменения. Расчёт выполнен впервые."
+    },
+    {
+      "id": "hourly-20261029T0829-omsk",
+      "type": "hourly_live_and_result_check",
+      "at": "2026-10-29T02:29:32.000Z",
+      "checkedAtOmsk": "2026-10-29T08:29:32+06:00",
+      "leagueScope": [
+        "NHL",
+        "KHL"
+      ],
+      "summary": "Подтверждён финал Вашингтон — Филадельфия 5:2; исходная виртуальная ставка 20 ₽ @1.42 выиграла. Оставшиеся три прогнозных матча НХЛ (Эдмонтон—Калгари, Колорадо—Нью-Джерси, Сиэтл—Торонто) ещё идут, окончательные результаты не подтверждены. Матчи КХЛ 29.10 ещё не начинались. Необнаруженных в журнале live-матчей не установлено.",
+      "newSettledPredictions": 1,
+      "newSettledWagers": 1,
+      "newVirtualStakes": 0,
+      "liveBetDecision": "NO_BET",
+      "skipReason": "Все четыре идущие встречи NHL уже зафиксированы в исходном журнале; матчи КХЛ 29.10 назначены на вечер. Нет нового незаписанного live-матча с двумя свежими подтверждениями игрового времени и подтверждённым live-коэффициентом; математический перевес не доказан.",
+      "observedUnverifiedSnapshots": [
+        {
+          "match": "Калгари — Эдмонтон",
+          "observedScore": "0:2",
+          "observedClock": "после 2-го периода",
+          "source": "https://www.cbssports.com/nhl/scoreboard/20261028/",
+          "verifiedByTwoFreshSources": false
+        },
+        {
+          "match": "Нью-Джерси — Колорадо",
+          "observedScore": "1:0",
+          "observedClock": "2-й период, 11:55",
+          "source": "https://www.cbssports.com/nhl/scoreboard/20261028/",
+          "verifiedByTwoFreshSources": false
+        },
+        {
+          "match": "Торонто — Сиэтл",
+          "observedScore": "0:1",
+          "observedClock": "1-й период, 14:37 (снимок сайта)",
+          "source": "https://www.cbssports.com/nhl/scoreboard/20261028/",
+          "verifiedByTwoFreshSources": false
+        }
+      ],
+      "bankEquity": 1008.4,
+      "reservedStake": 40,
+      "freeBank": 968.4,
+      "sources": [
+        "https://www.cbssports.com/nhl/scoreboard/20261028/",
+        "https://www.thescore.com/nhl/event/35179",
+        "https://www.cbssports.com/nhl/scoreboard/20261028/",
+        "https://www.khl.ru/"
+      ],
+      "note": "Нет новых виртуальных live-ставок. Остальные прогнозы/коэффициенты/ставки не менялись; локальный HTML не изменён."
     }
   ],
   "storage": {
@@ -1305,6 +1410,6 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-29T07:19:58+06:00",
+  "updatedAt": "2026-10-29T08:29:32+06:00",
   "automationNote": "Автоматическая проверка НХЛ и КХЛ. Счёт/статус обновляется из публичных табло; новые матчи получают только прозрачный прогноз по последним результатам без ставки. Букмекерские коэффициенты и live-ставки автоматически не создаются."
 }
