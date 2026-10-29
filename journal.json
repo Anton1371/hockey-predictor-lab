@@ -2,8 +2,8 @@
   "bank": 998.8,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T17:45:23.000Z",
-  "note": "Проверено 29.10.2026 23:45:23 Омск: новых подтвержденных финалов и live-ставок нет; по трём вечерним играм КХЛ счёт, игровой таймер и актуальная live-линия независимо не подтверждены. Банк 998,80 ₽, открытых ставок 0 ₽, свободно 998,80 ₽. Следующие матчи NHL стартуют 30.10 05:00 Омск.",
+  "lastCheckedAt": "2026-10-29T17:54:00.000Z",
+  "note": "Проверка 29.10.2026 23:54 по Омску: Автомобилист—Торпедо 2:2 в 3-м периоде подтверждается Stake.com и Flashscore, но игровой таймер отличается, и доказанного преимущества >=5 п.п. нет. Новая виртуальная ставка не размещена. NHL-игры ещё не начались. Банк 998,80 ₽, открытых ставок 0 ₽. Ежечасная автоматизация включена с начала 30.10 в 00:00 Asia/Omsk.",
   "matches": [
     {
       "id": "khl-20261028-akbars-avangard",
@@ -962,7 +962,7 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-29T23:45:23+06:00",
+  "currentRun": "2026-10-29T23:54:00+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -2319,6 +2319,69 @@
       ],
       "notification": "hourly_report",
       "note": "Предыдущие ставки, прогнозы, коэффициенты, даты фиксации, исходы и events сохранены. Не присваивать устаревшим снимкам статус live/final. Локальный HTML не обновляется автоматически."
+    },
+    {
+      "id": "hourly-20261029T2354-omsk",
+      "type": "hourly_live_and_result_check",
+      "at": "2026-10-29T17:54:00.000Z",
+      "checkedAtOmsk": "2026-10-29T23:54:00+06:00",
+      "leagueScope": [
+        "NHL",
+        "KHL"
+      ],
+      "summary": "Проверка выполнена после вопроса пользователя о том, почему не размещаются виртуальные ставки. На момент проверки NHL-матчи игрового дня ещё не начались по расписанию. В КХЛ найден live-кандидат Автомобилист — Торпедо: Stake.com показывает 2:2 в 3-м периоде и коэффициенты победы с ОТ Автомобилист 1.85 / Торпедо 1.80; Flashscore показывает 2:2 в 3-м периоде, но игровой таймер отличается (около 8 минут против около 4 минут у Stake). Данные по счёту совпадают, таймеры не синхронны. При 1.85 пороговая вероятность 54.05%; консервативный edge +5 п.п. не доказан. Ставка пропущена по правилам, не из-за отсутствия анализа.",
+      "newConfirmedFinals": [],
+      "newSettledWagers": 0,
+      "newSettledPredictions": 0,
+      "newVirtualStakes": 0,
+      "liveGameObservations": [
+        {
+          "matchId": "khl-20261029-avto-torpedo",
+          "score": "Автомобилист 2:2 Торпедо",
+          "sourceSnapshots": [
+            {
+              "source": "https://www.stake.com/sports/ice-hockey/russia/khl/1793282400000-avtomobilist-yekaterinburg-torpedo-n-novgorod",
+              "score": "2:2",
+              "period": "3-й период, примерно 4-я минута",
+              "odds": {
+                "avtomobilistIncludingOT": 1.85,
+                "torpedoIncludingOT": 1.8
+              }
+            },
+            {
+              "source": "https://www.flashscore.com.ua/match/hockey/nizhny-novgorod-YBQWGolb/yekaterinburg-EizNoU4H/?mid=S0bFJhZo",
+              "score": "2:2",
+              "period": "3-й период, примерно 8-я минута"
+            }
+          ],
+          "scoreConfirmedTwoSources": true,
+          "timerSynced": false,
+          "oddsConfirmedLive": true,
+          "market": "Победитель матча с ОТ",
+          "odds": {
+            "avtomobilist": 1.85,
+            "torpedo": 1.8
+          },
+          "impliedProbabilityAvtomobilist": 0.5405,
+          "conservativeProbability": null,
+          "edge5ppProven": false,
+          "decision": "NO_BET",
+          "reason": "Счёт совпадает в двух независимых источниках, но таймеры расходятся; консервативная вероятность с перевесом минимум 5 п.п. над 1/1.85 не обоснована. По правилам пользователя ставку не добавлять."
+        }
+      ],
+      "liveBetDecision": "NO_BET",
+      "skipReason": "Для единственного выявленного live-кандидата счёт подтверждён, но часы не синхронизированы и доказанного преимущества нет. Остальные КХЛ-кандидаты не имеют пары свежих согласованных счётов/таймеров с подтверждённой live-линией. НХЛ ещё не началась.",
+      "bankEquity": 998.8,
+      "reservedStake": 0,
+      "freeBank": 998.8,
+      "sources": [
+        "https://www.stake.com/sports/ice-hockey/russia/khl/1793282400000-avtomobilist-yekaterinburg-torpedo-n-novgorod",
+        "https://www.flashscore.com.ua/match/hockey/nizhny-novgorod-YBQWGolb/yekaterinburg-EizNoU4H/?mid=S0bFJhZo",
+        "https://www.365scores.com/ru/hockey/league/khl-636",
+        "https://www.nhl.com/schedule/2026-10-29"
+      ],
+      "notification": "yes",
+      "note": "Ежечасная автоматизация вновь включена с началом 2026-10-30 00:00 Asia/Omsk. Ставки только виртуальные. Предыдущие прогнозы и расчёты не изменялись. Локальный HTML не меняется автоматически."
     }
   ],
   "storage": {
@@ -2327,6 +2390,6 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-29T23:45:23+06:00",
+  "updatedAt": "2026-10-29T23:54:00+06:00",
   "automationNote": "Автоматическая проверка НХЛ и КХЛ. Счёт/статус обновляется из публичных табло; новые матчи получают только прозрачный прогноз по последним результатам без ставки. Букмекерские коэффициенты и live-ставки автоматически не создаются."
 }
