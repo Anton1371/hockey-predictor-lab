@@ -1,9 +1,9 @@
 {
-  "bank": 998.8,
+  "bank": 1012.4,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-30T01:15:28.595Z",
-  "note": "2026-10-30T07:15:28+06:00: добавлено 5 виртуальных ставок KHL по новой стратегии hit-rate. Банк 998.80 ₽, открытая экспозиция 117.90 ₽, свободно 880.90 ₽.",
+  "lastCheckedAt": "2026-10-30T02:14:00.000Z",
+  "note": "2026-10-30T08:14:00+06:00: подтверждён финал Carolina—Columbus 3:2 (NHL official game summary и CBS Sports). Ставка wager-nhl-20261030-jackets-hurricanes-regulation-20261030T023414 рассчитана один раз: WIN, 20 ₽ @1.68, чистая прибыль +13.60 ₽. Банк 1012.40 ₽; пять открытых KHL-ставок 97.90 ₽; свободно 914.50 ₽.",
   "matches": [
     {
       "id": "khl-20261028-akbars-avangard",
@@ -873,14 +873,14 @@
       "date": "2026-10-30T05:00",
       "home": "Каролина Харрикейнз",
       "away": "Коламбус Блю Джекетс",
-      "market": "moneyline",
-      "selection": "Каролина победит",
-      "odds": null,
-      "stake": 0,
-      "prob": null,
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null,
+      "market": "moneyline_regulation",
+      "selection": "Каролина победит в основное время",
+      "odds": 1.68,
+      "stake": 20,
+      "prob": 60,
+      "status": "final",
+      "homeScore": 3,
+      "awayScore": 2,
       "reason": "Каролина 10–2–2 (+19), Коламбус 5–5–0 (−7). Очевидный фаворит, но при коротком коэффициенте математическое преимущество не доказано. До подтверждения предматчевых данных — только прогноз, без виртуальной ставки.",
       "source": "https://www.nhl.com/schedule/2026-10-29",
       "statsSource": "https://insidetherink.com/stats/nhl/standings/",
@@ -888,7 +888,39 @@
       "oddsSource": "https://www.covers.com/sport/hockey/nhl/odds",
       "lockedAt": "2026-10-28T23:40:00+06:00",
       "recordType": "locked_pick",
-      "pickSide": "home"
+      "pickSide": "home",
+      "result": "win",
+      "predictionResult": "win",
+      "gradedAt": "2026-10-30T08:14:00+06:00",
+      "virtualWagerId": "wager-nhl-20261030-jackets-hurricanes-regulation-20261030T023414",
+      "settlement": {
+        "id": "settlement-nhl-20261030-jackets-hurricanes-regulation-20261030T081400",
+        "result": "win",
+        "gradedAt": "2026-10-30T08:14:00+06:00",
+        "stake": 20,
+        "lockedOdds": 1.68,
+        "market": "Исход основного времени — победа Каролины (П1)",
+        "pick": "Каролина победит в основное время",
+        "finalScore": "Каролина 3:2 Коламбус",
+        "regulationScore": "3:2",
+        "grossReturn": 33.6,
+        "netProfit": 13.6,
+        "sources": [
+          "https://www.nhl.com/scores/htmlreports/20262027/GS020206.HTM",
+          "https://www.cbssports.com/nhl/gametracker/live/NHL_20261029_CLB@CAR/"
+        ]
+      },
+      "finalVerification": {
+        "checkedAt": "2026-10-30T08:14:00+06:00",
+        "final": true,
+        "homeScore": 3,
+        "awayScore": 2,
+        "regulationScore": "3:2",
+        "sources": [
+          "https://www.nhl.com/scores/htmlreports/20262027/GS020206.HTM",
+          "https://www.cbssports.com/nhl/gametracker/live/NHL_20261029_CLB@CAR/"
+        ]
+      }
     },
     {
       "id": "nhl-20261030-jets-lightning",
@@ -1256,21 +1288,21 @@
       "rationale": "Стратегия hit-rate: выбран рынок команды на 1+ шайбу как наиболее вероятный среди доступных стандартных рынков. Оценка вероятности предварительная, не откалиброванная."
     }
   ],
-  "currentRun": "2026-10-30T07:15:28+06:00",
+  "currentRun": "2026-10-30T08:14:00+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
     "startingBank": 1000,
-    "settledProfit": -1.2,
+    "settledProfit": 12.4,
     "equityBeforeResults": 1000,
-    "pendingStakeSum": 117.89999999999999,
-    "uncommittedCash": 880.9,
-    "gradedWagers": 3,
+    "pendingStakeSum": 97.9,
+    "uncommittedCash": 914.5,
+    "gradedWagers": 4,
     "note": "Виртуальный банк = 1000 ₽ плюс чистые результаты уникальных settlements. Открытые ставки резервируются отдельно; свободный банк = банк минус открытые ставки. Ни одна ставка не рассчитывается дважды.",
-    "wins": 2,
+    "wins": 3,
     "losses": 1,
     "pushes": 0,
-    "bankEquity": 998.8
+    "bankEquity": 1012.4
   },
   "events": [
     {
@@ -4623,6 +4655,37 @@
         "https://icehockeyapi.com/games/2026-10-30",
         "https://fon.bet/sports/hockey/country/russia"
       ]
+    },
+    {
+      "id": "settlement-nhl-20261030-jackets-hurricanes-regulation-20261030T081400",
+      "type": "virtual_wager_settlement",
+      "at": "2026-10-30T08:14:00+06:00",
+      "wagerId": "wager-nhl-20261030-jackets-hurricanes-regulation-20261030T023414",
+      "matchId": "nhl-20261030-jackets-hurricanes",
+      "league": "NHL",
+      "match": "Каролина Харрикейнз — Коламбус Блю Джекетс",
+      "finalScore": "Каролина 3:2 Коламбус",
+      "market": "Исход основного времени — победа Каролины (П1)",
+      "selection": "Каролина победит в основное время",
+      "lockedOdds": 1.68,
+      "stake": 20,
+      "grossReturn": 33.6,
+      "netProfit": 13.6,
+      "result": "win",
+      "settlementId": "settlement-nhl-20261030-jackets-hurricanes-regulation-20261030T081400",
+      "sources": [
+        "https://www.nhl.com/scores/htmlreports/20262027/GS020206.HTM",
+        "https://www.cbssports.com/nhl/gametracker/live/NHL_20261029_CLB@CAR/"
+      ],
+      "note": "Расчёт выполнен один раз после подтверждения финального протокола NHL и независимого табло CBS Sports."
+    },
+    {
+      "id": "dashboard-refresh-20261030T081400-omsk",
+      "type": "dashboard_updated",
+      "at": "2026-10-30T08:14:00+06:00",
+      "title": "Обновлён HTML-дашборд",
+      "detail": "index.html обновлён под структуру virtualWagers/accounting; отображает банк, свободный остаток, открытые ставки, матчи и историю. Сборка 08:14 Asia/Omsk.",
+      "source": "https://github.com/Anton1371/hockey-predictor-lab/blob/main/index.html"
     }
   ],
   "storage": {
@@ -4631,7 +4694,7 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-30T07:15:28+06:00",
+  "updatedAt": "2026-10-30T08:14:00+06:00",
   "automationNote": "Хоккейная стратегия: для каждого доступного матча крупных лиг выбирать на Фонбет один рынок с самой высокой обоснованной консервативной вероятностью выигрыша и делать одну виртуальную ставку; цель — hit rate, не EV. Не применять прежние обязательные p>=60% и p>1/k. Котировки только Fonbet; обычно 2% свободного банка (1–3%), максимум 5% банка на матч. Одна ставка на матч, без экспрессов/догонов/повторов/ставок задним числом. При ненадёжных данных/рынке — NO BET; live требует двух свежих независимых подтверждений счёта и времени. Сохранять историю append-only; не менять открытые ставки.",
   "virtualWagers": [
     {
@@ -4654,7 +4717,7 @@
       "netProfitIfWin": 13.6,
       "netLossIfLose": -20,
       "expectedNetValue": 0.16000000000000014,
-      "status": "open",
+      "status": "settled",
       "placedAt": "2026-10-30T02:34:14+06:00",
       "scheduledStartOmsk": "2026-10-30T05:00:00+06:00",
       "matchStateAtPlacement": "prematch",
@@ -4665,7 +4728,28 @@
         "https://frontend.d3.nhle.com/hurricanes/news/preview-october-29-vs-columbus",
         "https://statsnext.com/nhl/games/2026-10-29-blue-jackets-at-hurricanes-da4cf9fb"
       ],
-      "settlementId": null
+      "settlementId": "settlement-nhl-20261030-jackets-hurricanes-regulation-20261030T081400",
+      "settledAt": "2026-10-30T08:14:00+06:00",
+      "settlement": {
+        "id": "settlement-nhl-20261030-jackets-hurricanes-regulation-20261030T081400",
+        "result": "win",
+        "gradedAt": "2026-10-30T08:14:00+06:00",
+        "stake": 20,
+        "lockedOdds": 1.68,
+        "market": "Исход основного времени — победа Каролины (П1)",
+        "pick": "Каролина победит в основное время",
+        "finalScore": "Каролина 3:2 Коламбус",
+        "regulationScore": "3:2",
+        "grossReturn": 33.6,
+        "netProfit": 13.6,
+        "sources": [
+          "https://www.nhl.com/scores/htmlreports/20262027/GS020206.HTM",
+          "https://www.cbssports.com/nhl/gametracker/live/NHL_20261029_CLB@CAR/"
+        ]
+      },
+      "finalScore": "Каролина 3:2 Коламбус",
+      "netProfit": 13.6,
+      "grossReturn": 33.6
     },
     {
       "wagerId": "wager-khl-20261030-lada-avangard-20261030T071528",
