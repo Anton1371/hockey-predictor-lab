@@ -2,8 +2,8 @@
   "bank": 1012.4,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-30T19:49:03+06:00",
-  "note": "2026-10-30T19:49:03+06:00: рассмотрено 106 ожидающих/неподтверждённых матчей, 31 новых (20 виртуальных денежных ставок, 11 paper-picks) в NHL, SHL, AHL, Liiga, Swiss NL, Swiss SL. Новых подтверждённых settlements нет. Банковый баланс 1012.40 ₽, открытая экспозиция 725.82 ₽, свободно 286.58 ₽.",
+  "lastCheckedAt": "2026-10-30T20:40:43+06:00",
+  "note": "2026-10-30T20:40:43+06:00: аудит 106 ожидающих матчей в 16 лигах, 0 новых незаписанных событий, новых виртуальных ставок 0, paper-picks 0, подтверждённых settlements 0. Сверены свежие расписания NHL, Liiga и VHL (31 матч). Финал трёх уже стартовавших матчей ВХЛ не подтверждён официально; результаты не рассчитаны. Банк 1012.40 ₽, экспозиция 725.82 ₽, свободно 286.58 ₽.",
   "matches": [
     {
       "id": "khl-20261028-akbars-avangard",
@@ -10968,6 +10968,70 @@
         "Историческая запись АХЛ Гамильтон Булдогс расходится с текущим названием Hamilton Hammers; прошлые ставки и данные не менялись"
       ],
       "note": "Всё виртуально; реальных ставок, платежей и входов в букмекерские аккаунты не было."
+    },
+    {
+      "id": "hourly-hockey-review-20261030T204043-omsk",
+      "type": "hourly_hockey_review",
+      "title": "Ежечасный хоккейный обзор",
+      "summary": "Новых матчей без прогноза и подтверждённых settlements нет; сверены расписания ВХЛ, Liiga и НХЛ, история сохранена.",
+      "at": "2026-10-30T20:40:43+06:00",
+      "journalFixtureCount": 106,
+      "journalLeagues": [
+        "AHL",
+        "Czech Extraliga",
+        "DEL",
+        "EIHL",
+        "EIHL Challenge Cup",
+        "ICEHL",
+        "KHL",
+        "Liiga",
+        "MHL",
+        "Metal Ligaen",
+        "NHL",
+        "SHL",
+        "Slovak Extraliga",
+        "Swiss NL",
+        "Swiss SL",
+        "VHL"
+      ],
+      "independentlyCrossCheckedLeagues": [
+        "VHL",
+        "Liiga",
+        "NHL"
+      ],
+      "independentlyCrossCheckedFixtures": 31,
+      "newFixtures": 0,
+      "newVirtualStakes": 0,
+      "newPaperPicks": 0,
+      "newSettlements": 0,
+      "openVirtualWagerCount": 88,
+      "paperPickCount": 18,
+      "bankEquity": 1012.4,
+      "openExposure": 725.82,
+      "freeBank": 286.58,
+      "liigaKickoffVerification": {
+        "source": "https://www.flashscore.com/hockey/finland/liiga/fixtures/",
+        "clubConfirmation": "https://saipa.fi/fi-fi/article/uutiset/otteluohjelma-2026-2027/9361/",
+        "matchesWithDateOnlyInJournal": 7,
+        "commonStartOmsk": "2026-10-30T22:30:00+06:00",
+        "kalpaJokeritStartOmsk": "2026-10-30T23:30:00+06:00",
+        "note": "Сведения о времени начала зафиксированы в append-only событии, старые записи матчей и ставки не изменены."
+      },
+      "sources": [
+        "https://scorehockey.ru/league/vhl/",
+        "https://www.livescore.in/ru/hockey/russia/vhl/fixtures/",
+        "https://www.flashscore.com/hockey/finland/liiga/fixtures/",
+        "https://saipa.fi/fi-fi/article/uutiset/otteluohjelma-2026-2027/9361/",
+        "https://agatha.gg/nhl/schedule/2026-10",
+        "https://www.marathonbet.ru/su/live/32900311",
+        "https://www.olimp.bet/live/khokkey-2/olimpbet-vkhl-regulyarnyy-chempionat-506377/omskie-krylya-yuzhnyy-ural-30-10-2026-86181682"
+      ],
+      "unverifiedLive": [
+        "vhl-20261030-norilsk-khimik",
+        "vhl-20261030-omsk-yuzhny",
+        "vhl-20261030-molot-yugra"
+      ],
+      "notes": "Источники live содержат устаревшие или противоречивые снимки; нет окончательных подтверждений финала, счёта и времени. Уже существующие picks не дублировались. Только виртуальный режим; реальных ставок и платежей не было."
     }
   ],
   "storage": {
