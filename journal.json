@@ -1,8 +1,8 @@
 {
-  "bank": 1012.4,
+  "bank": 1013.99,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-30T20:40:43+06:00",
+  "lastCheckedAt": "2026-10-30T23:47:00+06:00",
   "note": "2026-10-30T20:40:43+06:00: аудит 106 ожидающих матчей в 16 лигах, 0 новых незаписанных событий, новых виртуальных ставок 0, paper-picks 0, подтверждённых settlements 0. Сверены свежие расписания NHL, Liiga и VHL (31 матч). Финал трёх уже стартовавших матчей ВХЛ не подтверждён официально; результаты не рассчитаны. Банк 1012.40 ₽, экспозиция 725.82 ₽, свободно 286.58 ₽.",
   "matches": [
     {
@@ -1296,9 +1296,9 @@
       "odds": 1.02,
       "stake": 19.58,
       "prob": 96,
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "homeScore": 3,
+      "awayScore": 2,
       "lockedAt": "2026-10-30T07:15:28+06:00",
       "recordType": "locked_pick",
       "source": "https://fon.bet/sports/hockey/country/russia/13283/69360351",
@@ -1309,7 +1309,23 @@
         "source": "https://fon.bet/sports/hockey/country/russia/13283/69360351",
         "oddsSource": "Fonbet"
       },
-      "rationale": "Стратегия hit-rate: выбран рынок команды на 1+ шайбу как наиболее вероятный среди доступных стандартных рынков. Оценка вероятности предварительная, не откалиброванная."
+      "rationale": "Стратегия hit-rate: выбран рынок команды на 1+ шайбу как наиболее вероятный среди доступных стандартных рынков. Оценка вероятности предварительная, не откалиброванная.",
+      "result": "Лада 3:2 ОТ Авангард",
+      "predictionResult": "win",
+      "finalVerification": {
+        "checkedAt": "2026-10-30T23:47:00+06:00",
+        "final": true,
+        "homeScore": 3,
+        "awayScore": 2,
+        "periods": "1:1, 1:1, 0:0, OT 1:0",
+        "sources": [
+          "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316982/",
+          "https://www.sport-express.net/hockey/L/matchcenter/129302/"
+        ],
+        "graded": true,
+        "settlementId": "settlement-khl-20261030-lada-avangard-team-score-20261030T234700",
+        "reason": "Авангард забросил две шайбы: Егор Афанасьев и Джош Ливо. Рынок Авангард 1+ выиграл."
+      }
     },
     {
       "id": "khl-20261030-severstal-spartak",
@@ -3554,19 +3570,19 @@
     "currency": "RUB",
     "virtual": true,
     "startingBank": 1000,
-    "settledProfit": 12.4,
+    "settledProfit": 13.99,
     "equityBeforeResults": 1000,
-    "pendingStakeSum": 725.82,
-    "uncommittedCash": 286.58,
-    "gradedWagers": 4,
-    "note": "Денежные виртуальные ставки и бумажные прогнозы учитываются отдельно. Банк = 1000 + результаты уникальных settlements; свободно = банк - открытая экспозиция.",
-    "wins": 3,
-    "losses": 1,
+    "pendingStakeSum": 706.24,
+    "uncommittedCash": 307.75,
+    "gradedWagers": 2,
+    "note": "Денежные виртуальные ставки и бумажные прогнозы учитываются отдельно. Банк = стартовые 1000 ₽ + чистые результаты уникальных settlements; свободно = банк - открытая экспозиция.",
+    "wins": 2,
+    "losses": 0,
     "pushes": 0,
-    "bankEquity": 1012.4,
-    "openWagerCount": 88,
-    "openExposure": 725.82,
-    "freeBank": 286.58,
+    "bankEquity": 1013.99,
+    "openWagerCount": 87,
+    "openExposure": 706.24,
+    "freeBank": 307.75,
     "paperPickCount": 18
   },
   "events": [
@@ -11032,6 +11048,24 @@
         "vhl-20261030-molot-yugra"
       ],
       "notes": "Источники live содержат устаревшие или противоречивые снимки; нет окончательных подтверждений финала, счёта и времени. Уже существующие picks не дублировались. Только виртуальный режим; реальных ставок и платежей не было."
+    },
+    {
+      "id": "settlement-recorded-khl-20261030-lada-avangard-20261030T234700",
+      "type": "virtual_wager_settled",
+      "title": "Ставка выиграла: Лада — Авангард",
+      "summary": "Авангард забросил две шайбы. Рынок «Авангард забьёт 1+» выиграл; чистый результат +0.39 ₽, коэффициент 1.02.",
+      "at": "2026-10-30T23:47:00+06:00",
+      "matchId": "khl-20261030-lada-avangard",
+      "wagerId": "wager-khl-20261030-lada-avangard-20261030T071528",
+      "settlementId": "settlement-khl-20261030-lada-avangard-team-score-20261030T234700",
+      "result": "win",
+      "finalScore": "Лада 3:2 ОТ Авангард",
+      "netProfit": 0.39,
+      "grossReturn": 19.97,
+      "sources": [
+        "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316982/",
+        "https://www.sport-express.net/hockey/L/matchcenter/129302/"
+      ]
     }
   ],
   "storage": {
@@ -11040,7 +11074,7 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-30T19:49:03+06:00",
+  "updatedAt": "2026-10-30T23:47:00+06:00",
   "automationNote": "Хоккейная стратегия: для каждого доступного матча крупных лиг выбирать на Фонбет один рынок с самой высокой обоснованной консервативной вероятностью выигрыша и делать одну виртуальную ставку; цель — hit rate, не EV. Не применять прежние обязательные p>=60% и p>1/k. Котировки только Fonbet; обычно 2% свободного банка (1–3%), максимум 5% банка на матч. Одна ставка на матч, без экспрессов/догонов/повторов/ставок задним числом. При ненадёжных данных/рынке — NO BET; live требует двух свежих независимых подтверждений счёта и времени. Сохранять историю append-only; не менять открытые ставки.",
   "virtualWagers": [
     {
@@ -11117,15 +11151,38 @@
       "netProfitIfWin": 0.39,
       "netLossIfLose": -19.58,
       "expectedNetValue": -0.41,
-      "status": "open",
+      "status": "settled",
       "placedAt": "2026-10-30T07:15:28+06:00",
       "scheduledStartOmsk": "2026-10-30T21:00:00+06:00",
       "matchStateAtPlacement": "prematch",
-      "settlementId": null,
+      "settlementId": "settlement-khl-20261030-lada-avangard-team-score-20261030T234700",
       "sources": [
         "https://fon.bet/sports/hockey/country/russia/13283/69360351",
         "https://www.sports.ru/hockey/blogs/3580730.html"
-      ]
+      ],
+      "settledAt": "2026-10-30T23:47:00+06:00",
+      "settlement": {
+        "id": "settlement-khl-20261030-lada-avangard-team-score-20261030T234700",
+        "result": "win",
+        "gradedAt": "2026-10-30T23:47:00+06:00",
+        "stake": 19.58,
+        "lockedOdds": 1.02,
+        "market": "Команда забьёт хотя бы 1 шайбу",
+        "pick": "Авангард забьёт 1+ шайбу",
+        "finalScore": "Лада 3:2 ОТ Авангард",
+        "teamGoals": 2,
+        "requiredGoals": 1,
+        "grossReturn": 19.97,
+        "netProfit": 0.39,
+        "sources": [
+          "https://www.championat.com/hockey/_superleague/tournament/7092/match/1316982/",
+          "https://www.sport-express.net/hockey/L/matchcenter/129302/"
+        ],
+        "verification": "Two independent score reports; both confirm Avangard scored twice. The team-to-score-1+ market is won regardless of overtime result."
+      },
+      "finalScore": "Лада 3:2 ОТ Авангард",
+      "netProfit": 0.39,
+      "grossReturn": 19.97
     },
     {
       "wagerId": "wager-khl-20261030-severstal-spartak-20261030T071528",
