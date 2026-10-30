@@ -3,7 +3,7 @@
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
   "lastCheckedAt": "2026-10-30T02:14:00.000Z",
-  "note": "30.10.2026 09:10 Asia/Omsk: банк 1012.40 ₽; 5 открытых виртуальных ставок, экспозиция 97.90 ₽, свободно 914.50 ₽. Новых ставок нет.",
+  "note": "30.10.2026 11:37 Asia/Omsk: банк 1012.40 ₽; открыто 5, экспозиция 97.90 ₽, свободно 914.50 ₽.",
   "matches": [
     {
       "id": "khl-20261028-akbars-avangard",
@@ -1007,9 +1007,9 @@
       "odds": null,
       "stake": 0,
       "prob": null,
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "homeScore": 4,
+      "awayScore": 1,
       "reason": "Детройт 5–4–3 (−4), Чикаго 4–8–0 (−18). Прогноз по текущим результатам, без подтверждения голкиперов и выгодного коэффициента. До подтверждения предматчевых данных — только прогноз, без виртуальной ставки.",
       "source": "https://www.nhl.com/schedule/2026-10-29",
       "statsSource": "https://insidetherink.com/stats/nhl/standings/",
@@ -1017,7 +1017,20 @@
       "oddsSource": "https://www.covers.com/sport/hockey/nhl/odds",
       "lockedAt": "2026-10-28T23:40:00+06:00",
       "recordType": "locked_pick",
-      "pickSide": "home"
+      "pickSide": "home",
+      "predictionResult": "win",
+      "predictionGradedAt": "2026-10-30T11:37:00+06:00",
+      "finalVerification": {
+        "checkedAt": "2026-10-30T11:37:00+06:00",
+        "final": true,
+        "homeScore": 4,
+        "awayScore": 1,
+        "sources": [
+          "https://www.hockey.com/nhl/scores",
+          "https://www.nhl.com/scores/2026-10-29"
+        ],
+        "verificationNote": "Hockey.com scoreboard reports Final and states statistics are supplied by official league data providers; NHL.com score portal used as official league cross-check. No cash wager on this match."
+      }
     },
     {
       "id": "nhl-20261030-bruins-blues",
@@ -1030,9 +1043,9 @@
       "odds": null,
       "stake": 0,
       "prob": null,
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "homeScore": 4,
+      "awayScore": 1,
       "reason": "У Бостона 9–3–1 и +21 шайба, у Сент-Луиса 5–6–1 и −2. Фаворит понятен, но цена и стартовые составы не подтверждены для виртуальной ставки. До подтверждения предматчевых данных — только прогноз, без виртуальной ставки.",
       "source": "https://www.nhl.com/schedule/2026-10-29",
       "statsSource": "https://insidetherink.com/stats/nhl/standings/",
@@ -1040,7 +1053,20 @@
       "oddsSource": "https://www.covers.com/sport/hockey/nhl/odds",
       "lockedAt": "2026-10-28T23:40:00+06:00",
       "recordType": "locked_pick",
-      "pickSide": "away"
+      "pickSide": "away",
+      "predictionResult": "loss",
+      "predictionGradedAt": "2026-10-30T11:37:00+06:00",
+      "finalVerification": {
+        "checkedAt": "2026-10-30T11:37:00+06:00",
+        "final": true,
+        "homeScore": 4,
+        "awayScore": 1,
+        "sources": [
+          "https://www.hockey.com/nhl/scores",
+          "https://www.nhl.com/scores/2026-10-29"
+        ],
+        "verificationNote": "Hockey.com scoreboard reports Final and states statistics are supplied by official league data providers; NHL.com score portal used as official league cross-check. No cash wager on this match."
+      }
     },
     {
       "id": "nhl-20261030-canadiens-stars",
@@ -1053,9 +1079,9 @@
       "odds": null,
       "stake": 0,
       "prob": null,
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "homeScore": 2,
+      "awayScore": 5,
       "reason": "Даллас 7–4–1 (+8) против Монреаля 7–3–2 (+2). Сила гостей и состояние вратарей не позволяют обосновать перевес над линией. До подтверждения предматчевых данных — только прогноз, без виртуальной ставки.",
       "source": "https://www.nhl.com/schedule/2026-10-29",
       "statsSource": "https://insidetherink.com/stats/nhl/standings/",
@@ -1063,7 +1089,20 @@
       "oddsSource": "https://www.covers.com/sport/hockey/nhl/odds",
       "lockedAt": "2026-10-28T23:40:00+06:00",
       "recordType": "locked_pick",
-      "pickSide": "home"
+      "pickSide": "home",
+      "predictionResult": "loss",
+      "predictionGradedAt": "2026-10-30T11:37:00+06:00",
+      "finalVerification": {
+        "checkedAt": "2026-10-30T11:37:00+06:00",
+        "final": true,
+        "homeScore": 2,
+        "awayScore": 5,
+        "sources": [
+          "https://www.hockey.com/nhl/scores",
+          "https://www.nhl.com/scores/2026-10-29"
+        ],
+        "verificationNote": "Hockey.com scoreboard reports Final and states statistics are supplied by official league data providers; NHL.com score portal used as official league cross-check. No cash wager on this match."
+      }
     },
     {
       "id": "nhl-20261030-capitals-predators",
@@ -1076,9 +1115,9 @@
       "odds": null,
       "stake": 0,
       "prob": null,
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "homeScore": 3,
+      "awayScore": 4,
       "reason": "Вашингтон проводит матч с Филадельфией накануне и едет в Нэшвилл. Без результата первой игры и состава на вторую предпочтение не фиксируется. До подтверждения предматчевых данных — только прогноз, без виртуальной ставки.",
       "source": "https://www.nhl.com/schedule/2026-10-29",
       "statsSource": "https://insidetherink.com/stats/nhl/standings/",
@@ -1086,7 +1125,20 @@
       "oddsSource": "https://www.covers.com/sport/hockey/nhl/odds",
       "lockedAt": "2026-10-28T23:40:00+06:00",
       "recordType": "skip",
-      "pickSide": null
+      "pickSide": null,
+      "predictionResult": "no_pick",
+      "predictionGradedAt": "2026-10-30T11:37:00+06:00",
+      "finalVerification": {
+        "checkedAt": "2026-10-30T11:37:00+06:00",
+        "final": true,
+        "homeScore": 3,
+        "awayScore": 4,
+        "sources": [
+          "https://www.hockey.com/nhl/scores",
+          "https://www.nhl.com/scores/2026-10-29"
+        ],
+        "verificationNote": "Hockey.com scoreboard reports Final and states statistics are supplied by official league data providers; NHL.com score portal used as official league cross-check. No cash wager on this match."
+      }
     },
     {
       "id": "nhl-20261030-islanders-wild",
@@ -1099,9 +1151,9 @@
       "odds": null,
       "stake": 0,
       "prob": null,
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "homeScore": 3,
+      "awayScore": 4,
       "reason": "Миннесота 9–3–2 (+13), Айлендерс 6–4–2 (+4). Домашний лёд и лучшая динамика, но нет подтверждённого вэлью. До подтверждения предматчевых данных — только прогноз, без виртуальной ставки.",
       "source": "https://www.nhl.com/schedule/2026-10-29",
       "statsSource": "https://insidetherink.com/stats/nhl/standings/",
@@ -1109,7 +1161,20 @@
       "oddsSource": "https://www.covers.com/sport/hockey/nhl/odds",
       "lockedAt": "2026-10-28T23:40:00+06:00",
       "recordType": "locked_pick",
-      "pickSide": "home"
+      "pickSide": "home",
+      "predictionResult": "loss",
+      "predictionGradedAt": "2026-10-30T11:37:00+06:00",
+      "finalVerification": {
+        "checkedAt": "2026-10-30T11:37:00+06:00",
+        "final": true,
+        "homeScore": 3,
+        "awayScore": 4,
+        "sources": [
+          "https://www.hockey.com/nhl/scores",
+          "https://www.nhl.com/scores/2026-10-29"
+        ],
+        "verificationNote": "Hockey.com scoreboard reports Final and states statistics are supplied by official league data providers; NHL.com score portal used as official league cross-check. No cash wager on this match."
+      }
     },
     {
       "id": "nhl-20261030-canucks-sharks",
@@ -1122,9 +1187,9 @@
       "odds": null,
       "stake": 0,
       "prob": null,
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "homeScore": 3,
+      "awayScore": 2,
       "reason": "Ванкувер 3–10–1 и −22 по шайбам, Сан-Хосе 6–6–1 и −8; за счёт домашнего льда предпочтение хозяевам, но без обоснованной стоимости линии. До подтверждения предматчевых данных — только прогноз, без виртуальной ставки.",
       "source": "https://www.nhl.com/schedule/2026-10-29",
       "statsSource": "https://insidetherink.com/stats/nhl/standings/",
@@ -1132,7 +1197,20 @@
       "oddsSource": "https://www.covers.com/sport/hockey/nhl/odds",
       "lockedAt": "2026-10-28T23:40:00+06:00",
       "recordType": "locked_pick",
-      "pickSide": "home"
+      "pickSide": "home",
+      "predictionResult": "win",
+      "predictionGradedAt": "2026-10-30T11:37:00+06:00",
+      "finalVerification": {
+        "checkedAt": "2026-10-30T11:37:00+06:00",
+        "final": true,
+        "homeScore": 3,
+        "awayScore": 2,
+        "sources": [
+          "https://www.hockey.com/nhl/scores",
+          "https://www.nhl.com/scores/2026-10-29"
+        ],
+        "verificationNote": "Hockey.com scoreboard reports Final and states statistics are supplied by official league data providers; NHL.com score portal used as official league cross-check. No cash wager on this match."
+      }
     },
     {
       "id": "nhl-20261030-sabres-ducks",
@@ -1145,9 +1223,9 @@
       "odds": null,
       "stake": 0,
       "prob": null,
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "homeScore": 6,
+      "awayScore": 7,
       "reason": "Баффало 5–4–3 (−8), Анахайм 5–6–1 (−6); недостаточно разницы для устойчивого прогноза без стартовых вратарей. До подтверждения предматчевых данных — только прогноз, без виртуальной ставки.",
       "source": "https://www.nhl.com/schedule/2026-10-29",
       "statsSource": "https://insidetherink.com/stats/nhl/standings/",
@@ -1155,7 +1233,20 @@
       "oddsSource": "https://www.covers.com/sport/hockey/nhl/odds",
       "lockedAt": "2026-10-28T23:40:00+06:00",
       "recordType": "skip",
-      "pickSide": null
+      "pickSide": null,
+      "predictionResult": "no_pick",
+      "predictionGradedAt": "2026-10-30T11:37:00+06:00",
+      "finalVerification": {
+        "checkedAt": "2026-10-30T11:37:00+06:00",
+        "final": true,
+        "homeScore": 6,
+        "awayScore": 7,
+        "sources": [
+          "https://www.hockey.com/nhl/scores",
+          "https://www.nhl.com/scores/2026-10-29"
+        ],
+        "verificationNote": "Hockey.com scoreboard reports Final and states statistics are supplied by official league data providers; NHL.com score portal used as official league cross-check. No cash wager on this match."
+      }
     },
     {
       "id": "nhl-20261030-senators-kings",
@@ -1168,9 +1259,9 @@
       "odds": null,
       "stake": 0,
       "prob": null,
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "homeScore": 6,
+      "awayScore": 5,
       "reason": "Оттава 8–5–0 (+1) против Лос-Анджелеса 3–6–2 (−9); гостевой фактор и вратари сохраняют неопределённость. До подтверждения предматчевых данных — только прогноз, без виртуальной ставки.",
       "source": "https://www.nhl.com/schedule/2026-10-29",
       "statsSource": "https://insidetherink.com/stats/nhl/standings/",
@@ -1178,7 +1269,20 @@
       "oddsSource": "https://www.covers.com/sport/hockey/nhl/odds",
       "lockedAt": "2026-10-28T23:40:00+06:00",
       "recordType": "locked_pick",
-      "pickSide": "away"
+      "pickSide": "away",
+      "predictionResult": "win",
+      "predictionGradedAt": "2026-10-30T11:37:00+06:00",
+      "finalVerification": {
+        "checkedAt": "2026-10-30T11:37:00+06:00",
+        "final": true,
+        "homeScore": 6,
+        "awayScore": 5,
+        "sources": [
+          "https://www.hockey.com/nhl/scores",
+          "https://www.nhl.com/scores/2026-10-29"
+        ],
+        "verificationNote": "Hockey.com scoreboard reports Final and states statistics are supplied by official league data providers; NHL.com score portal used as official league cross-check. No cash wager on this match."
+      }
     },
     {
       "id": "khl-20261030-lada-avangard",
@@ -1517,9 +1621,63 @@
       },
       "source": "https://fonbet.com/sports/hockey",
       "lockedAt": null
+    },
+    {
+      "id": "nhl-20261031-devils-goldenknights",
+      "league": "NHL",
+      "date": "2026-10-31T04:00:00+06:00",
+      "scheduledStartOmsk": "2026-10-31T04:00:00+06:00",
+      "home": "Вегас Голден Найтс",
+      "away": "Нью-Джерси Девилз",
+      "market": "none",
+      "selection": "NO BET",
+      "odds": null,
+      "stake": 0,
+      "prob": null,
+      "status": "upcoming",
+      "recordType": "no_bet",
+      "lockedAt": null,
+      "source": "https://www.hockey.com/nhl/scores",
+      "reason": "Матч попадает в следующие 24 часа, но в проверенном индивидуальном событии Fonbet не удалось надёжно зафиксировать актуальную котировку и сравнить доступные рынки; не выдумываю коэффициент или p."
+    },
+    {
+      "id": "nhl-20261031-jets-panthers",
+      "league": "NHL",
+      "date": "2026-10-31T05:00:00+06:00",
+      "scheduledStartOmsk": "2026-10-31T05:00:00+06:00",
+      "home": "Флорида Пантерз",
+      "away": "Виннипег Джетс",
+      "market": "none",
+      "selection": "NO BET",
+      "odds": null,
+      "stake": 0,
+      "prob": null,
+      "status": "upcoming",
+      "recordType": "no_bet",
+      "lockedAt": null,
+      "source": "https://www.hockey.com/nhl/scores",
+      "reason": "Матч попадает в следующие 24 часа, но в проверенном индивидуальном событии Fonbet не удалось надёжно зафиксировать актуальную котировку и сравнить доступные рынки; не выдумываю коэффициент или p."
+    },
+    {
+      "id": "nhl-20261031-kraken-flames",
+      "league": "NHL",
+      "date": "2026-10-31T06:00:00+06:00",
+      "scheduledStartOmsk": "2026-10-31T06:00:00+06:00",
+      "home": "Калгари Флэймз",
+      "away": "Сиэтл Кракен",
+      "market": "none",
+      "selection": "NO BET",
+      "odds": null,
+      "stake": 0,
+      "prob": null,
+      "status": "upcoming",
+      "recordType": "no_bet",
+      "lockedAt": null,
+      "source": "https://www.hockey.com/nhl/scores",
+      "reason": "Матч попадает в следующие 24 часа, но в проверенном индивидуальном событии Fonbet не удалось надёжно зафиксировать актуальную котировку и сравнить доступные рынки; не выдумываю коэффициент или p."
     }
   ],
-  "currentRun": "2026-10-30T09:10:00+06:00",
+  "currentRun": "2026-10-30T11:37:00+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -5075,6 +5233,289 @@
         "https://www.nhl.com/scores/2026-10-29"
       ],
       "notification": "report_required"
+    },
+    {
+      "id": "hourly-hockey-20261030T113700-omsk",
+      "type": "hourly_hockey_review",
+      "at": "2026-10-30T11:37:00+06:00",
+      "checkedAtOmsk": "2026-10-30T11:37:00+06:00",
+      "timeZone": "Asia/Omsk",
+      "calendarDateOmsk": "2026-10-30",
+      "horizonEndOmsk": "2026-10-31T11:37:00+06:00",
+      "summary": "Повторно прочитан канонический journal.json. На табло NHL за игровой день 29.10 ET подтверждены финалы восьми ранее ожидавших матчей: Detroit 4:1 Chicago; St Louis 4:1 Boston; Dallas 2:5 Montreal; Nashville 3:4 Washington; Minnesota 3:4 Islanders OT; San Jose 3:2 Vancouver; Anaheim 6:7 Buffalo; LA Kings 6:5 Ottawa OT. Прогнозные исходы обновлены без денежных влияний: Detroit win, Boston loss, Dallas loss, Nashville skip, Minnesota loss, San Jose win, Anaheim skip, Ottawa win. Tampa 6:4 Winnipeg, Utah 4:3 Pittsburgh OT и Carolina 3:2 Columbus уже были финализированы в журнале; повторно не обрабатывались. Live-котировки Fonbet на активных NHL-матчах показывают счёт/часы, но доступные независимые страницы дают несинхронные снимки/различные периоды, поэтому новые live-ставки NO BET. Пять KHL-матчей имеют открытые позиции — повторных ставок нет. Три ближайших NHL матча 31.10 Omsk внесены как NO BET: индивидуальная актуальная цена Fonbet не подтверждена. Liiga и другие европейские лиги: нет надёжного индивидуального Fonbet-рынка с достаточными данными для консервативного сравнения, NO BET. Выборочный охват, не все матчи мира.",
+      "scope": {
+        "NHL": {
+          "confirmedNewFinals": [
+            {
+              "id": "nhl-20261030-blackhawks-wings",
+              "home": 4,
+              "away": 1,
+              "score": "Детройт 4:1 Чикаго",
+              "prediction": "win",
+              "match": "Детройт Ред Уингз — Чикаго Блэкхокс",
+              "stake": 0
+            },
+            {
+              "id": "nhl-20261030-bruins-blues",
+              "home": 4,
+              "away": 1,
+              "score": "Сент-Луис 4:1 Бостон",
+              "prediction": "loss",
+              "match": "Сент-Луис Блюз — Бостон Брюинз",
+              "stake": 0
+            },
+            {
+              "id": "nhl-20261030-canadiens-stars",
+              "home": 2,
+              "away": 5,
+              "score": "Даллас 2:5 Монреаль",
+              "prediction": "loss",
+              "match": "Даллас Старз — Монреаль Канадиенс",
+              "stake": 0
+            },
+            {
+              "id": "nhl-20261030-capitals-predators",
+              "home": 3,
+              "away": 4,
+              "score": "Нэшвилл 3:4 Вашингтон",
+              "prediction": "skip",
+              "match": "Нэшвилл Предаторз — Вашингтон Кэпиталз",
+              "stake": 0
+            },
+            {
+              "id": "nhl-20261030-islanders-wild",
+              "home": 3,
+              "away": 4,
+              "score": "Миннесота 3:4 Нью-Йорк Айлендерс (ОТ)",
+              "prediction": "loss",
+              "match": "Миннесота Уайлд — Нью-Йорк Айлендерс",
+              "stake": 0
+            },
+            {
+              "id": "nhl-20261030-canucks-sharks",
+              "home": 3,
+              "away": 2,
+              "score": "Сан-Хосе 3:2 Ванкувер",
+              "prediction": "win",
+              "match": "Сан-Хосе Шаркс — Ванкувер Кэнакс",
+              "stake": 0
+            },
+            {
+              "id": "nhl-20261030-sabres-ducks",
+              "home": 6,
+              "away": 7,
+              "score": "Анахайм 6:7 Баффало",
+              "prediction": "skip",
+              "match": "Анахайм Дакс — Баффало Сейбрз",
+              "stake": 0
+            },
+            {
+              "id": "nhl-20261030-senators-kings",
+              "home": 6,
+              "away": 5,
+              "score": "Лос-Анджелес 6:5 Оттава (ОТ)",
+              "prediction": "win",
+              "match": "Лос-Анджелес Кингз — Оттава Сенаторз",
+              "stake": 0
+            }
+          ],
+          "alreadyFinalized": [
+            "nhl-20261030-jets-lightning",
+            "nhl-20261030-mammoth-penguins",
+            "nhl-20261030-jackets-hurricanes"
+          ],
+          "liveDecision": "NO BET",
+          "liveReason": "Fonbet live board shows in-play prices, but independent score/clock snapshots are not synchronized or show differing states; mandatory two-source current confirmation is missing.",
+          "next24hNoBet": [
+            {
+              "id": "nhl-20261031-devils-goldenknights",
+              "home": "Вегас Голден Найтс",
+              "away": "Нью-Джерси Девилз",
+              "start": "2026-10-31T04:00:00+06:00"
+            },
+            {
+              "id": "nhl-20261031-jets-panthers",
+              "home": "Флорида Пантерз",
+              "away": "Виннипег Джетс",
+              "start": "2026-10-31T05:00:00+06:00"
+            },
+            {
+              "id": "nhl-20261031-kraken-flames",
+              "home": "Калгари Флэймз",
+              "away": "Сиэтл Кракен",
+              "start": "2026-10-31T06:00:00+06:00"
+            }
+          ]
+        },
+        "KHL": {
+          "matches": [
+            "Лада — Авангард",
+            "Северсталь — Спартак",
+            "Ак Барс — Амур",
+            "Динамо Минск — Трактор",
+            "Шанхай Дрэгонс — Барыс"
+          ],
+          "openWagerIds": [
+            "wager-khl-20261030-lada-avangard-20261030T071528",
+            "wager-khl-20261030-severstal-spartak-20261030T071528",
+            "wager-khl-20261030-akbars-amur-20261030T071528",
+            "wager-khl-20261030-dinamo-minsk-traktor-20261030T071528",
+            "wager-khl-20261030-shanghai-barys-20261030T071528"
+          ],
+          "newWagers": 0
+        },
+        "Liiga": {
+          "reviewedMatchIds": [
+            "liiga-20261030-assat-hifk",
+            "liiga-20261030-saipa-jyp",
+            "liiga-20261030-hpk-espoo",
+            "liiga-20261030-lukko-kookoo",
+            "liiga-20261030-tps-pelicans",
+            "liiga-20261030-tappara-ilves",
+            "liiga-20261030-kalpa-jokerit"
+          ],
+          "decision": "NO BET",
+          "reason": "No defensible conservative p after comparing available Fonbet markets and no confirmed lineup/form context."
+        },
+        "otherMajorHockey": {
+          "reviewed": [
+            "Czech Extraliga",
+            "Swiss National League",
+            "Alps Hockey League",
+            "VHL",
+            "MHL"
+          ],
+          "decision": "NO BET",
+          "reason": "No fully verified event-specific Fonbet market plus sufficiently grounded probability estimate."
+        }
+      },
+      "newConfirmedFinals": [
+        {
+          "id": "nhl-20261030-blackhawks-wings",
+          "home": 4,
+          "away": 1,
+          "score": "Детройт 4:1 Чикаго",
+          "prediction": "win",
+          "match": "Детройт Ред Уингз — Чикаго Блэкхокс",
+          "stake": 0
+        },
+        {
+          "id": "nhl-20261030-bruins-blues",
+          "home": 4,
+          "away": 1,
+          "score": "Сент-Луис 4:1 Бостон",
+          "prediction": "loss",
+          "match": "Сент-Луис Блюз — Бостон Брюинз",
+          "stake": 0
+        },
+        {
+          "id": "nhl-20261030-canadiens-stars",
+          "home": 2,
+          "away": 5,
+          "score": "Даллас 2:5 Монреаль",
+          "prediction": "loss",
+          "match": "Даллас Старз — Монреаль Канадиенс",
+          "stake": 0
+        },
+        {
+          "id": "nhl-20261030-capitals-predators",
+          "home": 3,
+          "away": 4,
+          "score": "Нэшвилл 3:4 Вашингтон",
+          "prediction": "skip",
+          "match": "Нэшвилл Предаторз — Вашингтон Кэпиталз",
+          "stake": 0
+        },
+        {
+          "id": "nhl-20261030-islanders-wild",
+          "home": 3,
+          "away": 4,
+          "score": "Миннесота 3:4 Нью-Йорк Айлендерс (ОТ)",
+          "prediction": "loss",
+          "match": "Миннесота Уайлд — Нью-Йорк Айлендерс",
+          "stake": 0
+        },
+        {
+          "id": "nhl-20261030-canucks-sharks",
+          "home": 3,
+          "away": 2,
+          "score": "Сан-Хосе 3:2 Ванкувер",
+          "prediction": "win",
+          "match": "Сан-Хосе Шаркс — Ванкувер Кэнакс",
+          "stake": 0
+        },
+        {
+          "id": "nhl-20261030-sabres-ducks",
+          "home": 6,
+          "away": 7,
+          "score": "Анахайм 6:7 Баффало",
+          "prediction": "skip",
+          "match": "Анахайм Дакс — Баффало Сейбрз",
+          "stake": 0
+        },
+        {
+          "id": "nhl-20261030-senators-kings",
+          "home": 6,
+          "away": 5,
+          "score": "Лос-Анджелес 6:5 Оттава (ОТ)",
+          "prediction": "win",
+          "match": "Лос-Анджелес Кингз — Оттава Сенаторз",
+          "stake": 0
+        }
+      ],
+      "newSettledPredictions": 8,
+      "newSettledWagers": 0,
+      "newVirtualStakes": 0,
+      "noBetMatches": [
+        {
+          "id": "nhl-20261031-devils-goldenknights",
+          "home": "Вегас Голден Найтс",
+          "away": "Нью-Джерси Девилз",
+          "start": "2026-10-31T04:00:00+06:00",
+          "decision": "NO BET",
+          "reason": "Individual Fonbet price not confirmed in this run."
+        },
+        {
+          "id": "nhl-20261031-jets-panthers",
+          "home": "Флорида Пантерз",
+          "away": "Виннипег Джетс",
+          "start": "2026-10-31T05:00:00+06:00",
+          "decision": "NO BET",
+          "reason": "Individual Fonbet price not confirmed in this run."
+        },
+        {
+          "id": "nhl-20261031-kraken-flames",
+          "home": "Калгари Флэймз",
+          "away": "Сиэтл Кракен",
+          "start": "2026-10-31T06:00:00+06:00",
+          "decision": "NO BET",
+          "reason": "Individual Fonbet price not confirmed in this run."
+        }
+      ],
+      "financialAudit": {
+        "startingBank": 1000,
+        "bankEquity": 1012.4,
+        "openWagerCount": 5,
+        "openExposure": 97.9,
+        "freeBank": 914.5,
+        "settledProfit": 12.4,
+        "uniqueSettlementIds": [
+          "settlement-nhl-20261030-jackets-hurricanes-regulation-20261030T081400"
+        ],
+        "duplicateSettlementIds": [],
+        "newSettlements": 0,
+        "duplicateSettlementApplied": false
+      },
+      "sources": [
+        "https://www.hockey.com/nhl/scores",
+        "https://www.nhl.com/scores/2026-10-29",
+        "https://www.nhl.com/scores/htmlreports/20262027/GS020210.HTM",
+        "https://www.nhl.com/scores/htmlreports/20262027/GS020208.HTM",
+        "https://fonbet.com/live/hockey",
+        "https://fonbet.com/sports/hockey/country/russia",
+        "https://www.hockey.com/nhl/scores"
+      ],
+      "notification": "report_required"
     }
   ],
   "storage": {
@@ -5083,7 +5524,7 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-30T09:10:00+06:00",
+  "updatedAt": "2026-10-30T11:37:00+06:00",
   "automationNote": "Хоккейная стратегия: для каждого доступного матча крупных лиг выбирать на Фонбет один рынок с самой высокой обоснованной консервативной вероятностью выигрыша и делать одну виртуальную ставку; цель — hit rate, не EV. Не применять прежние обязательные p>=60% и p>1/k. Котировки только Fonbet; обычно 2% свободного банка (1–3%), максимум 5% банка на матч. Одна ставка на матч, без экспрессов/догонов/повторов/ставок задним числом. При ненадёжных данных/рынке — NO BET; live требует двух свежих независимых подтверждений счёта и времени. Сохранять историю append-only; не менять открытые ставки.",
   "virtualWagers": [
     {
