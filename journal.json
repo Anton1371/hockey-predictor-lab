@@ -2,8 +2,8 @@
   "bank": 1012.4,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-30T02:14:00.000Z",
-  "note": "30.10.2026 11:37 Asia/Omsk: банк 1012.40 ₽; открыто 5, экспозиция 97.90 ₽, свободно 914.50 ₽.",
+  "lastCheckedAt": "2026-10-30T15:42:20+06:00",
+  "note": "30.10.2026 15:42 Asia/Omsk: банк 1012.40 ₽; открыто 5, экспозиция 97.90 ₽, свободно 914.50 ₽; новых ставок и settlements нет.",
   "matches": [
     {
       "id": "khl-20261028-akbars-avangard",
@@ -1677,7 +1677,7 @@
       "reason": "Матч попадает в следующие 24 часа, но в проверенном индивидуальном событии Fonbet не удалось надёжно зафиксировать актуальную котировку и сравнить доступные рынки; не выдумываю коэффициент или p."
     }
   ],
-  "currentRun": "2026-10-30T11:37:00+06:00",
+  "currentRun": "2026-10-30T15:42:20+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -5516,6 +5516,100 @@
         "https://www.hockey.com/nhl/scores"
       ],
       "notification": "report_required"
+    },
+    {
+      "id": "hourly-hockey-20261030T154220-omsk",
+      "type": "hourly_hockey_review",
+      "at": "2026-10-30T15:42:20+06:00",
+      "checkedAtOmsk": "2026-10-30T15:42:20+06:00",
+      "timeZone": "Asia/Omsk",
+      "calendarDateOmsk": "2026-10-30",
+      "horizonEndOmsk": "2026-10-31T15:42:20+06:00",
+      "oddsPolicy": "Fonbet only; external sports sources used only for schedules, results, team form and verification.",
+      "summary": "Канонический journal.json прочитан первым действием. На момент проверки NHL-матчи игрового окна 29.10 ET завершены и отражены в журнале; 3 матча NHL 30.10 ET (Нью-Джерси—Вегас, Виннипег—Флорида, Сиэтл—Калгари) ещё предстоящие и уже имеют по одной открытой виртуальной ставке. Пять матчей KHL 30.10 (Лада—Авангард, Ак Барс—Амур, Северсталь—Спартак, Динамо Минск—Трактор, Шанхай—Барыс) запланированы на вечер и все имеют открытые позиции. В Liiga 4 из 7 проверенных матчей имеют открытые позиции; Лукко—КооКоо, ТПС—Пеликанс и КалПа—Йокерит остаются NO BET. На текущем run нет новых подтверждённых финалов и нет матчей с открытыми ставками, на которые можно добавлять вторую ставку. Дополнительные DEL, Czech Extraliga, Swiss National League и ICEHL: расписание частично проверено, но индивидуальные рынки Fonbet и обоснованная консервативная вероятность не подтверждены — NO BET. Выборочный охват, не все матчи мира.",
+      "scope": {
+        "NHL": {
+          "reviewedMatches": 3,
+          "openWagerIds": [],
+          "decision": "TRACK ONLY",
+          "reason": "Все три матча уже имеют открытые позиции; повторные ставки запрещены.",
+          "scheduleSource": "https://playpausehockey.com/stats/schedule/"
+        },
+        "KHL": {
+          "reviewedMatches": 5,
+          "openWagerIds": [
+            "wager-khl-20261030-lada-avangard-20261030T071528",
+            "wager-khl-20261030-severstal-spartak-20261030T071528",
+            "wager-khl-20261030-akbars-amur-20261030T071528",
+            "wager-khl-20261030-dinamo-minsk-traktor-20261030T071528",
+            "wager-khl-20261030-shanghai-barys-20261030T071528"
+          ],
+          "decision": "TRACK ONLY",
+          "reason": "Все пять матчей уже имеют открытые позиции; повторные ставки запрещены.",
+          "scheduleSource": "https://www.sport-express.net/hockey/khl/news/khl-raspisanie-rezultaty-i-video-golov-30-oktyabrya-2026-ak-bars-amur-severstal-spartak-dinamo-mn-traktor-2468821/"
+        },
+        "Liiga": {
+          "reviewedMatches": 7,
+          "openWagerIds": [],
+          "noBetMatchIds": [
+            "liiga-20261030-lukko-kookoo",
+            "liiga-20261030-tps-pelicans",
+            "liiga-20261030-kalpa-jokerit"
+          ],
+          "decision": "TRACK EXISTING / NO BET on remaining three",
+          "reason": "Four existing wagers tracked only; remaining three do not have enough reliable individual market data and probability comparison."
+        },
+        "otherMajorLeagues": {
+          "reviewed": [
+            "DEL",
+            "Czech Extraliga",
+            "Swiss National League",
+            "ICE Hockey League"
+          ],
+          "decision": "NO BET",
+          "reason": "No sufficiently verified individual Fonbet markets and conservative probabilities for new wagers."
+        }
+      },
+      "resultsAudit": {
+        "newConfirmedFinals": [],
+        "newSettledPredictions": 0,
+        "newSettledWagers": 0,
+        "reason": "No new verified final among open wagers at this check; previous settlements are preserved and not recalculated."
+      },
+      "newVirtualWagers": 0,
+      "newWagerIds": [],
+      "financialAudit": {
+        "startingBank": 1000,
+        "bankEquity": 1012.4,
+        "settledNetProfit": 12.4,
+        "openWagerCount": 5,
+        "openExposure": 97.9,
+        "freeBank": 914.5,
+        "uniqueWagerIds": [
+          "wager-nhl-20261030-jackets-hurricanes-regulation-20261030T023414",
+          "wager-khl-20261030-lada-avangard-20261030T071528",
+          "wager-khl-20261030-severstal-spartak-20261030T071528",
+          "wager-khl-20261030-akbars-amur-20261030T071528",
+          "wager-khl-20261030-dinamo-minsk-traktor-20261030T071528",
+          "wager-khl-20261030-shanghai-barys-20261030T071528"
+        ],
+        "uniqueSettlementIds": [
+          "settlement-nhl-20261030-jackets-hurricanes-regulation-20261030T081400"
+        ],
+        "duplicateWagerIds": [],
+        "duplicateSettlementIds": [],
+        "duplicateEventIds": [],
+        "duplicateSettlementApplied": false
+      },
+      "sources": [
+        "https://playpausehockey.com/stats/schedule/",
+        "https://www.sport-express.net/hockey/khl/news/khl-raspisanie-rezultaty-i-video-golov-30-oktyabrya-2026-ak-bars-amur-severstal-spartak-dinamo-mn-traktor-2468821/",
+        "https://www.365scores.com/hockey/league/khl-636",
+        "https://www.livescores.com/hockey/2026-10-30/",
+        "https://fonbet.com/sports/hockey/country/unitedstates/11781/69405260",
+        "https://fonbet.com/sports/hockey/country/russia/13283/69360351"
+      ],
+      "notification": "report_required"
     }
   ],
   "storage": {
@@ -5524,7 +5618,7 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-30T11:37:00+06:00",
+  "updatedAt": "2026-10-30T15:42:20+06:00",
   "automationNote": "Хоккейная стратегия: для каждого доступного матча крупных лиг выбирать на Фонбет один рынок с самой высокой обоснованной консервативной вероятностью выигрыша и делать одну виртуальную ставку; цель — hit rate, не EV. Не применять прежние обязательные p>=60% и p>1/k. Котировки только Fonbet; обычно 2% свободного банка (1–3%), максимум 5% банка на матч. Одна ставка на матч, без экспрессов/догонов/повторов/ставок задним числом. При ненадёжных данных/рынке — NO BET; live требует двух свежих независимых подтверждений счёта и времени. Сохранять историю append-only; не менять открытые ставки.",
   "virtualWagers": [
     {
