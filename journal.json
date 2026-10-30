@@ -2,8 +2,8 @@
   "bank": 1012.4,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-30T19:33:26+06:00",
-  "note": "2026-10-30T19:33:26+06:00 Asia/Omsk: банк 1012.40 ₽, экспозиция 695.61 ₽, свободно 316.79 ₽, новых виртуальных ставок 14, бумажных прогнозов 7.",
+  "lastCheckedAt": "2026-10-30T19:42:01+06:00",
+  "note": "2026-10-30T19:42:01+06:00 Asia/Omsk: без изменений; проверено 75 ожидающих матчей в 14 лигах, 68 денежных виртуальных ставок и 7 paper-picks покрывают все ожидающие матчи. Новых подтверждённых settlements нет. Банк 1012.40 ₽, экспозиция 695.61 ₽, свободно 316.79 ₽.",
   "matches": [
     {
       "id": "khl-20261028-akbars-avangard",
@@ -9814,6 +9814,43 @@
       ],
       "skipped": [],
       "notes": "Старые ставки сохранены. Нет оснований менять уже зафиксированные исходы, коэффициенты и settlements."
+    },
+    {
+      "id": "hourly-hockey-review-20261030T194201-omsk",
+      "type": "hourly_hockey_review",
+      "title": "Ежечасный хоккейный обзор",
+      "summary": "Повторная проверка без изменений: новых матчей без прогноза и новых подтверждённых settlements нет.",
+      "at": "2026-10-30T19:42:01+06:00",
+      "reviewedPendingMatches": 75,
+      "reviewedLeagues": [
+        "NHL",
+        "KHL",
+        "AHL",
+        "VHL",
+        "MHL",
+        "Liiga",
+        "Swiss NL",
+        "DEL",
+        "ICEHL",
+        "Czech Extraliga",
+        "Slovak Extraliga",
+        "Metal Ligaen",
+        "EIHL",
+        "EIHL Challenge Cup"
+      ],
+      "reviewedOpenWagers": 68,
+      "newVirtualStakes": 0,
+      "newPaperPicks": 0,
+      "newSettlements": 0,
+      "verifiedFinalResultsReviewed": 11,
+      "uncoveredFixtures": 0,
+      "sources": [
+        "https://www.livescores.com/hockey/2026-10-30/?tz=3",
+        "https://sportpul.com/en/hockey/matches/2026-10-30/",
+        "https://www.icehockeyapi.com/games/2026-10-30",
+        "https://fon.bet/sports/hockey"
+      ],
+      "notes": "Все ожидающие матчи уже покрыты одной открытой денежной виртуальной ставкой или paper-pick. Два VHL матча с прошедшим временем старта оставлены paper_pending_unverified_live: нет двух свежих независимых подтверждений счёта/периода/таймера. По NHL сверены 11 финалов; новых денежных ставок на эти матчи не было, поэтому новых settlements нет. Реальные ставки не размещались."
     }
   ],
   "storage": {
