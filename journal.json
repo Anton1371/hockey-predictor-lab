@@ -2,7 +2,7 @@
   "bank": 998.8,
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
-  "lastCheckedAt": "2026-10-29T23:59:37.000Z",
+  "lastCheckedAt": "2026-10-30T00:57:00.000Z",
   "note": "Проверка 30.10.2026 05:59 Asia/Omsk: 3 прежних settlements сохраняются без повторных расчётов, одна ранее открытая виртуальная ставка на Каролину @1.68 20 ₽; новых ставок NO BET из-за несинхронных live-данных/отсутствия доказанного EV. Банк 998,80 ₽, резерв 20 ₽, свободно 978,80 ₽.",
   "matches": [
     {
@@ -1121,7 +1121,7 @@
       "pickSide": "away"
     }
   ],
-  "currentRun": "2026-10-30T05:59:37+06:00",
+  "currentRun": "2026-10-30T06:57:00+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -4237,6 +4237,50 @@
       ],
       "notification": "hourly_report",
       "note": "Прогнозы, цены, время фиксации и settlement IDs не менялись. Новая запись только для проверки. Локальный HTML не обновлялся."
+    },
+    {
+      "id": "hourly-all-sports-fonbet-20261030T065700-omsk",
+      "type": "hourly_all_sports_review",
+      "at": "2026-10-30T00:57:00.000Z",
+      "checkedAtOmsk": "2026-10-30T06:57:00+06:00",
+      "timezone": "Asia/Omsk",
+      "oddsPolicy": "Fonbet only",
+      "summary": "Проверен текущий GitHub-журнал и доступные крупные соревнования на 30.10 по Омску: NHL, KHL, NBA, EuroLeague, ATP/WTA, NFL и доступные футбольные матчи. Обзор выборочный, не все матчи мира. Три прежних денежных NHL settlements сохранены и не пересчитывались; пять KHL прогнозов 29.10 завершены без денежных ставок. Открытая ставка Каролина—Коламбус в основное время @1.68, 20 ₽ сохранена без изменений. По live-кандидатам NHL, NBA, EuroLeague, футболу и теннису данные счёта/времени расходятся либо не подтверждены двумя свежими источниками, а исполнимая актуальная live-линия Фонбет не подтверждена. По прематчевым рынкам KHL/NBA/NFL/ATP/WTA не доказаны одновременно консервативная вероятность >=60% и p>1/k. Новых ставок и финалов нет; NO BET.",
+      "reviewedSports": [
+        "NHL",
+        "KHL",
+        "NBA",
+        "EuroLeague",
+        "ATP",
+        "WTA",
+        "NFL",
+        "football"
+      ],
+      "newConfirmedFinals": [],
+      "newSettledWagers": 0,
+      "newVirtualStakes": 0,
+      "openWagerIds": [
+        "wager-nhl-20261030-jackets-hurricanes-regulation-20261030T023414"
+      ],
+      "liveDecision": "NO_BET",
+      "noBetReason": "Синхронные независимые подтверждения счёта и таймера для live-кандидатов и актуальные in-play котировки Фонбет отсутствуют; для прематча положительное EV при p>=60% не доказано.",
+      "bankEquity": 998.8,
+      "reservedStake": 20,
+      "freeBank": 978.8,
+      "sources": [
+        "https://fon.bet/live/hockey",
+        "https://fon.bet/live/football",
+        "https://fon.bet/live/basketball",
+        "https://fon.bet/live/tennis",
+        "https://fon.bet/sports/hockey",
+        "https://fon.bet/sports/basketball",
+        "https://fon.bet/sports/tennis",
+        "https://fon.bet/sports/am-football",
+        "https://www.nhl.com/scores/2026-10-29",
+        "https://www.nba.com/games?date=2026-10-29",
+        "https://www.nfl.com/schedules/2026/by-week/week-8"
+      ],
+      "note": "Только котировки Фонбет. Другие источники применяются для расписания, результатов и проверки игрового состояния. Старые прогнозы, коэффициенты, суммы, settlements и время фиксации не изменены. Локальный HTML не обновлялся."
     }
   ],
   "storage": {
@@ -4245,7 +4289,7 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-30T05:59:37+06:00",
+  "updatedAt": "2026-10-30T06:57:00+06:00",
   "automationNote": "Ежечасный обзор всех доступных крупных видов спорта на дату Asia/Omsk. Коэффициенты — только Фонбет; виртуальная ставка допускается при консервативной вероятности >=60% и p>1/k. Обновлять GitHub journal.json append-only, проверять уникальные settlement IDs и повторно читать после записи. Локальный HTML не синхронизируется автоматически.",
   "virtualWagers": [
     {
