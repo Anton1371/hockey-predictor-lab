@@ -3,7 +3,7 @@
   "startingBank": 1000,
   "createdAt": "2026-10-28T17:30:00.000Z",
   "lastCheckedAt": "2026-10-30T02:14:00.000Z",
-  "note": "2026-10-30T08:14:00+06:00: подтверждён финал Carolina—Columbus 3:2 (NHL official game summary и CBS Sports). Ставка wager-nhl-20261030-jackets-hurricanes-regulation-20261030T023414 рассчитана один раз: WIN, 20 ₽ @1.68, чистая прибыль +13.60 ₽. Банк 1012.40 ₽; пять открытых KHL-ставок 97.90 ₽; свободно 914.50 ₽.",
+  "note": "30.10.2026 09:10 Asia/Omsk: банк 1012.40 ₽; 5 открытых виртуальных ставок, экспозиция 97.90 ₽, свободно 914.50 ₽. Новых ставок нет.",
   "matches": [
     {
       "id": "khl-20261028-akbars-avangard",
@@ -933,9 +933,9 @@
       "odds": null,
       "stake": 0,
       "prob": null,
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "homeScore": 6,
+      "awayScore": 4,
       "reason": "Тампа 7–3–1, Виннипег 4–5–3; у хозяев лучше форма за 10 матчей. Рыночная цена может уже учитывать разницу; основной вратарь не подтверждён. До подтверждения предматчевых данных — только прогноз, без виртуальной ставки.",
       "source": "https://www.nhl.com/schedule/2026-10-29",
       "statsSource": "https://insidetherink.com/stats/nhl/standings/",
@@ -943,7 +943,21 @@
       "oddsSource": "https://www.covers.com/sport/hockey/nhl/odds",
       "lockedAt": "2026-10-28T23:40:00+06:00",
       "recordType": "locked_pick",
-      "pickSide": "home"
+      "pickSide": "home",
+      "decidedBy": "regulation",
+      "predictionResult": "win",
+      "predictionGradedAt": "2026-10-30T09:10:00+06:00",
+      "finalVerification": {
+        "checkedAt": "2026-10-30T09:10:00+06:00",
+        "final": true,
+        "homeScore": 6,
+        "awayScore": 4,
+        "decidedBy": "regulation",
+        "sources": [
+          "https://www.nhl.com/news/winnipeg-jets-tampa-bay-lightning-game-recap-october-29-2026",
+          "https://www.nhl.com/lightning/news/recap-tampa-bay-lightning-6-winnipeg-jets-4"
+        ]
+      }
     },
     {
       "id": "nhl-20261030-mammoth-penguins",
@@ -956,9 +970,9 @@
       "odds": null,
       "stake": 0,
       "prob": null,
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null,
+      "status": "final",
+      "homeScore": 3,
+      "awayScore": 4,
       "reason": "Юта 8–5–0 (+4), Питтсбург 5–6–1 (0). Выезд и отсутствие подтверждённых вратарей не позволяют обосновать преимущество над рыночной ценой. До подтверждения предматчевых данных — только прогноз, без виртуальной ставки.",
       "source": "https://www.nhl.com/schedule/2026-10-29",
       "statsSource": "https://insidetherink.com/stats/nhl/standings/",
@@ -966,7 +980,21 @@
       "oddsSource": "https://www.covers.com/sport/hockey/nhl/odds",
       "lockedAt": "2026-10-28T23:40:00+06:00",
       "recordType": "locked_pick",
-      "pickSide": "away"
+      "pickSide": "away",
+      "decidedBy": "overtime",
+      "predictionResult": "win",
+      "predictionGradedAt": "2026-10-30T09:10:00+06:00",
+      "finalVerification": {
+        "checkedAt": "2026-10-30T09:10:00+06:00",
+        "final": true,
+        "homeScore": 3,
+        "awayScore": 4,
+        "decidedBy": "overtime",
+        "sources": [
+          "https://www.nhl.com/news/utah-mammoth-pittsburgh-penguins-game-recap-october-29-2026",
+          "https://www.nhl.com/scores/htmlreports/20262027/GS020205.HTM"
+        ]
+      }
     },
     {
       "id": "nhl-20261030-blackhawks-wings",
@@ -1286,9 +1314,212 @@
         "oddsSource": "Fonbet"
       },
       "rationale": "Стратегия hit-rate: выбран рынок команды на 1+ шайбу как наиболее вероятный среди доступных стандартных рынков. Оценка вероятности предварительная, не откалиброванная."
+    },
+    {
+      "id": "liiga-20261030-assat-hifk",
+      "league": "Liiga",
+      "date": "2026-10-30",
+      "home": "Эссят",
+      "away": "ХИФК",
+      "market": "none",
+      "selection": "NO BET",
+      "odds": null,
+      "stake": 0,
+      "prob": null,
+      "status": "upcoming",
+      "recordType": "no_bet",
+      "reason": "На доступной витрине Fonbet подтверждены 1X2, азиатская фора 0 и общий тотал, но недостаточно надёжной статистики/составов для консервативной вероятности и сравнения всех доступных рынков с целью максимизировать hit rate. Не приписываю вероятность и не делаю ставку.",
+      "fonbetSnapshot": {
+        "source": "https://fonbet.com/sports/hockey",
+        "observedAt": "2026-10-30T09:10:00+06:00",
+        "oneXTwo": [
+          2.3,
+          3.7,
+          2.8
+        ],
+        "totalLine": "4.5",
+        "over": 1.7,
+        "under": 2.1
+      },
+      "source": "https://fonbet.com/sports/hockey",
+      "lockedAt": null
+    },
+    {
+      "id": "liiga-20261030-saipa-jyp",
+      "league": "Liiga",
+      "date": "2026-10-30",
+      "home": "СайПа",
+      "away": "Ювяскюля",
+      "market": "none",
+      "selection": "NO BET",
+      "odds": null,
+      "stake": 0,
+      "prob": null,
+      "status": "upcoming",
+      "recordType": "no_bet",
+      "reason": "На доступной витрине Fonbet подтверждены 1X2, азиатская фора 0 и общий тотал, но недостаточно надёжной статистики/составов для консервативной вероятности и сравнения всех доступных рынков с целью максимизировать hit rate. Не приписываю вероятность и не делаю ставку.",
+      "fonbetSnapshot": {
+        "source": "https://fonbet.com/sports/hockey",
+        "observedAt": "2026-10-30T09:10:00+06:00",
+        "oneXTwo": [
+          2.17,
+          3.85,
+          2.9
+        ],
+        "totalLine": "5.5",
+        "over": 2,
+        "under": 1.75
+      },
+      "source": "https://fonbet.com/sports/hockey",
+      "lockedAt": null
+    },
+    {
+      "id": "liiga-20261030-hpk-espoo",
+      "league": "Liiga",
+      "date": "2026-10-30",
+      "home": "ХПК",
+      "away": "К-Эспоо",
+      "market": "none",
+      "selection": "NO BET",
+      "odds": null,
+      "stake": 0,
+      "prob": null,
+      "status": "upcoming",
+      "recordType": "no_bet",
+      "reason": "На доступной витрине Fonbet подтверждены 1X2, азиатская фора 0 и общий тотал, но недостаточно надёжной статистики/составов для консервативной вероятности и сравнения всех доступных рынков с целью максимизировать hit rate. Не приписываю вероятность и не делаю ставку.",
+      "fonbetSnapshot": {
+        "source": "https://fonbet.com/sports/hockey",
+        "observedAt": "2026-10-30T09:10:00+06:00",
+        "oneXTwo": [
+          2.85,
+          3.7,
+          2.25
+        ],
+        "totalLine": "4.5",
+        "over": 1.7,
+        "under": 2.07
+      },
+      "source": "https://fonbet.com/sports/hockey",
+      "lockedAt": null
+    },
+    {
+      "id": "liiga-20261030-lukko-kookoo",
+      "league": "Liiga",
+      "date": "2026-10-30",
+      "home": "Лукко",
+      "away": "КооКоо",
+      "market": "none",
+      "selection": "NO BET",
+      "odds": null,
+      "stake": 0,
+      "prob": null,
+      "status": "upcoming",
+      "recordType": "no_bet",
+      "reason": "На доступной витрине Fonbet подтверждены 1X2, азиатская фора 0 и общий тотал, но недостаточно надёжной статистики/составов для консервативной вероятности и сравнения всех доступных рынков с целью максимизировать hit rate. Не приписываю вероятность и не делаю ставку.",
+      "fonbetSnapshot": {
+        "source": "https://fonbet.com/sports/hockey",
+        "observedAt": "2026-10-30T09:10:00+06:00",
+        "oneXTwo": [
+          1.53,
+          4.6,
+          5.1
+        ],
+        "totalLine": "5.5",
+        "over": 1.77,
+        "under": 1.97
+      },
+      "source": "https://fonbet.com/sports/hockey",
+      "lockedAt": null
+    },
+    {
+      "id": "liiga-20261030-tps-pelicans",
+      "league": "Liiga",
+      "date": "2026-10-30",
+      "home": "ТПС",
+      "away": "Пеликанс",
+      "market": "none",
+      "selection": "NO BET",
+      "odds": null,
+      "stake": 0,
+      "prob": null,
+      "status": "upcoming",
+      "recordType": "no_bet",
+      "reason": "На доступной витрине Fonbet подтверждены 1X2, азиатская фора 0 и общий тотал, но недостаточно надёжной статистики/составов для консервативной вероятности и сравнения всех доступных рынков с целью максимизировать hit rate. Не приписываю вероятность и не делаю ставку.",
+      "fonbetSnapshot": {
+        "source": "https://fonbet.com/sports/hockey",
+        "observedAt": "2026-10-30T09:10:00+06:00",
+        "oneXTwo": [
+          2.03,
+          3.65,
+          3.35
+        ],
+        "totalLine": "4.5",
+        "over": 1.75,
+        "under": 2
+      },
+      "source": "https://fonbet.com/sports/hockey",
+      "lockedAt": null
+    },
+    {
+      "id": "liiga-20261030-tappara-ilves",
+      "league": "Liiga",
+      "date": "2026-10-30",
+      "home": "Таппара",
+      "away": "Ильвес",
+      "market": "none",
+      "selection": "NO BET",
+      "odds": null,
+      "stake": 0,
+      "prob": null,
+      "status": "upcoming",
+      "recordType": "no_bet",
+      "reason": "На доступной витрине Fonbet подтверждены 1X2, азиатская фора 0 и общий тотал, но недостаточно надёжной статистики/составов для консервативной вероятности и сравнения всех доступных рынков с целью максимизировать hit rate. Не приписываю вероятность и не делаю ставку.",
+      "fonbetSnapshot": {
+        "source": "https://fonbet.com/sports/hockey",
+        "observedAt": "2026-10-30T09:10:00+06:00",
+        "oneXTwo": [
+          2.6,
+          3.65,
+          2.45
+        ],
+        "totalLine": "4.5",
+        "over": 1.73,
+        "under": 2.05
+      },
+      "source": "https://fonbet.com/sports/hockey",
+      "lockedAt": null
+    },
+    {
+      "id": "liiga-20261030-kalpa-jokerit",
+      "league": "Liiga",
+      "date": "2026-10-30",
+      "home": "КалПа",
+      "away": "Йокерит",
+      "market": "none",
+      "selection": "NO BET",
+      "odds": null,
+      "stake": 0,
+      "prob": null,
+      "status": "upcoming",
+      "recordType": "no_bet",
+      "reason": "На доступной витрине Fonbet подтверждены 1X2, азиатская фора 0 и общий тотал, но недостаточно надёжной статистики/составов для консервативной вероятности и сравнения всех доступных рынков с целью максимизировать hit rate. Не приписываю вероятность и не делаю ставку.",
+      "fonbetSnapshot": {
+        "source": "https://fonbet.com/sports/hockey",
+        "observedAt": "2026-10-30T09:10:00+06:00",
+        "oneXTwo": [
+          2.4,
+          3.75,
+          2.65
+        ],
+        "totalLine": "5.5",
+        "over": 2.1,
+        "under": 1.7
+      },
+      "source": "https://fonbet.com/sports/hockey",
+      "lockedAt": null
     }
   ],
-  "currentRun": "2026-10-30T08:14:00+06:00",
+  "currentRun": "2026-10-30T09:10:00+06:00",
   "accounting": {
     "currency": "RUB",
     "virtual": true,
@@ -1298,7 +1529,7 @@
     "pendingStakeSum": 97.9,
     "uncommittedCash": 914.5,
     "gradedWagers": 4,
-    "note": "Виртуальный банк = 1000 ₽ плюс чистые результаты уникальных settlements. Открытые ставки резервируются отдельно; свободный банк = банк минус открытые ставки. Ни одна ставка не рассчитывается дважды.",
+    "note": "Банк = 1000 ₽ + чистые результаты четырёх уникальных денежных settlements. Открытые ставки из virtualWagers резервируются отдельно; свободный банк = банк минус открытая экспозиция.",
     "wins": 3,
     "losses": 1,
     "pushes": 0,
@@ -4686,6 +4917,164 @@
       "title": "Обновлён HTML-дашборд",
       "detail": "index.html обновлён под структуру virtualWagers/accounting; отображает банк, свободный остаток, открытые ставки, матчи и историю. Сборка 08:14 Asia/Omsk.",
       "source": "https://github.com/Anton1371/hockey-predictor-lab/blob/main/index.html"
+    },
+    {
+      "id": "hourly-hockey-20261030T091000-omsk",
+      "type": "hourly_hockey_review",
+      "at": "2026-10-30T09:10:00+06:00",
+      "checkedAtOmsk": "2026-10-30T09:10:00+06:00",
+      "timeZone": "Asia/Omsk",
+      "calendarDateOmsk": "2026-10-30",
+      "horizonEndOmsk": "2026-10-31T09:10:00+06:00",
+      "oddsSourcePolicy": "Fonbet only; other sources used only for schedules, form, lineups, results and verification.",
+      "summary": "Прочитан канонический journal.json перед анализом. Подтверждены два новых финала NHL и обновлены только результаты ранее записанных прогнозов без денежных ставок: Tampa Bay 6:4 Winnipeg и Utah 4:3 Pittsburgh OT. Carolina 3:2 Columbus уже имеет уникальный settlement и не пересчитывалась. Остальные игры NHL из дневного окна в момент проверки ещё live/не начались; новые live-ставки NO BET из-за отсутствия двух независимых свежих подтверждений счёта+периода/таймера вместе с актуальной live-линией Fonbet. Пять матчей KHL имеют открытые ставки — вторые ставки не добавлялись. В Liiga проверены семь матчей с витриной Fonbet; для каждого NO BET, так как нет достаточно обоснованной консервативной вероятности и сопоставления рынков. Также просмотрены доступные строки Czech Extraliga, Swiss National League и Alps Hockey League; индивидуальные рынки есть у ряда матчей, но независимая вероятностная оценка для выбора самого вероятного рынка не обоснована — NO BET. Это выборочный охват крупных лиг, не все матчи мира.",
+      "scope": {
+        "NHL": {
+          "reviewedMatches": 11,
+          "confirmedFinals": [
+            {
+              "matchId": "nhl-20261030-jets-lightning",
+              "score": "Тампа-Бэй 6:4 Виннипег",
+              "predictionResult": "win",
+              "stake": 0
+            },
+            {
+              "matchId": "nhl-20261030-mammoth-penguins",
+              "score": "Питтсбург 3:4 Юта (ОТ)",
+              "predictionResult": "win",
+              "stake": 0
+            }
+          ],
+          "liveMatches": "несколько матчей ещё идут; текущий таймер не подтверждён синхронно двумя независимыми источниками",
+          "decision": "NO BET for additional live bets",
+          "reason": "Нет двух свежих независимых подтверждений текущего счёта и периода/таймера вместе с текущей live-линией Fonbet; существующие предматчевые записи не дублируются."
+        },
+        "KHL": {
+          "reviewedMatches": 5,
+          "openWagers": [
+            "wager-khl-20261030-lada-avangard-20261030T071528",
+            "wager-khl-20261030-severstal-spartak-20261030T071528",
+            "wager-khl-20261030-akbars-amur-20261030T071528",
+            "wager-khl-20261030-dinamo-minsk-traktor-20261030T071528",
+            "wager-khl-20261030-shanghai-barys-20261030T071528"
+          ],
+          "newWagers": 0,
+          "decision": "NO NEW BET; one existing wager per match."
+        },
+        "Liiga": {
+          "reviewedMatches": 7,
+          "noBetMatchIds": [
+            "liiga-20261030-assat-hifk",
+            "liiga-20261030-saipa-jyp",
+            "liiga-20261030-hpk-espoo",
+            "liiga-20261030-lukko-kookoo",
+            "liiga-20261030-tps-pelicans",
+            "liiga-20261030-tappara-ilves",
+            "liiga-20261030-kalpa-jokerit"
+          ],
+          "fonbetOddsListing": "https://fonbet.com/sports/hockey",
+          "decision": "NO BET for all seven",
+          "reason": "Only 1X2/handicap/total listing snapshot; no robust match-specific probability estimate or comparison of the highest-probability markets."
+        },
+        "otherLeagues": {
+          "reviewed": [
+            "Czech Extraliga",
+            "Swiss National League",
+            "Alps Hockey League"
+          ],
+          "decision": "NO BET",
+          "reason": "Fonbet schedule/selected match markets visible, but insufficient verified independent form/lineup evidence to assign a defensible conservative probability."
+        }
+      },
+      "newConfirmedFinals": [
+        {
+          "matchId": "nhl-20261030-jets-lightning",
+          "score": "Тампа-Бэй 6:4 Виннипег",
+          "predictionResult": "win",
+          "stake": 0
+        },
+        {
+          "matchId": "nhl-20261030-mammoth-penguins",
+          "score": "Питтсбург 3:4 Юта (ОТ)",
+          "predictionResult": "win",
+          "stake": 0
+        }
+      ],
+      "newSettledWagers": 0,
+      "newSettledPredictions": 2,
+      "newVirtualStakes": 0,
+      "noBetMatches": [
+        {
+          "matchId": "liiga-20261030-assat-hifk",
+          "decision": "NO BET",
+          "reason": "Недостаточно оснований для консервативной вероятности и выбора самого вероятного рынка."
+        },
+        {
+          "matchId": "liiga-20261030-saipa-jyp",
+          "decision": "NO BET",
+          "reason": "Недостаточно оснований для консервативной вероятности и выбора самого вероятного рынка."
+        },
+        {
+          "matchId": "liiga-20261030-hpk-espoo",
+          "decision": "NO BET",
+          "reason": "Недостаточно оснований для консервативной вероятности и выбора самого вероятного рынка."
+        },
+        {
+          "matchId": "liiga-20261030-lukko-kookoo",
+          "decision": "NO BET",
+          "reason": "Недостаточно оснований для консервативной вероятности и выбора самого вероятного рынка."
+        },
+        {
+          "matchId": "liiga-20261030-tps-pelicans",
+          "decision": "NO BET",
+          "reason": "Недостаточно оснований для консервативной вероятности и выбора самого вероятного рынка."
+        },
+        {
+          "matchId": "liiga-20261030-tappara-ilves",
+          "decision": "NO BET",
+          "reason": "Недостаточно оснований для консервативной вероятности и выбора самого вероятного рынка."
+        },
+        {
+          "matchId": "liiga-20261030-kalpa-jokerit",
+          "decision": "NO BET",
+          "reason": "Недостаточно оснований для консервативной вероятности и выбора самого вероятного рынка."
+        }
+      ],
+      "uniqueWagerIdsChecked": [
+        "wager-nhl-20261030-jackets-hurricanes-regulation-20261030T023414",
+        "wager-khl-20261030-lada-avangard-20261030T071528",
+        "wager-khl-20261030-severstal-spartak-20261030T071528",
+        "wager-khl-20261030-akbars-amur-20261030T071528",
+        "wager-khl-20261030-dinamo-minsk-traktor-20261030T071528",
+        "wager-khl-20261030-shanghai-barys-20261030T071528"
+      ],
+      "uniqueSettlementIdsChecked": [
+        "settlement-nhl-20261030-jackets-hurricanes-regulation-20261030T081400"
+      ],
+      "financialAudit": {
+        "startingBank": 1000,
+        "bankEquity": 1012.4,
+        "uniqueSettlements": [
+          "settlement-nhl-20261029-flyers-caps-20261029T0829",
+          "settlement-nhl-20261029-flames-oilers-20261029T0944",
+          "settlement-nhl-20261029-devils-avalanche-20261029T1810",
+          "settlement-nhl-20261030-jackets-hurricanes-regulation-20261030T081400"
+        ],
+        "settledNetProfit": 12.4,
+        "openWagerCount": 5,
+        "openExposure": 97.9,
+        "freeBank": 914.5,
+        "duplicateSettlementApplied": false
+      },
+      "sources": [
+        "https://www.nhl.com/news/winnipeg-jets-tampa-bay-lightning-game-recap-october-29-2026",
+        "https://www.nhl.com/lightning/news/recap-tampa-bay-lightning-6-winnipeg-jets-4",
+        "https://www.nhl.com/news/utah-mammoth-pittsburgh-penguins-game-recap-october-29-2026",
+        "https://www.nhl.com/scores/htmlreports/20262027/GS020205.HTM",
+        "https://fonbet.com/sports/hockey",
+        "https://www.nhl.com/scores/2026-10-29"
+      ],
+      "notification": "report_required"
     }
   ],
   "storage": {
@@ -4694,7 +5083,7 @@
     "localHtmlDoesNotSync": true,
     "version": 2
   },
-  "updatedAt": "2026-10-30T08:14:00+06:00",
+  "updatedAt": "2026-10-30T09:10:00+06:00",
   "automationNote": "Хоккейная стратегия: для каждого доступного матча крупных лиг выбирать на Фонбет один рынок с самой высокой обоснованной консервативной вероятностью выигрыша и делать одну виртуальную ставку; цель — hit rate, не EV. Не применять прежние обязательные p>=60% и p>1/k. Котировки только Fonbet; обычно 2% свободного банка (1–3%), максимум 5% банка на матч. Одна ставка на матч, без экспрессов/догонов/повторов/ставок задним числом. При ненадёжных данных/рынке — NO BET; live требует двух свежих независимых подтверждений счёта и времени. Сохранять историю append-only; не менять открытые ставки.",
   "virtualWagers": [
     {
